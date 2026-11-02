@@ -1,0 +1,114 @@
+{
+  "cats": [
+    {
+      "id": "standards",
+      "name": "المعايير والصكوك الدولية"
+    },
+    {
+      "id": "treaty_bodies",
+      "name": "الهيئات التعاهدية"
+    },
+    {
+      "id": "hrc",
+      "name": "مجلس حقوق الإنسان"
+    },
+    {
+      "id": "jurisprudence",
+      "name": "الاجتهادات والقرارات الحقوقية"
+    },
+    {
+      "id": "regional",
+      "name": "المنظومات الإقليمية"
+    },
+    {
+      "id": "rights",
+      "name": "الحقوق والحريات"
+    },
+    {
+      "id": "tunisia_file",
+      "name": "ملف تونس"
+    }
+  ],
+  "reports": [
+    {
+      "id": "rep-2025-1",
+      "title": "واقع الحريات الصحفية في تونس",
+      "org": "مراسلون بلا حدود (RSF)",
+      "year": 2025,
+      "date": "2025-05-03",
+      "topics": [
+        "حرية التعبير والصحافة"
+      ],
+      "abstract": "تقرير شامل حول أوضاع الصحفيين وحرية التعبير في تونس.",
+      "lang_orig": "الفرنسية",
+      "langs_avail": [
+        "العربية",
+        "الفرنسية",
+        "الإنجليزية"
+      ],
+      "url_pdf": "https://rsf.org/example.pdf",
+      "url_org": "https://rsf.org",
+      "date_checked": "2026-11-01"
+    },
+    {
+      "id": "rep-2024-1",
+      "title": "استقلال القضاء في خطر",
+      "org": "لجنة الحقوقيين الدولية (ICJ)",
+      "year": 2024,
+      "date": "2024-10-15",
+      "topics": [
+        "استقلال القضاء والمحاكمة العادلة"
+      ],
+      "abstract": "دراسة تحليلية للتشريعات والممارسات المتعلقة بالسلطة القضائية.",
+      "lang_orig": "الإنجليزية",
+      "langs_avail": [
+        "العربية",
+        "الإنجليزية"
+      ],
+      "url_pdf": "https://icj.org/example.pdf",
+      "url_org": "https://icj.org",
+      "date_checked": "2026-11-01"
+    },
+    {
+      "id": "rep-2023-1",
+      "title": "حالة حقوق الإنسان في تونس 2023",
+      "org": "منظمة العفو الدولية",
+      "year": 2023,
+      "date": "2023-12-10",
+      "topics": [
+        "الحقوق المدنية والسياسية",
+        "المدافعون عن حقوق الإنسان"
+      ],
+      "abstract": "التقرير السنوي لمنظمة العفو الدولية حول حالة حقوق الإنسان.",
+      "lang_orig": "الإنجليزية",
+      "langs_avail": [
+        "العربية",
+        "الإنجليزية",
+        "الفرنسية"
+      ],
+      "url_pdf": "https://amnesty.org/example.pdf",
+      "url_org": "https://amnesty.org",
+      "date_checked": "2026-10-20"
+    }
+  ],
+  "resources": [
+    {
+      "id": "udhr",
+      "cat": "standards",
+      "name": "الإعلان العالمي لحقوق الإنسان",
+      "url": "https://www.un.org/ar/about-us/universal-declaration-of-human-rights",
+      "kind": "نص",
+      "desc": "النص العربي الرسمي للإعلان (1948).",
+      "ar": true
+    },
+    {
+      "id": "arab_charter",
+      "cat": "regional",
+      "name": "الميثاق العربي لحقوق الإنسان",
+      "url": "http://www.lasportal.org/",
+      "kind": "معاهدة",
+      "desc": "الميثاق المعتمد من جامعة الدول العربية.",
+      "ar": true
+    }
+  ]
+}
