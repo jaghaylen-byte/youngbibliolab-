@@ -3,40 +3,66 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>مكتبة صغار الباحثين | Young Researchers' Library</title>
-<link rel="stylesheet" href="style.css">
+<title>مكتبة صغار الباحثين</title>
+<meta name="description" content="مكتبة بحثية حقوقية بالعربية: المعايير الدولية، الهيئات التعاهدية، مجلس حقوق الإنسان، الاجتهادات، المنظومات الإقليمية، الفهرسة حسب الحق، ملف تونس والتقارير الحقوقية حولها منذ 2020.">
+<meta property="og:title" content="مكتبة صغار الباحثين · Young Researchers' Library">
+<meta property="og:description" content="مكتبة بحثية حقوقية بالعربية: المعايير الدولية، الهيئات التعاهدية، مجلس حقوق الإنسان، الاجتهادات، المنظومات الإقليمية، الفهرسة حسب الحق، ملف تونس والتقارير الحقوقية حولها منذ 2020.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Reem+Kufi:wght@500;600;700&display=swap">
+<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+<a class="skip" href="#main">تخطَّ إلى المحتوى</a>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-scale" viewBox="0 0 24 24"><path d="M12 3v18M6 21h12M5 7h14M5 7l-3 7a3 3 0 0 0 6 0zM19 7l-3 7a3 3 0 0 0 6 0zM12 3l-2 2M12 3l2 2"/></symbol>
+  <symbol id="i-committee" viewBox="0 0 24 24"><circle cx="8" cy="8" r="3"/><circle cx="16.5" cy="8" r="3"/><path d="M2.5 20c0-3.2 2.5-5.5 5.5-5.5s5.5 2.3 5.5 5.5M12.5 15.2c1-.5 2.4-.7 4-.7 3 0 5 2.3 5 5.5"/></symbol>
+  <symbol id="i-council" viewBox="0 0 24 24"><path d="M3 9.5 12 4l9 5.5M4 10h16M6 10v8M10 10v8M14 10v8M18 10v8M3 21h18M4 18h16"/></symbol>
+  <symbol id="i-gavel" viewBox="0 0 24 24"><path d="m13 4 7 7M10.5 6.5l7 7M12 5 8 9l7 7 4-4zM9.5 12.5 3 19l2 2 6.5-6.5M13 21h8"/></symbol>
+  <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.8 3 2.8 15 0 18M12 3c-2.8 3-2.8 15 0 18"/></symbol>
+  <symbol id="i-rights" viewBox="0 0 24 24"><path d="M12 3 20 6v6c0 4.6-3.4 8.3-8 9-4.6-.7-8-4.4-8-9V6z"/><path d="m8.8 12 2.2 2.2 4.4-4.4"/></symbol>
+  <symbol id="i-flag" viewBox="0 0 24 24"><path d="M5 21V4M5 4h13l-2.5 4.5L18 13H5"/></symbol>
+  <symbol id="i-report" viewBox="0 0 24 24"><path d="M7 3h7l5 5v13H7zM14 3v5h5M10 12h6M10 15.5h6M10 19h4"/></symbol>
+  <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.6-3.6"/></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 3.5 2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z"/></symbol>
+  <symbol id="i-list" viewBox="0 0 24 24"><path d="M9 6h11M9 12h11M9 18h6M4.5 6h.01M4.5 12h.01M4.5 18h.01M18 16v5M15.5 18.5h5"/></symbol>
+  <symbol id="i-quote" viewBox="0 0 24 24"><path d="M5 18c2.5-1 4-3.2 4-6V7H4v5h4M15 18c2.5-1 4-3.2 4-6V7h-5v5h4"/></symbol>
+  <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 4v11M7 10.5l5 5 5-5M5 20h14"/></symbol>
+  <symbol id="i-external" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M18 14v6H4V6h6"/></symbol>
+  <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h3"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+  <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 19V5a2 2 0 0 1 2-2h14v16H6a2 2 0 0 0-2 2 2 2 0 0 0 2 2h14"/></symbol>
+</svg>
+
 <div dir="rtl" lang="ar">
 <header class="mast">
   <div class="wrap">
     <div class="mast-row">
-      <div class="brand">
-        <h1>مكتبة صغار الباحثين</h1>
-        <small>Young Researchers' Human Rights Library</small>
-      </div>
-      <label class="search" for="q">
-        <input id="q" type="search" placeholder="ابحث في المكتبة والوثائق..." autocomplete="off">
-      </label>
+      <a class="brand" href="#home" aria-label="مكتبة صغار الباحثين: الرئيسية">
+        <span class="brand-mark"><svg class="ic" aria-hidden="true"><use href="#i-book"></use></svg></span>
+        <span class="brand-text"><b>مكتبة صغار الباحثين</b><small>Young Researchers' Library</small></span>
+      </a>
+      <form class="mast-search" id="mastSearch" role="search">
+        <input id="mq" type="search" placeholder="ابحث: حق، اتفاقية، رمز وثيقة، لجنة…" aria-label="بحث سريع في المكتبة" autocomplete="off">
+        <svg class="ic" aria-hidden="true"><use href="#i-search"></use></svg>
+      </form>
     </div>
-    <nav class="tabs" role="tablist">
-      <button class="tab" role="tab" data-v="home" aria-selected="true">الرئيسية</button>
-      <button class="tab" role="tab" data-v="reports">الأبحاث والتقارير حول تونس</button>
-      <button class="tab" role="tab" data-v="library">أقسام المكتبة</button>
-      <button class="tab" role="tab" data-v="rights">دليل الحقوق والحريات</button>
-    </nav>
+    <nav class="nav" id="nav" aria-label="أقسام المكتبة"></nav>
   </div>
 </header>
-<main class="wrap" id="main" aria-live="polite">
-    <!-- المحتوى يتم تحميله عبر JS -->
-</main>
+
+<main class="wrap" id="main" tabindex="-1"><p class="loading">جارٍ تحميل المكتبة…</p></main>
+
 <footer class="wrap">
-  <p>الروابط تحيل إلى المصادر الأصلية. الأولوية للمعلومة القانونية الدقيقة.</p>
+  <p>آخر تحديث للمحتوى: <span id="upd"></span>. الروابط تحيل إلى المصادر الرسمية، وروابط وثائق الأمم المتحدة تفتح النسخة العربية عبر رمزها في نظام الوثائق الرسمية.</p>
+  <p>تفرّق المكتبة بين النصوص الملزمة والتفسيرات والمعايير غير الملزمة والأعمال البحثية بلون وتسمية ثابتين. الوثائق المعلَّمة «مشروع» أو «تحقّق» لم يكتمل اعتمادها أو لم يُتحقَّق منها نهائيًا. راجع المصدر الرسمي قبل الاقتباس في وثيقة رسمية.</p>
+  <p class="fl"><a href="#guides">أدلة البحث</a><a href="#lists">قوائمي</a><a href="#search">البحث المتقدم</a></p>
 </footer>
 </div>
-<script src="app.js"></script>
+
+<div id="sheet" hidden></div>
+<div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+<script src="assets/js/app.js" defer></script>
 </body>
 </html>
