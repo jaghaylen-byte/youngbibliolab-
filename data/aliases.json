@@ -1,0 +1,285 @@
+[
+ [
+  "iccpr",
+  "العهد الدولي الخاص بالحقوق المدنية والسياسية",
+  "العهد الدولي للحقوق المدنية والسياسية",
+  "الحقوق المدنية والسياسية",
+  "ccpr",
+  "iccpr",
+  "pidcp",
+  "covenant on civil and political rights",
+  "pacte international relatif aux droits civils et politiques",
+  "اللجنة المعنية بحقوق الإنسان",
+  "human rights committee",
+  "comité des droits de l'homme"
+ ],
+ [
+  "icescr",
+  "العهد الدولي الخاص بالحقوق الاقتصادية والاجتماعية والثقافية",
+  "الحقوق الاقتصادية والاجتماعية",
+  "cescr",
+  "icescr",
+  "pidesc",
+  "economic social and cultural rights",
+  "droits économiques sociaux et culturels"
+ ],
+ [
+  "cat",
+  "مناهضة التعذيب",
+  "التعذيب",
+  "torture",
+  "cat",
+  "convention against torture",
+  "torture et autres peines"
+ ],
+ [
+  "cedaw",
+  "التمييز ضد المرأة",
+  "اتفاقية المرأة",
+  "سيداو",
+  "cedaw",
+  "discrimination against women",
+  "discrimination à l'égard des femmes",
+  "حقوق النساء",
+  "women"
+ ],
+ [
+  "cerd",
+  "التمييز العنصري",
+  "العنصرية",
+  "cerd",
+  "icerd",
+  "racial discrimination",
+  "racisme",
+  "discrimination raciale"
+ ],
+ [
+  "crc",
+  "حقوق الطفل",
+  "الطفل",
+  "الأطفال",
+  "crc",
+  "rights of the child",
+  "droits de l'enfant",
+  "children"
+ ],
+ [
+  "cmw",
+  "العمال المهاجرين",
+  "المهاجرين",
+  "الهجرة",
+  "cmw",
+  "icmw",
+  "migrant",
+  "migrants",
+  "migration",
+  "travailleurs migrants",
+  "مهاجر"
+ ],
+ [
+  "crpd",
+  "ذوي الإعاقة",
+  "الإعاقة",
+  "crpd",
+  "disabilities",
+  "disability",
+  "handicap"
+ ],
+ [
+  "ced",
+  "الاختفاء القسري",
+  "ced",
+  "cped",
+  "enforced disappearance",
+  "disparitions forcées"
+ ],
+ [
+  "expression",
+  "حرية التعبير",
+  "حرية الرأي والتعبير",
+  "الصحافة",
+  "الإعلام",
+  "freedom of expression",
+  "liberté d'expression",
+  "press freedom",
+  "liberté de la presse"
+ ],
+ [
+  "assembly",
+  "التجمع السلمي",
+  "التظاهر",
+  "تكوين الجمعيات",
+  "الجمعيات",
+  "peaceful assembly",
+  "freedom of association",
+  "liberté de réunion",
+  "liberté d'association"
+ ],
+ [
+  "detention",
+  "الاحتجاز التعسفي",
+  "الإيقاف",
+  "الاعتقال التعسفي",
+  "arbitrary detention",
+  "détention arbitraire",
+  "wgad"
+ ],
+ [
+  "fairtrial",
+  "المحاكمة العادلة",
+  "استقلال القضاء",
+  "القضاء",
+  "fair trial",
+  "procès équitable",
+  "judicial independence",
+  "indépendance de la justice"
+ ],
+ [
+  "defenders",
+  "المدافعين",
+  "المدافعون عن حقوق الإنسان",
+  "human rights defenders",
+  "défenseurs des droits"
+ ],
+ [
+  "asylum",
+  "اللجوء",
+  "اللاجئين",
+  "اللاجئون",
+  "refugees",
+  "asylum",
+  "réfugiés",
+  "demandeurs d'asile"
+ ],
+ [
+  "upr",
+  "الاستعراض الدوري الشامل",
+  "الاستعراض الدوري",
+  "upr",
+  "universal periodic review",
+  "examen périodique universel",
+  "epu"
+ ],
+ [
+  "sp",
+  "المقرر الخاص",
+  "المقررين الخاصين",
+  "الإجراءات الخاصة",
+  "special rapporteur",
+  "special procedures",
+  "rapporteur spécial",
+  "procédures spéciales"
+ ],
+ [
+  "gc",
+  "تعليق عام",
+  "التعليق العام",
+  "التعليقات العامة",
+  "توصية عامة",
+  "general comment",
+  "general recommendation",
+  "observation générale",
+  "recommandation générale"
+ ],
+ [
+  "co",
+  "الملاحظات الختامية",
+  "ملاحظات ختامية",
+  "concluding observations",
+  "observations finales"
+ ],
+ [
+  "tunisia",
+  "تونس",
+  "tunisia",
+  "tunisie",
+  "tun"
+ ],
+ [
+  "africa",
+  "الإفريقية",
+  "الإفريقي",
+  "african",
+  "africaine",
+  "achpr",
+  "afchpr"
+ ],
+ [
+  "decree54",
+  "المرسوم 54",
+  "مرسوم 54",
+  "decree 54",
+  "décret 54",
+  "decree-law 54",
+  "cybercrime"
+ ],
+ [
+  "death",
+  "عقوبة الإعدام",
+  "الإعدام",
+  "death penalty",
+  "peine de mort"
+ ],
+ [
+  "hrw",
+  "هيومن رايتس ووتش",
+  "human rights watch",
+  "hrw"
+ ],
+ [
+  "amnesty",
+  "منظمة العفو الدولية",
+  "العفو الدولية",
+  "amnesty international",
+  "amnesty"
+ ],
+ [
+  "icj",
+  "لجنة الحقوقيين الدولية",
+  "international commission of jurists",
+  "commission internationale de juristes",
+  "icj",
+  "cij"
+ ],
+ [
+  "fidh",
+  "الفيدرالية الدولية لحقوق الإنسان",
+  "fidh",
+  "federation internationale"
+ ],
+ [
+  "omct",
+  "المنظمة العالمية لمناهضة التعذيب",
+  "omct",
+  "world organisation against torture"
+ ],
+ [
+  "rsf",
+  "مراسلون بلا حدود",
+  "reporters without borders",
+  "reporters sans frontieres",
+  "rsf"
+ ],
+ [
+  "ohchr",
+  "المفوضية السامية لحقوق الإنسان",
+  "المفوضية السامية",
+  "ohchr",
+  "high commissioner for human rights",
+  "haut-commissariat"
+ ],
+ [
+  "mandate",
+  "ولاية من الإجراءات الخاصة",
+  "المقرر الخاص",
+  "المقررة الخاصة",
+  "الفريق العامل",
+  "الخبير المستقل",
+  "special rapporteur",
+  "working group",
+  "independent expert",
+  "rapporteur special",
+  "groupe de travail",
+  "expert independant"
+ ]
+]

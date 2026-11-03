@@ -1,0 +1,1646 @@
+[
+ {
+  "id": "expression",
+  "title": "حرية الرأي والتعبير والإعلام",
+  "short": "التعبير، الصحافة، الوصول إلى المعلومة، وحدود خطاب الكراهية.",
+  "legal": [
+   {
+    "source": "الإعلان العالمي",
+    "articles": "19",
+    "doc": "tr-udhr",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "العهد الدولي للحقوق المدنية والسياسية",
+    "articles": "19، 20",
+    "doc": "tr-iccpr",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "اتفاقية القضاء على التمييز العنصري",
+    "articles": "4",
+    "doc": "tr-icerd",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "اتفاقية حقوق الطفل",
+    "articles": "13",
+    "doc": "tr-crc",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "الميثاق الإفريقي لحقوق الإنسان والشعوب",
+    "articles": "9",
+    "doc": "tr-achpr",
+    "binding": true,
+    "regional": true
+   },
+   {
+    "source": "الميثاق العربي لحقوق الإنسان",
+    "articles": "32",
+    "doc": "tr-arab-charter",
+    "binding": true,
+    "regional": true
+   }
+  ],
+  "soft": [
+   "sl-a-hrc-22-17-add-4"
+  ],
+  "interp": [
+   "gc-ccpr34",
+   "gc-cerd35",
+   "gc-ccpr22"
+  ],
+  "mechanisms": [
+   {
+    "name": "المقرر الخاص المعني بحرية الرأي والتعبير",
+    "url": "https://www.ohchr.org/en/special-procedures/sr-freedom-of-opinion-and-expression"
+   }
+  ],
+  "regional": [
+   "sl-002"
+  ],
+  "regional_notes": [
+   "المقرر الخاص للجنة الإفريقية المعني بحرية التعبير والوصول إلى المعلومات"
+  ],
+  "tunisia": "ابحث في قاعدة المراسلات عن تونس مع ولاية المقرر المعني بحرية التعبير، خصوصًا الرسائل المتعلقة بالمرسوم عدد 54 لسنة 2022 والملاحقات بسببه.",
+  "tip": "ابدأ بالتعليق العام 34، ثم ابحث في Juris عن «المادة 19» لترى كيف طبّقته اللجنة على وقائع حقيقية.",
+  "related": [
+   "assembly",
+   "defenders",
+   "privacy",
+   "religion",
+   "racism"
+  ]
+ },
+ {
+  "id": "assembly",
+  "title": "التجمع السلمي وتكوين الجمعيات والنقابات",
+  "short": "التظاهر، حرية الجمعيات، الحق النقابي.",
+  "legal": [
+   {
+    "source": "الإعلان العالمي",
+    "articles": "20، 23-4",
+    "doc": "tr-udhr",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "العهد الدولي للحقوق المدنية والسياسية",
+    "articles": "21، 22",
+    "doc": "tr-iccpr",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "العهد الدولي للحقوق الاقتصادية والاجتماعية والثقافية",
+    "articles": "8",
+    "doc": "tr-icescr",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "اتفاقيتا العمل الدولية 87 و98",
+    "articles": "كاملتين",
+    "doc": "",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "الميثاق الإفريقي لحقوق الإنسان والشعوب",
+    "articles": "10، 11",
+    "doc": "tr-achpr",
+    "binding": true,
+    "regional": true
+   },
+   {
+    "source": "الميثاق العربي لحقوق الإنسان",
+    "articles": "24، 35",
+    "doc": "tr-arab-charter",
+    "binding": true,
+    "regional": true
+   }
+  ],
+  "soft": [
+   "sl-003",
+   "sl-004"
+  ],
+  "interp": [
+   "gc-ccpr37",
+   "gc-ccpr38"
+  ],
+  "mechanisms": [
+   {
+    "name": "المقرر الخاص المعني بالحق في حرية التجمع السلمي وتكوين الجمعيات",
+    "url": "https://www.ohchr.org/en/special-procedures/sr-freedom-of-assembly-and-association"
+   }
+  ],
+  "regional": [
+   "sl-005",
+   "sl-006"
+  ],
+  "regional_notes": [],
+  "tunisia": "راجع تقرير زيارة المقرر الخاص المعني بالتجمع وتكوين الجمعيات إلى تونس، وتابع أي تعديل للمرسوم عدد 88 لسنة 2011 المنظّم للجمعيات.",
+  "tip": "التعليق العام 38 ما زال مشروعًا؛ إلى حين اعتماده استند إلى المادة 22 واجتهاد Juris وتقارير المقرر الخاص.",
+  "related": [
+   "expression",
+   "defenders",
+   "participation",
+   "work"
+  ]
+ },
+ {
+  "id": "defenders",
+  "title": "المدافعون عن حقوق الإنسان والفضاء المدني",
+  "short": "حماية المدافعين، الانتقام، تمويل المنظمات.",
+  "legal": [
+   {
+    "source": "العهد الدولي للحقوق المدنية والسياسية",
+    "articles": "19، 21، 22",
+    "doc": "tr-iccpr",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "إعلان المدافعين عن حقوق الإنسان",
+    "articles": "",
+    "doc": "sl-a-res-53-144",
+    "binding": false
+   }
+  ],
+  "soft": [
+   "sl-a-res-53-144",
+   "sl-008"
+  ],
+  "interp": [
+   "gc-ccpr34",
+   "gc-ccpr37"
+  ],
+  "mechanisms": [
+   {
+    "name": "المقرر الخاص المعني بحالة المدافعين عن حقوق الإنسان",
+    "url": "https://www.ohchr.org/en/special-procedures/sr-human-rights-defenders"
+   }
+  ],
+  "regional": [],
+  "regional_notes": [
+   "المقرر الخاص للجنة الإفريقية المعني بالمدافعين عن حقوق الإنسان ونقطة الاتصال المعنية بالأعمال الانتقامية"
+  ],
+  "tunisia": "بيان المفوض السامي (ماي 2026) الداعي تونس إلى إنهاء التدابير القمعية ضد المجتمع المدني والإعلام، وقاعدة المراسلات (تونس + ولاية المدافعين).",
+  "tip": "وثّق أي انتقام من ناشط تعاون مع الأمم المتحدة وأبلغ به عبر صفحة الأعمال الانتقامية.",
+  "related": [
+   "expression",
+   "assembly",
+   "detention"
+  ]
+ },
+ {
+  "id": "torture",
+  "title": "مناهضة التعذيب وسوء المعاملة",
+  "short": "التعذيب، ظروف الاحتجاز، التحقيق، جبر الضرر، الوقاية.",
+  "legal": [
+   {
+    "source": "الإعلان العالمي",
+    "articles": "5",
+    "doc": "tr-udhr",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "العهد الدولي للحقوق المدنية والسياسية",
+    "articles": "7، 10",
+    "doc": "tr-iccpr",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "اتفاقية مناهضة التعذيب",
+    "articles": "1–16",
+    "doc": "tr-cat",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "البروتوكول الاختياري لاتفاقية مناهضة التعذيب",
+    "articles": "كاملًا",
+    "doc": "tr-opcat",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "الميثاق الإفريقي لحقوق الإنسان والشعوب",
+    "articles": "5",
+    "doc": "tr-achpr",
+    "binding": true,
+    "regional": true
+   },
+   {
+    "source": "الميثاق العربي لحقوق الإنسان",
+    "articles": "8",
+    "doc": "tr-arab-charter",
+    "binding": true,
+    "regional": true
+   }
+  ],
+  "soft": [
+   "sl-009",
+   "sl-a-res-70-175",
+   "sl-a-res-65-229"
+  ],
+  "interp": [
+   "gc-ccpr20",
+   "gc-ccpr21",
+   "gc-cat2",
+   "gc-cat3",
+   "gc-cat4"
+  ],
+  "mechanisms": [
+   {
+    "name": "المقرر الخاص المعني بالتعذيب",
+    "url": "https://www.ohchr.org/en/special-procedures/sr-torture"
+   }
+  ],
+  "regional": [
+   "sl-012",
+   "gc-achpr4"
+  ],
+  "regional_notes": [
+   "لجنة منع التعذيب في إفريقيا"
+  ],
+  "tunisia": "الملاحظات الختامية CAT/C/TUN/CO/3 (2016)، وقائمة المسائل CAT/C/TUN/QPR/4 (2023) التمهيدية للاستعراض الرابع، وزيارة اللجنة الفرعية لمنع التعذيب (2022)، والهيئة الوطنية للوقاية من التعذيب كآلية وقائية وطنية.",
+  "tip": "تونس تقبل البلاغات الفردية أمام لجنة مناهضة التعذيب (إعلان المادة 22)، فابحث في Juris عن قرارات سابقة ضد تونس.",
+  "related": [
+   "detention",
+   "life",
+   "tj",
+   "migration"
+  ]
+ },
+ {
+  "id": "detention",
+  "title": "الحرية الشخصية والاحتجاز التعسفي",
+  "short": "الإيقاف، الاحتفاظ، الإيقاف التحفظي، الاحتجاز الإداري.",
+  "legal": [
+   {
+    "source": "الإعلان العالمي",
+    "articles": "9",
+    "doc": "tr-udhr",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "العهد الدولي للحقوق المدنية والسياسية",
+    "articles": "9، 10، 14",
+    "doc": "tr-iccpr",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "الميثاق الإفريقي لحقوق الإنسان والشعوب",
+    "articles": "6",
+    "doc": "tr-achpr",
+    "binding": true,
+    "regional": true
+   },
+   {
+    "source": "الميثاق العربي لحقوق الإنسان",
+    "articles": "14",
+    "doc": "tr-arab-charter",
+    "binding": true,
+    "regional": true
+   }
+  ],
+  "soft": [
+   "sl-a-res-43-173",
+   "sl-a-hrc-30-37"
+  ],
+  "interp": [
+   "gc-ccpr35",
+   "gc-cmw5",
+   "gc-ccpr21"
+  ],
+  "mechanisms": [
+   {
+    "name": "الفريق العامل المعني بالاحتجاز التعسفي",
+    "url": "https://www.ohchr.org/en/special-procedures/wg-arbitrary-detention"
+   }
+  ],
+  "regional": [
+   "sl-015"
+  ],
+  "regional_notes": [],
+  "tunisia": "آراء الفريق العامل المعني بالاحتجاز التعسفي متاحة في صفحته؛ ابحث فيها عن حالات تونسية، وأرسل الحالات الجديدة عبر استمارة الإجراءات الخاصة.",
+  "tip": "الفريق العامل يصدر «آراء» في حالات فردية حتى دون اتفاقية مصادق عليها، وهو أسرع مسار أممي للمحتجزين.",
+  "related": [
+   "torture",
+   "fairtrial",
+   "terrorism"
+  ]
+ },
+ {
+  "id": "fairtrial",
+  "title": "المحاكمة العادلة واستقلال القضاء",
+  "short": "استقلال القضاة، حقوق الدفاع، المحاكم الاستثنائية والعسكرية.",
+  "legal": [
+   {
+    "source": "الإعلان العالمي",
+    "articles": "10، 11",
+    "doc": "tr-udhr",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "العهد الدولي للحقوق المدنية والسياسية",
+    "articles": "14، 15",
+    "doc": "tr-iccpr",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "الميثاق الإفريقي لحقوق الإنسان والشعوب",
+    "articles": "7، 26",
+    "doc": "tr-achpr",
+    "binding": true,
+    "regional": true
+   },
+   {
+    "source": "الميثاق العربي لحقوق الإنسان",
+    "articles": "12، 13، 16",
+    "doc": "tr-arab-charter",
+    "binding": true,
+    "regional": true
+   }
+  ],
+  "soft": [
+   "sl-016",
+   "sl-017",
+   "sl-018",
+   "sl-019"
+  ],
+  "interp": [
+   "gc-ccpr32",
+   "gc-ccpr29"
+  ],
+  "mechanisms": [
+   {
+    "name": "المقرر الخاص المعني باستقلال القضاة والمحامين",
+    "url": "https://www.ohchr.org/en/special-procedures/sr-independence-of-judges-and-lawyers"
+   }
+  ],
+  "regional": [
+   "sl-020"
+  ],
+  "regional_notes": [],
+  "tunisia": "حكم المحكمة الإفريقية (2024) الذي أمر بإلغاء المرسوم عدد 11 لسنة 2022 المتعلق بحلّ المجلس الأعلى للقضاء وإعادته.",
+  "tip": "اقرأ التعليق العام 32 فقرة بفقرة مع وقائع ملفك: هو أكثر النصوص اقتباسًا في قضايا المحاكمة العادلة.",
+  "related": [
+   "detention",
+   "terrorism",
+   "tj"
+  ]
+ },
+ {
+  "id": "life",
+  "title": "الحق في الحياة وعقوبة الإعدام",
+  "short": "الإعدام، القتل خارج القانون، الوفاة في الحجز.",
+  "legal": [
+   {
+    "source": "الإعلان العالمي",
+    "articles": "3",
+    "doc": "tr-udhr",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "العهد الدولي للحقوق المدنية والسياسية",
+    "articles": "6",
+    "doc": "tr-iccpr",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "البروتوكول الاختياري الثاني للعهد",
+    "articles": "إلغاء الإعدام",
+    "doc": "tr-op2-iccpr",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "الميثاق الإفريقي لحقوق الإنسان والشعوب",
+    "articles": "4",
+    "doc": "tr-achpr",
+    "binding": true,
+    "regional": true
+   },
+   {
+    "source": "الميثاق العربي لحقوق الإنسان",
+    "articles": "5–7",
+    "doc": "tr-arab-charter",
+    "binding": true,
+    "regional": true
+   }
+  ],
+  "soft": [
+   "sl-021",
+   "sl-022"
+  ],
+  "interp": [
+   "gc-ccpr36"
+  ],
+  "mechanisms": [
+   {
+    "name": "المقرر الخاص المعني بحالات الإعدام خارج القضاء أو بإجراءات موجزة أو تعسفًا",
+    "url": "https://www.ohchr.org/en/special-procedures/sr-executions"
+   }
+  ],
+  "regional": [
+   "gc-achpr3"
+  ],
+  "regional_notes": [],
+  "tunisia": "تطبّق تونس وقفًا فعليًا لتنفيذ أحكام الإعدام منذ 1991 دون إلغائه قانونًا، ولم تصادق على البروتوكول الاختياري الثاني؛ تكرّرت التوصيات بذلك في الاستعراض الدوري.",
+  "tip": "في UHRI اختر تونس وموضوع «عقوبة الإعدام» لترى كل التوصيات والردود الحكومية عليها.",
+  "related": [
+   "torture",
+   "disappearance",
+   "terrorism"
+  ]
+ },
+ {
+  "id": "disappearance",
+  "title": "الاختفاء القسري",
+  "short": "الاحتجاز السري، البحث عن المفقودين، حقوق الأسر.",
+  "legal": [
+   {
+    "source": "الاتفاقية الدولية لحماية جميع الأشخاص من الاختفاء القسري",
+    "articles": "1، 2، 17، 24",
+    "doc": "tr-cped",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "إعلان حماية جميع الأشخاص من الاختفاء القسري",
+    "articles": "",
+    "doc": "sl-a-res-47-133",
+    "binding": false
+   }
+  ],
+  "soft": [
+   "sl-ced-c-7"
+  ],
+  "interp": [
+   "gc-ced1"
+  ],
+  "mechanisms": [
+   {
+    "name": "الفريق العامل المعني بحالات الاختفاء القسري أو غير الطوعي",
+    "url": "https://www.ohchr.org/en/special-procedures/wg-disappearances"
+   }
+  ],
+  "regional": [
+   "tr-achpr"
+  ],
+  "regional_notes": [],
+  "tunisia": "الملاحظات الختامية CED/C/TUN/CO/1 (2016). المهاجرون المفقودون في البحر يدخلون في نطاق التعليق العام 1 للجنة.",
+  "tip": "الفريق العامل يقبل الحالات الفردية من أي بلد ويحيلها إلى الحكومة بطابع إنساني.",
+  "related": [
+   "detention",
+   "tj",
+   "migration"
+  ]
+ },
+ {
+  "id": "terrorism",
+  "title": "مكافحة الإرهاب وحالات الطوارئ",
+  "short": "قوانين الإرهاب، الحالة الاستثنائية، التقييد والتعليق.",
+  "legal": [
+   {
+    "source": "العهد الدولي للحقوق المدنية والسياسية",
+    "articles": "4، 9، 14، 15، 19",
+    "doc": "tr-iccpr",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "الميثاق العربي لحقوق الإنسان",
+    "articles": "4",
+    "doc": "tr-arab-charter",
+    "binding": true,
+    "regional": true
+   }
+  ],
+  "soft": [
+   "sl-e-cn-4-1985-4"
+  ],
+  "interp": [
+   "gc-ccpr29",
+   "gc-ccpr35"
+  ],
+  "mechanisms": [
+   {
+    "name": "المقرر الخاص المعني بحقوق الإنسان في سياق مكافحة الإرهاب",
+    "url": "https://www.ohchr.org/en/special-procedures/sr-terrorism"
+   }
+  ],
+  "regional": [
+   "sl-026"
+  ],
+  "regional_notes": [
+   "حكم المحكمة الإفريقية (2022) بشأن مراسيم الحالة الاستثنائية في تونس"
+  ],
+  "tunisia": "تقرير زيارة المقرر الخاص المعني بمكافحة الإرهاب إلى تونس، وحكم المحكمة الإفريقية (سبتمبر 2022) الذي أمر بإلغاء الأمر الرئاسي 117 والمرسومين 69 و109.",
+  "tip": "الميثاق الإفريقي لا يتضمن بندًا للتعليق في حالات الطوارئ، وهي حجة تستعملها اللجنة الإفريقية كثيرًا.",
+  "related": [
+   "fairtrial",
+   "detention",
+   "expression"
+  ]
+ },
+ {
+  "id": "participation",
+  "title": "المشاركة السياسية والانتخابات",
+  "short": "الترشح، التصويت، الأحزاب، استقلالية الهيئات الانتخابية.",
+  "legal": [
+   {
+    "source": "الإعلان العالمي",
+    "articles": "21",
+    "doc": "tr-udhr",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "العهد الدولي للحقوق المدنية والسياسية",
+    "articles": "25",
+    "doc": "tr-iccpr",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "اتفاقية المرأة",
+    "articles": "7",
+    "doc": "tr-cedaw",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "اتفاقية الإعاقة",
+    "articles": "29",
+    "doc": "tr-crpd",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "الميثاق الإفريقي لحقوق الإنسان والشعوب",
+    "articles": "13",
+    "doc": "tr-achpr",
+    "binding": true,
+    "regional": true
+   },
+   {
+    "source": "الميثاق العربي لحقوق الإنسان",
+    "articles": "24",
+    "doc": "tr-arab-charter",
+    "binding": true,
+    "regional": true
+   }
+  ],
+  "soft": [
+   "sl-027"
+  ],
+  "interp": [
+   "gc-ccpr25",
+   "gc-cedaw23",
+   "gc-cedaw40"
+  ],
+  "mechanisms": [
+   {
+    "name": "المقرر الخاص المعني بالتجمع وتكوين الجمعيات (تقارير حول الانتخابات)",
+    "url": "https://www.ohchr.org/en/special-procedures/sr-freedom-of-assembly-and-association"
+   }
+  ],
+  "regional": [],
+  "regional_notes": [
+   "الميثاق الإفريقي للديمقراطية والانتخابات والحكم (2007)",
+   "حكم المحكمة الإفريقية (2022) بشأن المادة 13 في قضية ضد تونس"
+  ],
+  "tunisia": "آراء لجنة البندقية بشأن تونس، وحكم المحكمة الإفريقية الذي اعتبر مراسيم 2021 انتهاكًا للمادة 13 من الميثاق.",
+  "tip": "تحقّق من حالة تصديق تونس على الميثاق الإفريقي للديمقراطية في قائمة معاهدات الاتحاد الإفريقي.",
+  "related": [
+   "assembly",
+   "expression",
+   "women"
+  ]
+ },
+ {
+  "id": "women",
+  "title": "حقوق النساء والعنف القائم على النوع",
+  "short": "المساواة، العنف، الأسرة، الوصول إلى العدالة.",
+  "legal": [
+   {
+    "source": "اتفاقية القضاء على التمييز ضد المرأة",
+    "articles": "كاملة",
+    "doc": "tr-cedaw",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "العهد الدولي للحقوق المدنية والسياسية",
+    "articles": "3، 26",
+    "doc": "tr-iccpr",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "العهد الدولي للحقوق الاقتصادية والاجتماعية والثقافية",
+    "articles": "3",
+    "doc": "tr-icescr",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "بروتوكول مابوتو",
+    "articles": "كاملًا",
+    "doc": "tr-maputo",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "الميثاق الإفريقي لحقوق الإنسان والشعوب",
+    "articles": "18-3",
+    "doc": "tr-achpr",
+    "binding": true,
+    "regional": true
+   },
+   {
+    "source": "الميثاق العربي لحقوق الإنسان",
+    "articles": "3، 33",
+    "doc": "tr-arab-charter",
+    "binding": true,
+    "regional": true
+   }
+  ],
+  "soft": [
+   "sl-a-res-48-104",
+   "sl-029"
+  ],
+  "interp": [
+   "gc-cedaw28",
+   "gc-cedaw19",
+   "gc-cedaw35",
+   "gc-cedaw21",
+   "gc-cedaw29",
+   "gc-cedaw33",
+   "gc-ccpr28",
+   "gc-cedaw41"
+  ],
+  "mechanisms": [
+   {
+    "name": "المقررة الخاصة المعنية بالعنف ضد النساء والفتيات",
+    "url": "https://www.ohchr.org/en/special-procedures/sr-violence-against-women"
+   },
+   {
+    "name": "الفريق العامل المعني بالتمييز ضد النساء والفتيات",
+    "url": "https://www.ohchr.org/en/special-procedures/wg-women-and-girls"
+   }
+  ],
+  "regional": [
+   "tr-maputo",
+   "gc-achpr12"
+  ],
+  "regional_notes": [
+   "المقررة الخاصة للجنة الإفريقية المعنية بحقوق المرأة"
+  ],
+  "tunisia": "الملاحظات الختامية CEDAW/C/TUN/CO/7 (2023) ومعلومات المتابعة CEDAW/C/TUN/FCO/7 (2025)، مع القانون الأساسي عدد 58 لسنة 2017 المتعلق بالقضاء على العنف ضد المرأة.",
+  "tip": "تونس طرف في البروتوكول الاختياري لاتفاقية المرأة، فيمكن تقديم بلاغات فردية إلى اللجنة بعد استنفاد سبل الانتصاف المحلية.",
+  "related": [
+   "racism",
+   "children",
+   "health",
+   "work"
+  ]
+ },
+ {
+  "id": "children",
+  "title": "حقوق الطفل",
+  "short": "قضاء الأطفال، العنف، المصلحة الفضلى، البيئة الرقمية.",
+  "legal": [
+   {
+    "source": "اتفاقية حقوق الطفل وبروتوكولاتها",
+    "articles": "كاملة",
+    "doc": "tr-crc",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "العهد الدولي للحقوق المدنية والسياسية",
+    "articles": "24",
+    "doc": "tr-iccpr",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "الميثاق الإفريقي لحقوق الإنسان والشعوب",
+    "articles": "18-3",
+    "doc": "tr-achpr",
+    "binding": true,
+    "regional": true
+   }
+  ],
+  "soft": [
+   "sl-a-res-64-142",
+   "sl-a-res-40-33"
+  ],
+  "interp": [
+   "gc-crc14",
+   "gc-crc12",
+   "gc-crc13",
+   "gc-crc8",
+   "gc-crc24",
+   "gc-crc25",
+   "gc-crc20",
+   "gc-crc27",
+   "gc-cmw3crc22"
+  ],
+  "mechanisms": [
+   {
+    "name": "المقرر الخاص المعني ببيع الأطفال واستغلالهم جنسيًا",
+    "url": "https://www.ohchr.org/en/special-procedures/sr-sale-of-children"
+   }
+  ],
+  "regional": [
+   "gc-achprcm"
+  ],
+  "regional_notes": [
+   "لجنة الخبراء الإفريقية لحقوق الطفل ورفاهه"
+  ],
+  "tunisia": "الملاحظات الختامية CRC/C/TUN/CO/4-6 (2021). تونس طرف في البروتوكول الاختياري المتعلق بإجراء تقديم البلاغات منذ 2018.",
+  "tip": "التعليق العام 24 هو المرجع الأساسي لقضاء الأطفال، والتعليق 27 يكمّله في كل مجالات الانتصاف.",
+  "related": [
+   "education",
+   "women",
+   "migration"
+  ]
+ },
+ {
+  "id": "migration",
+  "title": "المهاجرون واللاجئون وطالبو اللجوء",
+  "short": "عدم الإعادة القسرية، الطرد، الاحتجاز، التمييز، الوفاة في البحر.",
+  "legal": [
+   {
+    "source": "الإعلان العالمي",
+    "articles": "13، 14",
+    "doc": "tr-udhr",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "العهد الدولي للحقوق المدنية والسياسية",
+    "articles": "12، 13",
+    "doc": "tr-iccpr",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "اتفاقية اللاجئين 1951 وبروتوكول 1967",
+    "articles": "كاملتين",
+    "doc": "tr-refugee",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "اتفاقية مناهضة التعذيب",
+    "articles": "3",
+    "doc": "tr-cat",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "اتفاقية منظمة الوحدة الإفريقية للاجئين (1969)",
+    "articles": "كاملة",
+    "doc": "",
+    "binding": true,
+    "regional": true
+   },
+   {
+    "source": "الميثاق الإفريقي لحقوق الإنسان والشعوب",
+    "articles": "12",
+    "doc": "tr-achpr",
+    "binding": true,
+    "regional": true
+   },
+   {
+    "source": "الميثاق العربي لحقوق الإنسان",
+    "articles": "26–28",
+    "doc": "tr-arab-charter",
+    "binding": true,
+    "regional": true
+   }
+  ],
+  "soft": [
+   "sl-a-res-73-195",
+   "sl-033"
+  ],
+  "interp": [
+   "gc-cat4",
+   "gc-ccpr15",
+   "gc-ccpr27",
+   "gc-cmw2",
+   "gc-cmw5",
+   "gc-ced1",
+   "gc-cmw3crc22",
+   "gc-cmw4crc23",
+   "gc-cedaw26",
+   "gc-cedaw38",
+   "gc-cerd30"
+  ],
+  "mechanisms": [
+   {
+    "name": "المقرر الخاص المعني بحقوق الإنسان للمهاجرين",
+    "url": "https://www.ohchr.org/en/special-procedures/sr-migrants"
+   },
+   {
+    "name": "المقرر الخاص المعني بالرق المعاصر والاتجار بالأشخاص",
+    "url": "https://www.ohchr.org/en/special-procedures/sr-slavery-trafficking"
+   }
+  ],
+  "regional": [
+   "gc-achpr5"
+  ],
+  "regional_notes": [
+   "المقرر الخاص للجنة الإفريقية المعني باللاجئين وطالبي اللجوء والنازحين والمهاجرين"
+  ],
+  "tunisia": "تونس ليست طرفًا في اتفاقية العمال المهاجرين (تحقّق من لوحة التصديقات). راجع الملاحظات الختامية للجنة القضاء على التمييز العنصري (2025)، والمراسلات (تونس + ولاية المهاجرين)، وبيانات مشروع المهاجرين المفقودين.",
+  "tip": "مبدأ عدم الإعادة القسرية في المادة 3 من اتفاقية مناهضة التعذيب مطلق، ويحميك حتى حيث لا يوجد قانون لجوء وطني.",
+  "related": [
+   "racism",
+   "detention",
+   "torture",
+   "work"
+  ]
+ },
+ {
+  "id": "racism",
+  "title": "عدم التمييز ومناهضة العنصرية",
+  "short": "التمييز العنصري، خطاب الكراهية، الأقليات، المنحدرون من أصل إفريقي.",
+  "legal": [
+   {
+    "source": "الإعلان العالمي",
+    "articles": "2، 7",
+    "doc": "tr-udhr",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "العهد الدولي للحقوق المدنية والسياسية",
+    "articles": "2، 26، 27",
+    "doc": "tr-iccpr",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "العهد الدولي للحقوق الاقتصادية والاجتماعية والثقافية",
+    "articles": "2-2",
+    "doc": "tr-icescr",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "اتفاقية القضاء على التمييز العنصري",
+    "articles": "كاملة",
+    "doc": "tr-icerd",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "الميثاق الإفريقي لحقوق الإنسان والشعوب",
+    "articles": "2، 3",
+    "doc": "tr-achpr",
+    "binding": true,
+    "regional": true
+   },
+   {
+    "source": "الميثاق العربي لحقوق الإنسان",
+    "articles": "3، 11",
+    "doc": "tr-arab-charter",
+    "binding": true,
+    "regional": true
+   }
+  ],
+  "soft": [
+   "sl-034"
+  ],
+  "interp": [
+   "gc-ccpr18",
+   "gc-cescr20",
+   "gc-cerd30",
+   "gc-cerd32",
+   "gc-cerd34",
+   "gc-cerd35",
+   "gc-cerd36",
+   "gc-cerd37"
+  ],
+  "mechanisms": [
+   {
+    "name": "المقرر الخاص المعني بالأشكال المعاصرة للعنصرية",
+    "url": "https://www.ohchr.org/en/special-procedures/sr-racism"
+   },
+   {
+    "name": "فريق الخبراء العامل المعني بالمنحدرين من أصل أفريقي",
+    "url": "https://www.ohchr.org/en/special-procedures/wg-african-descent"
+   },
+   {
+    "name": "المقرر الخاص المعني بقضايا الأقليات",
+    "url": "https://www.ohchr.org/en/special-procedures/sr-minority-issues"
+   }
+  ],
+  "regional": [],
+  "regional_notes": [],
+  "tunisia": "الملاحظات الختامية CERD/C/TUN/CO/20-22 (الدورة 116، ديسمبر 2025)، والقانون الأساسي عدد 50 لسنة 2018 المتعلق بالقضاء على جميع أشكال التمييز العنصري.",
+  "tip": "التوصية العامة 36 (التنميط العنصري) مفيدة لتوثيق حملات التحقق من الهوية والإيقافات القائمة على لون البشرة.",
+  "related": [
+   "migration",
+   "expression",
+   "sogi"
+  ]
+ },
+ {
+  "id": "religion",
+  "title": "حرية الفكر والوجدان والدين",
+  "short": "حرية المعتقد، الأقليات الدينية، ازدراء الأديان.",
+  "legal": [
+   {
+    "source": "الإعلان العالمي",
+    "articles": "18",
+    "doc": "tr-udhr",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "العهد الدولي للحقوق المدنية والسياسية",
+    "articles": "18، 27",
+    "doc": "tr-iccpr",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "الميثاق الإفريقي لحقوق الإنسان والشعوب",
+    "articles": "8",
+    "doc": "tr-achpr",
+    "binding": true,
+    "regional": true
+   },
+   {
+    "source": "الميثاق العربي لحقوق الإنسان",
+    "articles": "30",
+    "doc": "tr-arab-charter",
+    "binding": true,
+    "regional": true
+   }
+  ],
+  "soft": [
+   "sl-a-res-36-55",
+   "sl-a-hrc-res-16-18",
+   "sl-a-hrc-22-17-add-4"
+  ],
+  "interp": [
+   "gc-ccpr22"
+  ],
+  "mechanisms": [
+   {
+    "name": "المقرر الخاص المعني بحرية الدين أو المعتقد",
+    "url": "https://www.ohchr.org/en/special-procedures/sr-religion-or-belief"
+   }
+  ],
+  "regional": [],
+  "regional_notes": [],
+  "tunisia": "تقرير زيارة المقرر الخاص المعني بحرية الدين أو المعتقد إلى تونس.",
+  "tip": "التعليق العام 22 يفرّق بين حرية المعتقد (مطلقة) وحرية إظهاره (قابلة للتقييد بشروط المادة 18-3).",
+  "related": [
+   "expression",
+   "racism"
+  ]
+ },
+ {
+  "id": "privacy",
+  "title": "الخصوصية والحقوق الرقمية",
+  "short": "المراقبة، حماية المعطيات، الجرائم الإلكترونية، المحتوى على الإنترنت.",
+  "legal": [
+   {
+    "source": "الإعلان العالمي",
+    "articles": "12",
+    "doc": "tr-udhr",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "العهد الدولي للحقوق المدنية والسياسية",
+    "articles": "17، 19",
+    "doc": "tr-iccpr",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "اتفاقية حقوق الطفل",
+    "articles": "16",
+    "doc": "tr-crc",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "الميثاق العربي لحقوق الإنسان",
+    "articles": "21",
+    "doc": "tr-arab-charter",
+    "binding": true,
+    "regional": true
+   },
+   {
+    "source": "اتفاقية مجلس أوروبا 108 لحماية المعطيات",
+    "articles": "مفتوحة لدول من خارج أوروبا",
+    "doc": "",
+    "binding": true,
+    "regional": true
+   }
+  ],
+  "soft": [
+   "sl-a-res-68-167"
+  ],
+  "interp": [
+   "gc-ccpr16",
+   "gc-ccpr34",
+   "gc-crc25"
+  ],
+  "mechanisms": [
+   {
+    "name": "المقرر الخاص المعني بالحق في الخصوصية",
+    "url": "https://www.ohchr.org/en/special-procedures/sr-privacy"
+   },
+   {
+    "name": "المقرر الخاص المعني بحرية الرأي والتعبير",
+    "url": "https://www.ohchr.org/en/special-procedures/sr-freedom-of-opinion-and-expression"
+   }
+  ],
+  "regional": [
+   "sl-038"
+  ],
+  "regional_notes": [],
+  "tunisia": "المرسوم عدد 54 لسنة 2022 المتعلق بجرائم أنظمة المعلومات والاتصال: ابحث عن تعليقات المقررين الخاصين عليه في قاعدة المراسلات.",
+  "tip": "تحقّق من انضمام تونس إلى الاتفاقية 108 في مكتب معاهدات مجلس أوروبا قبل الاستناد إليها.",
+  "related": [
+   "expression",
+   "children"
+  ]
+ },
+ {
+  "id": "health",
+  "title": "الحق في الصحة",
+  "short": "الوصول إلى الخدمات، الصحة الجنسية والإنجابية، الصحة في السجون.",
+  "legal": [
+   {
+    "source": "الإعلان العالمي",
+    "articles": "25",
+    "doc": "tr-udhr",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "العهد الدولي للحقوق الاقتصادية والاجتماعية والثقافية",
+    "articles": "12",
+    "doc": "tr-icescr",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "اتفاقية المرأة",
+    "articles": "12",
+    "doc": "tr-cedaw",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "اتفاقية حقوق الطفل",
+    "articles": "24",
+    "doc": "tr-crc",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "اتفاقية الإعاقة",
+    "articles": "25",
+    "doc": "tr-crpd",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "الميثاق الإفريقي لحقوق الإنسان والشعوب",
+    "articles": "16",
+    "doc": "tr-achpr",
+    "binding": true,
+    "regional": true
+   },
+   {
+    "source": "الميثاق العربي لحقوق الإنسان",
+    "articles": "39",
+    "doc": "tr-arab-charter",
+    "binding": true,
+    "regional": true
+   }
+  ],
+  "soft": [],
+  "interp": [
+   "gc-cescr14",
+   "gc-cescr22",
+   "gc-cedaw24",
+   "gc-crc15",
+   "gc-cerd37"
+  ],
+  "mechanisms": [
+   {
+    "name": "المقرر الخاص المعني بالحق في الصحة",
+    "url": "https://www.ohchr.org/en/special-procedures/sr-health"
+   }
+  ],
+  "regional": [
+   "gc-achpr12"
+  ],
+  "regional_notes": [],
+  "tunisia": "ابحث في UHRI (تونس + الحق في الصحة) لتجميع التوصيات المتعلقة بالتفاوت الجهوي في الخدمات الصحية.",
+  "tip": "التعليق العام 14 يعرّف عناصر الحق الأربعة: التوفر، إمكانية الوصول، المقبولية، الجودة. استعملها كإطار لأي تقرير ميداني.",
+  "related": [
+   "livelihood",
+   "women",
+   "disability"
+  ]
+ },
+ {
+  "id": "education",
+  "title": "الحق في التعليم",
+  "short": "المجانية، الانقطاع المدرسي، التعليم الدامج، أهداف التعليم.",
+  "legal": [
+   {
+    "source": "الإعلان العالمي",
+    "articles": "26",
+    "doc": "tr-udhr",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "العهد الدولي للحقوق الاقتصادية والاجتماعية والثقافية",
+    "articles": "13، 14",
+    "doc": "tr-icescr",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "اتفاقية حقوق الطفل",
+    "articles": "28، 29",
+    "doc": "tr-crc",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "اتفاقية المرأة",
+    "articles": "10",
+    "doc": "tr-cedaw",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "اتفاقية الإعاقة",
+    "articles": "24",
+    "doc": "tr-crpd",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "اتفاقية اليونسكو لمكافحة التمييز في التعليم (1960)",
+    "articles": "كاملة",
+    "doc": "",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "الميثاق الإفريقي لحقوق الإنسان والشعوب",
+    "articles": "17",
+    "doc": "tr-achpr",
+    "binding": true,
+    "regional": true
+   },
+   {
+    "source": "الميثاق العربي لحقوق الإنسان",
+    "articles": "41",
+    "doc": "tr-arab-charter",
+    "binding": true,
+    "regional": true
+   }
+  ],
+  "soft": [],
+  "interp": [
+   "gc-cescr13",
+   "gc-crc1",
+   "gc-cedaw36",
+   "gc-crpd4"
+  ],
+  "mechanisms": [
+   {
+    "name": "المقرر الخاص المعني بالحق في التعليم",
+    "url": "https://www.ohchr.org/en/special-procedures/sr-education"
+   }
+  ],
+  "regional": [],
+  "regional_notes": [],
+  "tunisia": "تقرير زيارة المقرر الخاص المعني بالحق في التعليم إلى تونس.",
+  "tip": "اجمع بين التعليق 13 (المحتوى العام) والتعليق 4 للجنة الإعاقة (الدمج) عند العمل على الأطفال ذوي الإعاقة.",
+  "related": [
+   "children",
+   "disability",
+   "women"
+  ]
+ },
+ {
+  "id": "work",
+  "title": "العمل والحقوق النقابية والضمان الاجتماعي",
+  "short": "شروط العمل، العمل الهش، الحق في الإضراب، الحماية الاجتماعية.",
+  "legal": [
+   {
+    "source": "الإعلان العالمي",
+    "articles": "22، 23",
+    "doc": "tr-udhr",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "العهد الدولي للحقوق الاقتصادية والاجتماعية والثقافية",
+    "articles": "6، 7، 8، 9",
+    "doc": "tr-icescr",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "الاتفاقيات الأساسية لمنظمة العمل الدولية",
+    "articles": "29، 87، 98، 100، 105، 111، 138، 182",
+    "doc": "",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "الميثاق الإفريقي لحقوق الإنسان والشعوب",
+    "articles": "15",
+    "doc": "tr-achpr",
+    "binding": true,
+    "regional": true
+   },
+   {
+    "source": "الميثاق العربي لحقوق الإنسان",
+    "articles": "34–36",
+    "doc": "tr-arab-charter",
+    "binding": true,
+    "regional": true
+   }
+  ],
+  "soft": [
+   "sl-039"
+  ],
+  "interp": [
+   "gc-cescr18",
+   "gc-cescr23",
+   "gc-cescr19",
+   "gc-crpd8",
+   "gc-cmw1"
+  ],
+  "mechanisms": [
+   {
+    "name": "المقرر الخاص المعني بالفقر المدقع وحقوق الإنسان",
+    "url": "https://www.ohchr.org/en/special-procedures/sr-poverty"
+   },
+   {
+    "name": "المقرر الخاص المعني بالرق المعاصر والاتجار بالأشخاص",
+    "url": "https://www.ohchr.org/en/special-procedures/sr-slavery-trafficking"
+   }
+  ],
+  "regional": [
+   "sl-040"
+  ],
+  "regional_notes": [],
+  "tunisia": "تعليقات لجنة خبراء منظمة العمل الدولية على تونس في NORMLEX، والملاحظات الختامية E/C.12/TUN/CO/3 (2016).",
+  "tip": "قرارات لجنة الحرية النقابية في NORMLEX تُقبل فيها الشكاوى من النقابات مباشرة.",
+  "related": [
+   "livelihood",
+   "assembly",
+   "migration"
+  ]
+ },
+ {
+  "id": "livelihood",
+  "title": "السكن والغذاء والماء",
+  "short": "مستوى معيشي لائق، الإخلاء، الأمن الغذائي، الإجهاد المائي.",
+  "legal": [
+   {
+    "source": "الإعلان العالمي",
+    "articles": "25",
+    "doc": "tr-udhr",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "العهد الدولي للحقوق الاقتصادية والاجتماعية والثقافية",
+    "articles": "11",
+    "doc": "tr-icescr",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "اتفاقية المرأة",
+    "articles": "14-2",
+    "doc": "tr-cedaw",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "اتفاقية حقوق الطفل",
+    "articles": "27",
+    "doc": "tr-crc",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "الميثاق العربي لحقوق الإنسان",
+    "articles": "38",
+    "doc": "tr-arab-charter",
+    "binding": true,
+    "regional": true
+   }
+  ],
+  "soft": [
+   "sl-a-hrc-4-18",
+   "sl-042"
+  ],
+  "interp": [
+   "gc-cescr3",
+   "gc-cescr4",
+   "gc-cescr7",
+   "gc-cescr12",
+   "gc-cescr15",
+   "gc-cescr26"
+  ],
+  "mechanisms": [
+   {
+    "name": "المقرر الخاص المعني بالسكن اللائق",
+    "url": "https://www.ohchr.org/en/special-procedures/sr-housing"
+   },
+   {
+    "name": "المقرر الخاص المعني بالحق في الغذاء",
+    "url": "https://www.ohchr.org/en/special-procedures/sr-food"
+   },
+   {
+    "name": "المقرر الخاص المعني بالحق في مياه الشرب والصرف الصحي",
+    "url": "https://www.ohchr.org/en/special-procedures/sr-water-and-sanitation"
+   }
+  ],
+  "regional": [
+   "sl-043"
+  ],
+  "regional_notes": [],
+  "tunisia": "ابحث في UHRI (تونس + الماء والصرف الصحي) لتجميع التوصيات حول انقطاعات الماء في المناطق الداخلية.",
+  "tip": "التعليق العام 3 (الحد الأدنى الأساسي وأقصى الموارد المتاحة) يصلح لتحليل الميزانيات العامة.",
+  "related": [
+   "health",
+   "environment",
+   "work"
+  ]
+ },
+ {
+  "id": "disability",
+  "title": "حقوق الأشخاص ذوي الإعاقة",
+  "short": "الأهلية القانونية، النفاذ، الدمج، العمل.",
+  "legal": [
+   {
+    "source": "اتفاقية حقوق الأشخاص ذوي الإعاقة وبروتوكولها",
+    "articles": "كاملة",
+    "doc": "tr-crpd",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "بروتوكول الميثاق الإفريقي بشأن حقوق الأشخاص ذوي الإعاقة (2018)",
+    "articles": "",
+    "doc": "",
+    "binding": true,
+    "regional": true
+   },
+   {
+    "source": "الميثاق العربي لحقوق الإنسان",
+    "articles": "40",
+    "doc": "tr-arab-charter",
+    "binding": true,
+    "regional": true
+   }
+  ],
+  "soft": [],
+  "interp": [
+   "gc-crpd1",
+   "gc-crpd2",
+   "gc-crpd3",
+   "gc-crpd4",
+   "gc-crpd5",
+   "gc-crpd6",
+   "gc-crpd7",
+   "gc-crpd8"
+  ],
+  "mechanisms": [
+   {
+    "name": "المقرر الخاص المعني بحقوق الأشخاص ذوي الإعاقة",
+    "url": "https://www.ohchr.org/en/special-procedures/sr-disability"
+   }
+  ],
+  "regional": [],
+  "regional_notes": [],
+  "tunisia": "الملاحظات الختامية CRPD/C/TUN/CO/1 (2011). تونس طرف في البروتوكول الاختياري منذ 2008.",
+  "tip": "التعليق العام 7 يفرض استشارة منظمات الأشخاص ذوي الإعاقة: حجة قوية للمطالبة بإشراكها في السياسات.",
+  "related": [
+   "education",
+   "health",
+   "work"
+  ]
+ },
+ {
+  "id": "tj",
+  "title": "العدالة الانتقالية وجبر الضرر",
+  "short": "الحقيقة، المحاسبة، جبر الضرر، ضمانات عدم التكرار.",
+  "legal": [
+   {
+    "source": "العهد الدولي للحقوق المدنية والسياسية",
+    "articles": "2-3",
+    "doc": "tr-iccpr",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "اتفاقية مناهضة التعذيب",
+    "articles": "14",
+    "doc": "tr-cat",
+    "binding": true,
+    "regional": false
+   },
+   {
+    "source": "اتفاقية الاختفاء القسري",
+    "articles": "24",
+    "doc": "",
+    "binding": true,
+    "regional": false
+   }
+  ],
+  "soft": [
+   "sl-a-res-60-147",
+   "sl-e-cn-4-2005-102-add-1"
+  ],
+  "interp": [
+   "gc-ccpr31",
+   "gc-cat3"
+  ],
+  "mechanisms": [
+   {
+    "name": "المقرر الخاص المعني بتعزيز الحقيقة والعدالة والجبر وضمانات عدم التكرار",
+    "url": "https://www.ohchr.org/en/special-procedures/sr-truth-justice-reparation-and-non-recurrence"
+   }
+  ],
+  "regional": [
+   "sl-046"
+  ],
+  "regional_notes": [],
+  "tunisia": "راجع زيارات المقرر الخاص المعني بالحقيقة والعدالة إلى تونس في صفحة الزيارات القطرية، وتوصيات الاستعراض الدوري حول متابعة مسار العدالة الانتقالية.",
+  "tip": "المبادئ الأساسية (A/RES/60/147) تحدد أشكال الجبر الخمسة: الرد، التعويض، إعادة التأهيل، الترضية، عدم التكرار.",
+  "related": [
+   "torture",
+   "disappearance",
+   "fairtrial"
+  ]
+ },
+ {
+  "id": "business",
+  "title": "الأعمال التجارية وحقوق الإنسان",
+  "short": "مسؤولية الشركات، العناية الواجبة، سلاسل التوريد.",
+  "legal": [
+   {
+    "source": "العهد الدولي للحقوق الاقتصادية والاجتماعية والثقافية",
+    "articles": "2-1 (واجب الحماية)",
+    "doc": "tr-icescr",
+    "binding": true,
+    "regional": false
+   }
+  ],
+  "soft": [
+   "sl-a-hrc-17-31"
+  ],
+  "interp": [
+   "gc-cescr24",
+   "gc-crc16"
+  ],
+  "mechanisms": [
+   {
+    "name": "الفريق العامل المعني بالأعمال التجارية وحقوق الإنسان",
+    "url": "https://www.ohchr.org/en/special-procedures/wg-business"
+   }
+  ],
+  "regional": [],
+  "regional_notes": [],
+  "tunisia": "قاعدة المراسلات تتضمن رسائل موجهة إلى الشركات مباشرة؛ صفِّ حسب تونس لمعرفة الشركات المعنية.",
+  "tip": "المقررون الخاصون يراسلون الشركات أيضًا، وتُنشر ردودها في قاعدة المراسلات.",
+  "related": [
+   "work",
+   "environment",
+   "children"
+  ]
+ },
+ {
+  "id": "environment",
+  "title": "البيئة والمناخ",
+  "short": "الحق في بيئة نظيفة، التلوث الصناعي، التغير المناخي.",
+  "legal": [
+   {
+    "source": "الميثاق الإفريقي لحقوق الإنسان والشعوب",
+    "articles": "24",
+    "doc": "tr-achpr",
+    "binding": true,
+    "regional": true
+   },
+   {
+    "source": "قرار الجمعية العامة بشأن الحق في بيئة نظيفة وصحية ومستدامة",
+    "articles": "",
+    "doc": "sl-a-res-76-300",
+    "binding": false
+   }
+  ],
+  "soft": [
+   "sl-a-hrc-37-59"
+  ],
+  "interp": [
+   "gc-cescr27",
+   "gc-crc26",
+   "gc-cedaw37"
+  ],
+  "mechanisms": [
+   {
+    "name": "المقرر الخاص المعني بحقوق الإنسان والبيئة",
+    "url": "https://www.ohchr.org/en/special-procedures/sr-environment"
+   },
+   {
+    "name": "المقرر الخاص المعني بحقوق الإنسان وتغير المناخ",
+    "url": "https://www.ohchr.org/en/specialprocedures/sr-climate-change"
+   },
+   {
+    "name": "المقرر الخاص المعني بالمواد السامة وحقوق الإنسان",
+    "url": "https://www.ohchr.org/en/special-procedures/sr-toxics-and-human-rights"
+   }
+  ],
+  "regional": [],
+  "regional_notes": [],
+  "tunisia": "التلوث الصناعي في قابس مثال لملف يمكن رفعه إلى المقرر الخاص المعني بالمواد السامة؛ ابحث عن مراسلات سابقة بشأنه.",
+  "tip": "التعليق العام 27 (2025) يقرّ الحق في بيئة نظيفة وصحية ومستدامة شرطًا مسبقًا للحقوق الاقتصادية والاجتماعية.",
+  "related": [
+   "livelihood",
+   "health",
+   "business"
+  ]
+ },
+ {
+  "id": "sogi",
+  "title": "الميول الجنسية والهوية الجندرية",
+  "short": "التجريم، العنف، الفحوص الشرجية القسرية، التمييز.",
+  "legal": [
+   {
+    "source": "العهد الدولي للحقوق المدنية والسياسية",
+    "articles": "2، 17، 26",
+    "doc": "tr-iccpr",
+    "binding": true,
+    "regional": false
+   }
+  ],
+  "soft": [
+   "sl-050"
+  ],
+  "interp": [
+   "gc-cescr20",
+   "gc-ccpr16"
+  ],
+  "mechanisms": [
+   {
+    "name": "الخبير المستقل المعني بالحماية من العنف والتمييز على أساس الميول الجنسية والهوية الجندرية",
+    "url": "https://www.ohchr.org/en/special-procedures/ie-sexual-orientation-and-gender-identity"
+   }
+  ],
+  "regional": [
+   "sl-051"
+  ],
+  "regional_notes": [],
+  "tunisia": "توصيات الاستعراض الدوري المتعلقة بالفصل 230 من المجلة الجزائية؛ ابحث في UHRI (تونس + هذا الموضوع).",
+  "tip": "التعليق العام 20 (الفقرة 32) يدرج الميول الجنسية والهوية الجندرية ضمن أسباب التمييز المحظورة.",
+  "related": [
+   "privacy",
+   "racism",
+   "torture"
+  ]
+ }
+]

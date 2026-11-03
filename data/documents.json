@@ -1,0 +1,6636 @@
+[
+ {
+  "id": "tr-udhr",
+  "title": "الإعلان العالمي لحقوق الإنسان",
+  "title_en": "Universal Declaration of Human Rights",
+  "type": "declaration",
+  "publisher": "الجمعية العامة للأمم المتحدة",
+  "publisher_en": "UN General Assembly",
+  "date": "1948-12-10",
+  "year": 1948,
+  "url": "https://www.un.org/ar/about-us/universal-declaration-of-human-rights",
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "lang_orig": "",
+  "symbol": "A/RES/217(III)",
+  "sections": [
+   [
+    "standards",
+    "الإعلانات والمبادئ"
+   ]
+  ],
+  "rights": [
+   "expression",
+   "assembly",
+   "defenders",
+   "torture",
+   "detention",
+   "fairtrial",
+   "life",
+   "disappearance",
+   "terrorism",
+   "participation",
+   "women",
+   "children",
+   "migration",
+   "racism",
+   "religion",
+   "privacy",
+   "health",
+   "education",
+   "work",
+   "livelihood",
+   "disability",
+   "tj",
+   "business",
+   "environment",
+   "sogi"
+  ],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "scope": "global",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "tr-iccpr",
+  "title": "العهد الدولي الخاص بالحقوق المدنية والسياسية",
+  "title_en": "International Covenant on Civil and Political Rights",
+  "type": "treaty",
+  "publisher": "الجمعية العامة للأمم المتحدة",
+  "publisher_en": "UN General Assembly",
+  "date": "1966-12-16",
+  "year": 1966,
+  "url": "https://www.ohchr.org/AR/ProfessionalInterest/Pages/CCPR.aspx",
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "lang_orig": "",
+  "symbol": "",
+  "sections": [
+   [
+    "standards",
+    "المعاهدات والاتفاقيات"
+   ]
+  ],
+  "rights": [
+   "expression",
+   "assembly",
+   "defenders",
+   "detention",
+   "fairtrial",
+   "life",
+   "terrorism",
+   "participation",
+   "religion",
+   "privacy",
+   "torture",
+   "sogi",
+   "racism"
+  ],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "scope": "global",
+  "pdf": "",
+  "summary": "",
+  "related": [],
+  "unts": "999 UNTS 171",
+  "in_force": "1976-03-23"
+ },
+ {
+  "id": "tr-icescr",
+  "title": "العهد الدولي الخاص بالحقوق الاقتصادية والاجتماعية والثقافية",
+  "title_en": "International Covenant on Economic, Social and Cultural Rights",
+  "type": "treaty",
+  "publisher": "الجمعية العامة للأمم المتحدة",
+  "publisher_en": "UN General Assembly",
+  "date": "1966-12-16",
+  "year": 1966,
+  "url": "https://www.ohchr.org/AR/ProfessionalInterest/Pages/CESCR.aspx",
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "lang_orig": "",
+  "symbol": "",
+  "sections": [
+   [
+    "standards",
+    "المعاهدات والاتفاقيات"
+   ]
+  ],
+  "rights": [
+   "work",
+   "health",
+   "education",
+   "livelihood",
+   "environment"
+  ],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "scope": "global",
+  "pdf": "",
+  "summary": "",
+  "related": [],
+  "unts": "993 UNTS 3",
+  "in_force": "1976-01-03"
+ },
+ {
+  "id": "tr-icerd",
+  "title": "الاتفاقية الدولية للقضاء على جميع أشكال التمييز العنصري",
+  "title_en": "International Convention on the Elimination of All Forms of Racial Discrimination",
+  "type": "treaty",
+  "publisher": "الجمعية العامة للأمم المتحدة",
+  "publisher_en": "UN General Assembly",
+  "date": "1965-12-21",
+  "year": 1965,
+  "url": "https://www.ohchr.org/AR/ProfessionalInterest/Pages/CERD.aspx",
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "lang_orig": "",
+  "symbol": "",
+  "sections": [
+   [
+    "standards",
+    "المعاهدات والاتفاقيات"
+   ]
+  ],
+  "rights": [
+   "racism",
+   "migration",
+   "expression"
+  ],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "scope": "global",
+  "pdf": "",
+  "summary": "",
+  "related": [],
+  "unts": "660 UNTS 195",
+  "in_force": "1969-01-04"
+ },
+ {
+  "id": "tr-cedaw",
+  "title": "اتفاقية القضاء على جميع أشكال التمييز ضد المرأة",
+  "title_en": "Convention on the Elimination of All Forms of Discrimination against Women",
+  "type": "treaty",
+  "publisher": "الجمعية العامة للأمم المتحدة",
+  "publisher_en": "UN General Assembly",
+  "date": "1979-12-18",
+  "year": 1979,
+  "url": "https://www.ohchr.org/AR/ProfessionalInterest/Pages/CEDAW.aspx",
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "lang_orig": "",
+  "symbol": "",
+  "sections": [
+   [
+    "standards",
+    "المعاهدات والاتفاقيات"
+   ]
+  ],
+  "rights": [
+   "women",
+   "participation"
+  ],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "scope": "global",
+  "pdf": "",
+  "summary": "",
+  "related": [],
+  "unts": "1249 UNTS 13",
+  "in_force": "1981-09-03"
+ },
+ {
+  "id": "tr-cat",
+  "title": "اتفاقية مناهضة التعذيب وغيره من ضروب المعاملة أو العقوبة القاسية أو اللاإنسانية أو المهينة",
+  "title_en": "Convention against Torture",
+  "type": "treaty",
+  "publisher": "الجمعية العامة للأمم المتحدة",
+  "publisher_en": "UN General Assembly",
+  "date": "1984-12-10",
+  "year": 1984,
+  "url": "https://www.ohchr.org/AR/ProfessionalInterest/Pages/CAT.aspx",
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "lang_orig": "",
+  "symbol": "",
+  "sections": [
+   [
+    "standards",
+    "المعاهدات والاتفاقيات"
+   ]
+  ],
+  "rights": [
+   "torture",
+   "detention",
+   "migration",
+   "tj"
+  ],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "scope": "global",
+  "pdf": "",
+  "summary": "",
+  "related": [],
+  "unts": "1465 UNTS 85",
+  "in_force": "1987-06-26"
+ },
+ {
+  "id": "tr-crc",
+  "title": "اتفاقية حقوق الطفل",
+  "title_en": "Convention on the Rights of the Child",
+  "type": "treaty",
+  "publisher": "الجمعية العامة للأمم المتحدة",
+  "publisher_en": "UN General Assembly",
+  "date": "1989-11-20",
+  "year": 1989,
+  "url": "https://www.ohchr.org/AR/ProfessionalInterest/Pages/CRC.aspx",
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "lang_orig": "",
+  "symbol": "",
+  "sections": [
+   [
+    "standards",
+    "المعاهدات والاتفاقيات"
+   ]
+  ],
+  "rights": [
+   "children",
+   "education"
+  ],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "scope": "global",
+  "pdf": "",
+  "summary": "",
+  "related": [],
+  "unts": "1577 UNTS 3",
+  "in_force": "1990-09-02"
+ },
+ {
+  "id": "tr-icmw",
+  "title": "الاتفاقية الدولية لحماية حقوق جميع العمال المهاجرين وأفراد أسرهم",
+  "title_en": "International Convention on the Protection of the Rights of All Migrant Workers",
+  "type": "treaty",
+  "publisher": "الجمعية العامة للأمم المتحدة",
+  "publisher_en": "UN General Assembly",
+  "date": "1990-12-18",
+  "year": 1990,
+  "url": "https://www.ohchr.org/AR/ProfessionalInterest/Pages/CMW.aspx",
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "lang_orig": "",
+  "symbol": "",
+  "sections": [
+   [
+    "standards",
+    "المعاهدات والاتفاقيات"
+   ]
+  ],
+  "rights": [
+   "migration",
+   "work"
+  ],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "scope": "global",
+  "pdf": "",
+  "summary": "",
+  "related": [],
+  "unts": "2220 UNTS 3",
+  "in_force": "2003-07-01"
+ },
+ {
+  "id": "tr-crpd",
+  "title": "اتفاقية حقوق الأشخاص ذوي الإعاقة",
+  "title_en": "Convention on the Rights of Persons with Disabilities",
+  "type": "treaty",
+  "publisher": "الجمعية العامة للأمم المتحدة",
+  "publisher_en": "UN General Assembly",
+  "date": "2006-12-13",
+  "year": 2006,
+  "url": "https://www.ohchr.org/AR/HRBodies/CRPD/Pages/ConventionRightsPersonsWithDisabilities.aspx",
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "lang_orig": "",
+  "symbol": "",
+  "sections": [
+   [
+    "standards",
+    "المعاهدات والاتفاقيات"
+   ]
+  ],
+  "rights": [
+   "disability"
+  ],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "scope": "global",
+  "pdf": "",
+  "summary": "",
+  "related": [],
+  "unts": "2515 UNTS 3",
+  "in_force": "2008-05-03"
+ },
+ {
+  "id": "tr-cped",
+  "title": "الاتفاقية الدولية لحماية جميع الأشخاص من الاختفاء القسري",
+  "title_en": "International Convention for the Protection of All Persons from Enforced Disappearance",
+  "type": "treaty",
+  "publisher": "الجمعية العامة للأمم المتحدة",
+  "publisher_en": "UN General Assembly",
+  "date": "2006-12-20",
+  "year": 2006,
+  "url": "https://www.ohchr.org/AR/HRBodies/CED/Pages/ConventionCED.aspx",
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "lang_orig": "",
+  "symbol": "",
+  "sections": [
+   [
+    "standards",
+    "المعاهدات والاتفاقيات"
+   ]
+  ],
+  "rights": [
+   "disappearance",
+   "tj"
+  ],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "scope": "global",
+  "pdf": "",
+  "summary": "",
+  "related": [],
+  "unts": "2716 UNTS 3",
+  "in_force": "2010-12-23"
+ },
+ {
+  "id": "tr-opcat",
+  "title": "البروتوكول الاختياري لاتفاقية مناهضة التعذيب",
+  "title_en": "Optional Protocol to the Convention against Torture",
+  "type": "protocol",
+  "publisher": "الجمعية العامة للأمم المتحدة",
+  "publisher_en": "UN General Assembly",
+  "date": "2002-12-18",
+  "year": 2002,
+  "url": "https://www.ohchr.org/AR/ProfessionalInterest/Pages/OPCAT.aspx",
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "lang_orig": "",
+  "symbol": "",
+  "sections": [
+   [
+    "standards",
+    "البروتوكولات الاختيارية"
+   ]
+  ],
+  "rights": [
+   "torture",
+   "detention"
+  ],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "scope": "global",
+  "pdf": "",
+  "summary": "",
+  "related": [],
+  "unts": "2375 UNTS 237",
+  "in_force": "2006-06-22"
+ },
+ {
+  "id": "tr-op1-iccpr",
+  "title": "البروتوكول الاختياري الأول للعهد الدولي الخاص بالحقوق المدنية والسياسية (البلاغات)",
+  "title_en": "First Optional Protocol to the ICCPR",
+  "type": "protocol",
+  "publisher": "الجمعية العامة للأمم المتحدة",
+  "publisher_en": "UN General Assembly",
+  "date": "1966-12-16",
+  "year": 1966,
+  "url": "https://www.ohchr.org/AR/ProfessionalInterest/Pages/OPCCPR1.aspx",
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "lang_orig": "",
+  "symbol": "",
+  "sections": [
+   [
+    "standards",
+    "البروتوكولات الاختيارية"
+   ]
+  ],
+  "rights": [
+   "expression",
+   "detention",
+   "fairtrial"
+  ],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "scope": "global",
+  "pdf": "",
+  "summary": "",
+  "related": [],
+  "unts": "999 UNTS 171",
+  "in_force": "1976-03-23"
+ },
+ {
+  "id": "tr-op2-iccpr",
+  "title": "البروتوكول الاختياري الثاني للعهد الدولي (إلغاء عقوبة الإعدام)",
+  "title_en": "Second Optional Protocol to the ICCPR",
+  "type": "protocol",
+  "publisher": "الجمعية العامة للأمم المتحدة",
+  "publisher_en": "UN General Assembly",
+  "date": "1989-12-15",
+  "year": 1989,
+  "url": "https://www.ohchr.org/AR/ProfessionalInterest/Pages/2ndOPCCPR.aspx",
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "lang_orig": "",
+  "symbol": "",
+  "sections": [
+   [
+    "standards",
+    "البروتوكولات الاختيارية"
+   ]
+  ],
+  "rights": [
+   "life"
+  ],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "scope": "global",
+  "pdf": "",
+  "summary": "",
+  "related": [],
+  "unts": "1642 UNTS 414",
+  "in_force": "1991-07-11"
+ },
+ {
+  "id": "tr-op-cedaw",
+  "title": "البروتوكول الاختياري لاتفاقية القضاء على التمييز ضد المرأة",
+  "title_en": "Optional Protocol to CEDAW",
+  "type": "protocol",
+  "publisher": "الجمعية العامة للأمم المتحدة",
+  "publisher_en": "UN General Assembly",
+  "date": "1999-10-06",
+  "year": 1999,
+  "url": "https://www.ohchr.org/AR/ProfessionalInterest/Pages/OPCEDAW.aspx",
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "lang_orig": "",
+  "symbol": "",
+  "sections": [
+   [
+    "standards",
+    "البروتوكولات الاختيارية"
+   ]
+  ],
+  "rights": [
+   "women"
+  ],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "scope": "global",
+  "pdf": "",
+  "summary": "",
+  "related": [],
+  "unts": "2131 UNTS 83",
+  "in_force": "2000-12-22"
+ },
+ {
+  "id": "tr-achpr",
+  "title": "الميثاق الإفريقي لحقوق الإنسان والشعوب",
+  "title_en": "African Charter on Human and Peoples' Rights",
+  "type": "charter",
+  "publisher": "منظمة الوحدة الإفريقية / الاتحاد الإفريقي",
+  "date": "1981-06-27",
+  "year": 1981,
+  "url": "https://achpr.au.int/ar",
+  "sections": [
+   [
+    "regional",
+    "المنظومة الإفريقية"
+   ]
+  ],
+  "rights": [
+   "expression",
+   "assembly",
+   "defenders",
+   "torture",
+   "detention",
+   "fairtrial",
+   "life",
+   "disappearance",
+   "terrorism",
+   "participation",
+   "women",
+   "children",
+   "migration",
+   "racism",
+   "religion",
+   "privacy",
+   "health",
+   "education",
+   "work",
+   "livelihood",
+   "disability",
+   "tj",
+   "business",
+   "environment",
+   "sogi"
+  ],
+  "note": "تونس طرف فيه منذ 16 مارس 1983.",
+  "scope": "africa",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "langs": [],
+  "symbol": "",
+  "pdf": "",
+  "summary": "",
+  "related": [],
+  "unts": "1520 UNTS 217",
+  "in_force": "1986-10-21"
+ },
+ {
+  "id": "tr-maputo",
+  "title": "بروتوكول الميثاق الإفريقي بشأن حقوق المرأة في إفريقيا (بروتوكول مابوتو)",
+  "title_en": "Maputo Protocol",
+  "type": "charter",
+  "publisher": "الاتحاد الإفريقي",
+  "date": "2003-07-11",
+  "year": 2003,
+  "url": "https://au.int/en/treaties",
+  "sections": [
+   [
+    "regional",
+    "المنظومة الإفريقية"
+   ]
+  ],
+  "rights": [
+   "women",
+   "health"
+  ],
+  "note": "تونس طرف فيه منذ 2018.",
+  "scope": "africa",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "langs": [],
+  "symbol": "",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "tr-afcourt-protocol",
+  "title": "بروتوكول الميثاق الإفريقي بشأن إنشاء المحكمة الإفريقية لحقوق الإنسان والشعوب",
+  "title_en": "Protocol on the African Court",
+  "type": "charter",
+  "publisher": "منظمة الوحدة الإفريقية / الاتحاد الإفريقي",
+  "date": "1998-06-10",
+  "year": 1998,
+  "url": "https://au.int/en/treaties",
+  "sections": [
+   [
+    "regional",
+    "المنظومة الإفريقية"
+   ]
+  ],
+  "rights": [
+   "fairtrial",
+   "tj"
+  ],
+  "note": "تونس طرف فيه منذ 5 أكتوبر 2007. سحبت إعلان المادة 34(6) بإخطار في 7 مارس 2025 نافذ منذ 7 مارس 2026.",
+  "scope": "africa",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "langs": [],
+  "symbol": "",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "tr-arab-charter",
+  "title": "الميثاق العربي لحقوق الإنسان",
+  "title_en": "Arab Charter on Human Rights",
+  "type": "charter",
+  "publisher": "جامعة الدول العربية",
+  "date": "2004-05-23",
+  "year": 2004,
+  "url": "https://hrlibrary.umn.edu/arab/",
+  "sections": [
+   [
+    "regional",
+    "المنظومة العربية"
+   ]
+  ],
+  "rights": [
+   "expression",
+   "assembly",
+   "defenders",
+   "torture",
+   "detention",
+   "fairtrial",
+   "life",
+   "disappearance",
+   "terrorism",
+   "participation",
+   "women",
+   "children",
+   "migration",
+   "racism",
+   "religion",
+   "privacy",
+   "health",
+   "education",
+   "work",
+   "livelihood",
+   "disability",
+   "tj",
+   "business",
+   "environment",
+   "sogi"
+  ],
+  "note": "اعتُمد في قمة تونس 2004 ودخل حيّز النفاذ سنة 2008. لم نتحقق بعد من تصديق تونس عليه.",
+  "scope": "arab",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "langs": [],
+  "symbol": "",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "tr-refugee",
+  "title": "الاتفاقية الخاصة بوضع اللاجئين (1951) وبروتوكولها (1967)",
+  "title_en": "Convention relating to the Status of Refugees",
+  "type": "treaty",
+  "publisher": "الأمم المتحدة",
+  "date": "1951-07-28",
+  "year": 1951,
+  "url": "https://www.refworld.org/",
+  "sections": [
+   [
+    "standards",
+    "المعاهدات والاتفاقيات"
+   ]
+  ],
+  "rights": [
+   "migration"
+  ],
+  "note": "",
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "langs": [],
+  "symbol": "",
+  "pdf": "",
+  "summary": "",
+  "related": [],
+  "unts": "189 UNTS 137",
+  "in_force": "1954-04-22"
+ },
+ {
+  "id": "gc-ccpr15",
+  "title": "وضع الأجانب بموجب العهد",
+  "type": "gc",
+  "body": "CCPR",
+  "number": "15",
+  "publisher": "اللجنة المعنية بحقوق الإنسان",
+  "publisher_en": "UN Human Rights Committee",
+  "date": "1986",
+  "year": 1986,
+  "url": "https://tbinternet.ohchr.org/_layouts/15/treatybodyexternal/TBSearch.aspx?Lang=ar&DocTypeID=11&TreatyID=8",
+  "symbol": "",
+  "status": "",
+  "articles": [],
+  "langs": [],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "migration"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-ccpr16",
+  "title": "الحق في الخصوصية (المادة 17)",
+  "type": "gc",
+  "body": "CCPR",
+  "number": "16",
+  "publisher": "اللجنة المعنية بحقوق الإنسان",
+  "publisher_en": "UN Human Rights Committee",
+  "date": "1988",
+  "year": 1988,
+  "url": "https://tbinternet.ohchr.org/_layouts/15/treatybodyexternal/TBSearch.aspx?Lang=ar&DocTypeID=11&TreatyID=8",
+  "symbol": "",
+  "status": "",
+  "articles": [
+   "17"
+  ],
+  "langs": [],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "privacy",
+   "sogi"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-ccpr18",
+  "title": "عدم التمييز",
+  "type": "gc",
+  "body": "CCPR",
+  "number": "18",
+  "publisher": "اللجنة المعنية بحقوق الإنسان",
+  "publisher_en": "UN Human Rights Committee",
+  "date": "1989",
+  "year": 1989,
+  "url": "https://docs.un.org/ar/CCPR/C/21/Rev.1/Add.1",
+  "symbol": "CCPR/C/21/Rev.1/Add.1",
+  "status": "",
+  "articles": [],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "racism"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-ccpr20",
+  "title": "حظر التعذيب وسوء المعاملة (المادة 7)",
+  "type": "gc",
+  "body": "CCPR",
+  "number": "20",
+  "publisher": "اللجنة المعنية بحقوق الإنسان",
+  "publisher_en": "UN Human Rights Committee",
+  "date": "1992",
+  "year": 1992,
+  "url": "https://tbinternet.ohchr.org/_layouts/15/treatybodyexternal/TBSearch.aspx?Lang=ar&DocTypeID=11&TreatyID=8",
+  "symbol": "",
+  "status": "",
+  "articles": [
+   "7"
+  ],
+  "langs": [],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "torture"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-ccpr21",
+  "title": "المعاملة الإنسانية للمحرومين من حريتهم (المادة 10)",
+  "type": "gc",
+  "body": "CCPR",
+  "number": "21",
+  "publisher": "اللجنة المعنية بحقوق الإنسان",
+  "publisher_en": "UN Human Rights Committee",
+  "date": "1992",
+  "year": 1992,
+  "url": "https://tbinternet.ohchr.org/_layouts/15/treatybodyexternal/TBSearch.aspx?Lang=ar&DocTypeID=11&TreatyID=8",
+  "symbol": "",
+  "status": "",
+  "articles": [
+   "10"
+  ],
+  "langs": [],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "torture",
+   "detention"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-ccpr22",
+  "title": "حرية الفكر والوجدان والدين (المادة 18)",
+  "type": "gc",
+  "body": "CCPR",
+  "number": "22",
+  "publisher": "اللجنة المعنية بحقوق الإنسان",
+  "publisher_en": "UN Human Rights Committee",
+  "date": "1993",
+  "year": 1993,
+  "url": "https://docs.un.org/ar/CCPR/C/21/Rev.1/Add.4",
+  "symbol": "CCPR/C/21/Rev.1/Add.4",
+  "status": "",
+  "articles": [
+   "18"
+  ],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "expression",
+   "religion"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-ccpr25",
+  "title": "المشاركة في الشؤون العامة والحق في التصويت (المادة 25)",
+  "type": "gc",
+  "body": "CCPR",
+  "number": "25",
+  "publisher": "اللجنة المعنية بحقوق الإنسان",
+  "publisher_en": "UN Human Rights Committee",
+  "date": "1996",
+  "year": 1996,
+  "url": "https://docs.un.org/ar/CCPR/C/21/Rev.1/Add.7",
+  "symbol": "CCPR/C/21/Rev.1/Add.7",
+  "status": "",
+  "articles": [
+   "25"
+  ],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "participation"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-ccpr27",
+  "title": "حرية التنقل (المادة 12)",
+  "type": "gc",
+  "body": "CCPR",
+  "number": "27",
+  "publisher": "اللجنة المعنية بحقوق الإنسان",
+  "publisher_en": "UN Human Rights Committee",
+  "date": "1999",
+  "year": 1999,
+  "url": "https://docs.un.org/ar/CCPR/C/21/Rev.1/Add.9",
+  "symbol": "CCPR/C/21/Rev.1/Add.9",
+  "status": "",
+  "articles": [
+   "12"
+  ],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "migration"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-ccpr28",
+  "title": "المساواة في الحقوق بين الرجال والنساء (المادة 3)",
+  "type": "gc",
+  "body": "CCPR",
+  "number": "28",
+  "publisher": "اللجنة المعنية بحقوق الإنسان",
+  "publisher_en": "UN Human Rights Committee",
+  "date": "2000",
+  "year": 2000,
+  "url": "https://docs.un.org/ar/CCPR/C/21/Rev.1/Add.10",
+  "symbol": "CCPR/C/21/Rev.1/Add.10",
+  "status": "",
+  "articles": [
+   "3"
+  ],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "women"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-ccpr29",
+  "title": "حالات الطوارئ وعدم التقيد (المادة 4)",
+  "type": "gc",
+  "body": "CCPR",
+  "number": "29",
+  "publisher": "اللجنة المعنية بحقوق الإنسان",
+  "publisher_en": "UN Human Rights Committee",
+  "date": "2001",
+  "year": 2001,
+  "url": "https://docs.un.org/ar/CCPR/C/21/Rev.1/Add.11",
+  "symbol": "CCPR/C/21/Rev.1/Add.11",
+  "status": "",
+  "articles": [
+   "4"
+  ],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "fairtrial",
+   "terrorism"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-ccpr31",
+  "title": "طبيعة الالتزام القانوني العام المفروض على الدول الأطراف",
+  "type": "gc",
+  "body": "CCPR",
+  "number": "31",
+  "publisher": "اللجنة المعنية بحقوق الإنسان",
+  "publisher_en": "UN Human Rights Committee",
+  "date": "2004",
+  "year": 2004,
+  "url": "https://docs.un.org/ar/CCPR/C/21/Rev.1/Add.13",
+  "symbol": "CCPR/C/21/Rev.1/Add.13",
+  "status": "",
+  "articles": [],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "tj"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-ccpr32",
+  "title": "المساواة أمام المحاكم والحق في محاكمة عادلة (المادة 14)",
+  "type": "gc",
+  "body": "CCPR",
+  "number": "32",
+  "publisher": "اللجنة المعنية بحقوق الإنسان",
+  "publisher_en": "UN Human Rights Committee",
+  "date": "2007",
+  "year": 2007,
+  "url": "https://docs.un.org/ar/CCPR/C/GC/32",
+  "symbol": "CCPR/C/GC/32",
+  "status": "",
+  "articles": [
+   "14"
+  ],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "fairtrial"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-ccpr33",
+  "title": "التزامات الدول بموجب البروتوكول الاختياري",
+  "type": "gc",
+  "body": "CCPR",
+  "number": "33",
+  "publisher": "اللجنة المعنية بحقوق الإنسان",
+  "publisher_en": "UN Human Rights Committee",
+  "date": "2008",
+  "year": 2008,
+  "url": "https://docs.un.org/ar/CCPR/C/GC/33",
+  "symbol": "CCPR/C/GC/33",
+  "status": "",
+  "articles": [],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-ccpr34",
+  "title": "حرية الرأي والتعبير (المادة 19)",
+  "type": "gc",
+  "body": "CCPR",
+  "number": "34",
+  "publisher": "اللجنة المعنية بحقوق الإنسان",
+  "publisher_en": "UN Human Rights Committee",
+  "date": "2011",
+  "year": 2011,
+  "url": "https://docs.un.org/ar/CCPR/C/GC/34",
+  "symbol": "CCPR/C/GC/34",
+  "status": "",
+  "articles": [
+   "19"
+  ],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "expression",
+   "defenders",
+   "privacy"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-ccpr35",
+  "title": "الحرية والأمان على الشخص (المادة 9)",
+  "type": "gc",
+  "body": "CCPR",
+  "number": "35",
+  "publisher": "اللجنة المعنية بحقوق الإنسان",
+  "publisher_en": "UN Human Rights Committee",
+  "date": "2014",
+  "year": 2014,
+  "url": "https://docs.un.org/ar/CCPR/C/GC/35",
+  "symbol": "CCPR/C/GC/35",
+  "status": "",
+  "articles": [
+   "9"
+  ],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "detention",
+   "terrorism"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-ccpr36",
+  "title": "الحق في الحياة (المادة 6)",
+  "type": "gc",
+  "body": "CCPR",
+  "number": "36",
+  "publisher": "اللجنة المعنية بحقوق الإنسان",
+  "publisher_en": "UN Human Rights Committee",
+  "date": "2018",
+  "year": 2018,
+  "url": "https://docs.un.org/ar/CCPR/C/GC/36",
+  "symbol": "CCPR/C/GC/36",
+  "status": "",
+  "articles": [
+   "6"
+  ],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "life"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-ccpr37",
+  "title": "الحق في التجمع السلمي (المادة 21)",
+  "type": "gc",
+  "body": "CCPR",
+  "number": "37",
+  "publisher": "اللجنة المعنية بحقوق الإنسان",
+  "publisher_en": "UN Human Rights Committee",
+  "date": "2020",
+  "year": 2020,
+  "url": "https://docs.un.org/ar/CCPR/C/GC/37",
+  "symbol": "CCPR/C/GC/37",
+  "status": "",
+  "articles": [
+   "21"
+  ],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "assembly",
+   "defenders"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-ccpr38",
+  "title": "حرية تكوين الجمعيات (المادة 22)",
+  "type": "gc",
+  "body": "CCPR",
+  "number": "38",
+  "publisher": "اللجنة المعنية بحقوق الإنسان",
+  "publisher_en": "UN Human Rights Committee",
+  "date": "2026",
+  "year": 2026,
+  "url": "https://tbinternet.ohchr.org/_layouts/15/treatybodyexternal/TBSearch.aspx?Lang=ar&DocTypeID=11&TreatyID=8",
+  "symbol": "",
+  "status": "مشروع: أُنجزت القراءة الأولى في مارس 2026",
+  "articles": [
+   "22"
+  ],
+  "langs": [],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "assembly"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-cescr3",
+  "title": "طبيعة التزامات الدول الأطراف (المادة 2-1)",
+  "type": "gc",
+  "body": "CESCR",
+  "number": "3",
+  "publisher": "لجنة الحقوق الاقتصادية والاجتماعية والثقافية",
+  "publisher_en": "UN Committee on Economic, Social and Cultural Rights",
+  "date": "1990",
+  "year": 1990,
+  "url": "https://tbinternet.ohchr.org/_layouts/15/treatybodyexternal/TBSearch.aspx?Lang=ar&DocTypeID=11&TreatyID=9",
+  "symbol": "",
+  "status": "",
+  "articles": [
+   "2-1"
+  ],
+  "langs": [],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "livelihood"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-cescr4",
+  "title": "الحق في السكن الملائم",
+  "type": "gc",
+  "body": "CESCR",
+  "number": "4",
+  "publisher": "لجنة الحقوق الاقتصادية والاجتماعية والثقافية",
+  "publisher_en": "UN Committee on Economic, Social and Cultural Rights",
+  "date": "1991",
+  "year": 1991,
+  "url": "https://tbinternet.ohchr.org/_layouts/15/treatybodyexternal/TBSearch.aspx?Lang=ar&DocTypeID=11&TreatyID=9",
+  "symbol": "",
+  "status": "",
+  "articles": [],
+  "langs": [],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "livelihood"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-cescr7",
+  "title": "الإخلاء القسري",
+  "type": "gc",
+  "body": "CESCR",
+  "number": "7",
+  "publisher": "لجنة الحقوق الاقتصادية والاجتماعية والثقافية",
+  "publisher_en": "UN Committee on Economic, Social and Cultural Rights",
+  "date": "1997",
+  "year": 1997,
+  "url": "https://tbinternet.ohchr.org/_layouts/15/treatybodyexternal/TBSearch.aspx?Lang=ar&DocTypeID=11&TreatyID=9",
+  "symbol": "",
+  "status": "",
+  "articles": [],
+  "langs": [],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "livelihood"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-cescr12",
+  "title": "الحق في الغذاء الكافي",
+  "type": "gc",
+  "body": "CESCR",
+  "number": "12",
+  "publisher": "لجنة الحقوق الاقتصادية والاجتماعية والثقافية",
+  "publisher_en": "UN Committee on Economic, Social and Cultural Rights",
+  "date": "1999",
+  "year": 1999,
+  "url": "https://docs.un.org/ar/E/C.12/1999/5",
+  "symbol": "E/C.12/1999/5",
+  "status": "",
+  "articles": [],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "livelihood"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-cescr13",
+  "title": "الحق في التعليم",
+  "type": "gc",
+  "body": "CESCR",
+  "number": "13",
+  "publisher": "لجنة الحقوق الاقتصادية والاجتماعية والثقافية",
+  "publisher_en": "UN Committee on Economic, Social and Cultural Rights",
+  "date": "1999",
+  "year": 1999,
+  "url": "https://docs.un.org/ar/E/C.12/1999/10",
+  "symbol": "E/C.12/1999/10",
+  "status": "",
+  "articles": [],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "education"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-cescr14",
+  "title": "الحق في أعلى مستوى من الصحة يمكن بلوغه",
+  "type": "gc",
+  "body": "CESCR",
+  "number": "14",
+  "publisher": "لجنة الحقوق الاقتصادية والاجتماعية والثقافية",
+  "publisher_en": "UN Committee on Economic, Social and Cultural Rights",
+  "date": "2000",
+  "year": 2000,
+  "url": "https://docs.un.org/ar/E/C.12/2000/4",
+  "symbol": "E/C.12/2000/4",
+  "status": "",
+  "articles": [],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "health"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-cescr15",
+  "title": "الحق في الماء",
+  "type": "gc",
+  "body": "CESCR",
+  "number": "15",
+  "publisher": "لجنة الحقوق الاقتصادية والاجتماعية والثقافية",
+  "publisher_en": "UN Committee on Economic, Social and Cultural Rights",
+  "date": "2002",
+  "year": 2002,
+  "url": "https://docs.un.org/ar/E/C.12/2002/11",
+  "symbol": "E/C.12/2002/11",
+  "status": "",
+  "articles": [],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "livelihood"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-cescr18",
+  "title": "الحق في العمل",
+  "type": "gc",
+  "body": "CESCR",
+  "number": "18",
+  "publisher": "لجنة الحقوق الاقتصادية والاجتماعية والثقافية",
+  "publisher_en": "UN Committee on Economic, Social and Cultural Rights",
+  "date": "2005",
+  "year": 2005,
+  "url": "https://docs.un.org/ar/E/C.12/GC/18",
+  "symbol": "E/C.12/GC/18",
+  "status": "",
+  "articles": [],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "work"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-cescr19",
+  "title": "الحق في الضمان الاجتماعي",
+  "type": "gc",
+  "body": "CESCR",
+  "number": "19",
+  "publisher": "لجنة الحقوق الاقتصادية والاجتماعية والثقافية",
+  "publisher_en": "UN Committee on Economic, Social and Cultural Rights",
+  "date": "2007",
+  "year": 2007,
+  "url": "https://docs.un.org/ar/E/C.12/GC/19",
+  "symbol": "E/C.12/GC/19",
+  "status": "",
+  "articles": [],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "work"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-cescr20",
+  "title": "عدم التمييز في الحقوق الاقتصادية والاجتماعية والثقافية",
+  "type": "gc",
+  "body": "CESCR",
+  "number": "20",
+  "publisher": "لجنة الحقوق الاقتصادية والاجتماعية والثقافية",
+  "publisher_en": "UN Committee on Economic, Social and Cultural Rights",
+  "date": "2009",
+  "year": 2009,
+  "url": "https://docs.un.org/ar/E/C.12/GC/20",
+  "symbol": "E/C.12/GC/20",
+  "status": "",
+  "articles": [],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "racism",
+   "sogi"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-cescr22",
+  "title": "الحق في الصحة الجنسية والإنجابية",
+  "type": "gc",
+  "body": "CESCR",
+  "number": "22",
+  "publisher": "لجنة الحقوق الاقتصادية والاجتماعية والثقافية",
+  "publisher_en": "UN Committee on Economic, Social and Cultural Rights",
+  "date": "2016",
+  "year": 2016,
+  "url": "https://docs.un.org/ar/E/C.12/GC/22",
+  "symbol": "E/C.12/GC/22",
+  "status": "",
+  "articles": [],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "health"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-cescr23",
+  "title": "الحق في ظروف عمل عادلة ومرضية",
+  "type": "gc",
+  "body": "CESCR",
+  "number": "23",
+  "publisher": "لجنة الحقوق الاقتصادية والاجتماعية والثقافية",
+  "publisher_en": "UN Committee on Economic, Social and Cultural Rights",
+  "date": "2016",
+  "year": 2016,
+  "url": "https://docs.un.org/ar/E/C.12/GC/23",
+  "symbol": "E/C.12/GC/23",
+  "status": "",
+  "articles": [],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "work"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-cescr24",
+  "title": "التزامات الدول في سياق الأنشطة التجارية",
+  "type": "gc",
+  "body": "CESCR",
+  "number": "24",
+  "publisher": "لجنة الحقوق الاقتصادية والاجتماعية والثقافية",
+  "publisher_en": "UN Committee on Economic, Social and Cultural Rights",
+  "date": "2017",
+  "year": 2017,
+  "url": "https://docs.un.org/ar/E/C.12/GC/24",
+  "symbol": "E/C.12/GC/24",
+  "status": "",
+  "articles": [],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "business"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-cescr26",
+  "title": "الأراضي والحقوق الاقتصادية والاجتماعية والثقافية",
+  "type": "gc",
+  "body": "CESCR",
+  "number": "26",
+  "publisher": "لجنة الحقوق الاقتصادية والاجتماعية والثقافية",
+  "publisher_en": "UN Committee on Economic, Social and Cultural Rights",
+  "date": "2022",
+  "year": 2022,
+  "url": "https://docs.un.org/ar/E/C.12/GC/26",
+  "symbol": "E/C.12/GC/26",
+  "status": "",
+  "articles": [],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "livelihood"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-cescr27",
+  "title": "الحقوق الاقتصادية والاجتماعية والثقافية والبعد البيئي للتنمية المستدامة",
+  "type": "gc",
+  "body": "CESCR",
+  "number": "27",
+  "publisher": "لجنة الحقوق الاقتصادية والاجتماعية والثقافية",
+  "publisher_en": "UN Committee on Economic, Social and Cultural Rights",
+  "date": "2025",
+  "year": 2025,
+  "url": "https://tbinternet.ohchr.org/_layouts/15/treatybodyexternal/TBSearch.aspx?Lang=ar&DocTypeID=11&TreatyID=9",
+  "symbol": "",
+  "status": "",
+  "articles": [],
+  "langs": [],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "environment"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-cerd30",
+  "title": "التمييز ضد غير المواطنين",
+  "type": "gc",
+  "body": "CERD",
+  "number": "30",
+  "publisher": "لجنة القضاء على التمييز العنصري",
+  "publisher_en": "UN Committee on the Elimination of Racial Discrimination",
+  "date": "2004",
+  "year": 2004,
+  "url": "https://tbinternet.ohchr.org/_layouts/15/treatybodyexternal/TBSearch.aspx?Lang=ar&DocTypeID=11&TreatyID=6",
+  "symbol": "",
+  "status": "",
+  "articles": [],
+  "langs": [],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "migration",
+   "racism"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-cerd31",
+  "title": "منع التمييز العنصري في إدارة نظام العدالة الجنائية",
+  "type": "gc",
+  "body": "CERD",
+  "number": "31",
+  "publisher": "لجنة القضاء على التمييز العنصري",
+  "publisher_en": "UN Committee on the Elimination of Racial Discrimination",
+  "date": "2005",
+  "year": 2005,
+  "url": "https://tbinternet.ohchr.org/_layouts/15/treatybodyexternal/TBSearch.aspx?Lang=ar&DocTypeID=11&TreatyID=6",
+  "symbol": "",
+  "status": "",
+  "articles": [],
+  "langs": [],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-cerd32",
+  "title": "معنى التدابير الخاصة ونطاقها",
+  "type": "gc",
+  "body": "CERD",
+  "number": "32",
+  "publisher": "لجنة القضاء على التمييز العنصري",
+  "publisher_en": "UN Committee on the Elimination of Racial Discrimination",
+  "date": "2009",
+  "year": 2009,
+  "url": "https://docs.un.org/ar/CERD/C/GC/32",
+  "symbol": "CERD/C/GC/32",
+  "status": "",
+  "articles": [],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "racism"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-cerd34",
+  "title": "التمييز العنصري ضد المنحدرين من أصل أفريقي",
+  "type": "gc",
+  "body": "CERD",
+  "number": "34",
+  "publisher": "لجنة القضاء على التمييز العنصري",
+  "publisher_en": "UN Committee on the Elimination of Racial Discrimination",
+  "date": "2011",
+  "year": 2011,
+  "url": "https://docs.un.org/ar/CERD/C/GC/34",
+  "symbol": "CERD/C/GC/34",
+  "status": "",
+  "articles": [],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "racism"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-cerd35",
+  "title": "مكافحة خطاب الكراهية العنصرية",
+  "type": "gc",
+  "body": "CERD",
+  "number": "35",
+  "publisher": "لجنة القضاء على التمييز العنصري",
+  "publisher_en": "UN Committee on the Elimination of Racial Discrimination",
+  "date": "2013",
+  "year": 2013,
+  "url": "https://docs.un.org/ar/CERD/C/GC/35",
+  "symbol": "CERD/C/GC/35",
+  "status": "",
+  "articles": [],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "expression",
+   "racism"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-cerd36",
+  "title": "منع التنميط العنصري من قبل المكلفين بإنفاذ القانون",
+  "type": "gc",
+  "body": "CERD",
+  "number": "36",
+  "publisher": "لجنة القضاء على التمييز العنصري",
+  "publisher_en": "UN Committee on the Elimination of Racial Discrimination",
+  "date": "2020",
+  "year": 2020,
+  "url": "https://docs.un.org/ar/CERD/C/GC/36",
+  "symbol": "CERD/C/GC/36",
+  "status": "",
+  "articles": [],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "racism"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-cerd37",
+  "title": "المساواة والتحرر من التمييز العنصري في التمتع بالحق في الصحة",
+  "type": "gc",
+  "body": "CERD",
+  "number": "37",
+  "publisher": "لجنة القضاء على التمييز العنصري",
+  "publisher_en": "UN Committee on the Elimination of Racial Discrimination",
+  "date": "2024",
+  "year": 2024,
+  "url": "https://docs.un.org/ar/CERD/C/GC/37",
+  "symbol": "CERD/C/GC/37",
+  "status": "",
+  "articles": [],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "racism",
+   "health"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-cedaw19",
+  "title": "العنف ضد المرأة",
+  "type": "gc",
+  "body": "CEDAW",
+  "number": "19",
+  "publisher": "لجنة القضاء على التمييز ضد المرأة",
+  "publisher_en": "UN Committee on the Elimination of Discrimination against Women",
+  "date": "1992",
+  "year": 1992,
+  "url": "https://tbinternet.ohchr.org/_layouts/15/treatybodyexternal/TBSearch.aspx?Lang=ar&DocTypeID=11&TreatyID=3",
+  "symbol": "",
+  "status": "",
+  "articles": [],
+  "langs": [],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "women"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-cedaw21",
+  "title": "المساواة في الزواج والعلاقات الأسرية",
+  "type": "gc",
+  "body": "CEDAW",
+  "number": "21",
+  "publisher": "لجنة القضاء على التمييز ضد المرأة",
+  "publisher_en": "UN Committee on the Elimination of Discrimination against Women",
+  "date": "1994",
+  "year": 1994,
+  "url": "https://tbinternet.ohchr.org/_layouts/15/treatybodyexternal/TBSearch.aspx?Lang=ar&DocTypeID=11&TreatyID=3",
+  "symbol": "",
+  "status": "",
+  "articles": [],
+  "langs": [],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "women"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-cedaw23",
+  "title": "المرأة في الحياة السياسية والعامة",
+  "type": "gc",
+  "body": "CEDAW",
+  "number": "23",
+  "publisher": "لجنة القضاء على التمييز ضد المرأة",
+  "publisher_en": "UN Committee on the Elimination of Discrimination against Women",
+  "date": "1997",
+  "year": 1997,
+  "url": "https://tbinternet.ohchr.org/_layouts/15/treatybodyexternal/TBSearch.aspx?Lang=ar&DocTypeID=11&TreatyID=3",
+  "symbol": "",
+  "status": "",
+  "articles": [],
+  "langs": [],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "participation"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-cedaw24",
+  "title": "المرأة والصحة (المادة 12)",
+  "type": "gc",
+  "body": "CEDAW",
+  "number": "24",
+  "publisher": "لجنة القضاء على التمييز ضد المرأة",
+  "publisher_en": "UN Committee on the Elimination of Discrimination against Women",
+  "date": "1999",
+  "year": 1999,
+  "url": "https://tbinternet.ohchr.org/_layouts/15/treatybodyexternal/TBSearch.aspx?Lang=ar&DocTypeID=11&TreatyID=3",
+  "symbol": "",
+  "status": "",
+  "articles": [
+   "12"
+  ],
+  "langs": [],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "health"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-cedaw26",
+  "title": "العاملات المهاجرات",
+  "type": "gc",
+  "body": "CEDAW",
+  "number": "26",
+  "publisher": "لجنة القضاء على التمييز ضد المرأة",
+  "publisher_en": "UN Committee on the Elimination of Discrimination against Women",
+  "date": "2008",
+  "year": 2008,
+  "url": "https://tbinternet.ohchr.org/_layouts/15/treatybodyexternal/TBSearch.aspx?Lang=ar&DocTypeID=11&TreatyID=3",
+  "symbol": "",
+  "status": "",
+  "articles": [],
+  "langs": [],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "migration"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-cedaw28",
+  "title": "الالتزامات الأساسية للدول الأطراف (المادة 2)",
+  "type": "gc",
+  "body": "CEDAW",
+  "number": "28",
+  "publisher": "لجنة القضاء على التمييز ضد المرأة",
+  "publisher_en": "UN Committee on the Elimination of Discrimination against Women",
+  "date": "2010",
+  "year": 2010,
+  "url": "https://docs.un.org/ar/CEDAW/C/GC/28",
+  "symbol": "CEDAW/C/GC/28",
+  "status": "",
+  "articles": [
+   "2"
+  ],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "women"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-cedaw29",
+  "title": "العواقب الاقتصادية للزواج والعلاقات الأسرية وفسخها",
+  "type": "gc",
+  "body": "CEDAW",
+  "number": "29",
+  "publisher": "لجنة القضاء على التمييز ضد المرأة",
+  "publisher_en": "UN Committee on the Elimination of Discrimination against Women",
+  "date": "2013",
+  "year": 2013,
+  "url": "https://docs.un.org/ar/CEDAW/C/GC/29",
+  "symbol": "CEDAW/C/GC/29",
+  "status": "",
+  "articles": [],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "women"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-cedaw31",
+  "title": "الممارسات الضارة (توصية مشتركة مع لجنة حقوق الطفل، منقّحة 2019)",
+  "type": "gc",
+  "body": "CEDAW",
+  "number": "31 / CRC 18",
+  "publisher": "لجنة القضاء على التمييز ضد المرأة",
+  "publisher_en": "UN Committee on the Elimination of Discrimination against Women",
+  "date": "2014",
+  "year": 2014,
+  "url": "https://tbinternet.ohchr.org/_layouts/15/treatybodyexternal/TBSearch.aspx?Lang=ar&DocTypeID=11&TreatyID=3",
+  "symbol": "",
+  "status": "",
+  "articles": [],
+  "langs": [],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-cedaw33",
+  "title": "لجوء المرأة إلى العدالة",
+  "type": "gc",
+  "body": "CEDAW",
+  "number": "33",
+  "publisher": "لجنة القضاء على التمييز ضد المرأة",
+  "publisher_en": "UN Committee on the Elimination of Discrimination against Women",
+  "date": "2015",
+  "year": 2015,
+  "url": "https://docs.un.org/ar/CEDAW/C/GC/33",
+  "symbol": "CEDAW/C/GC/33",
+  "status": "",
+  "articles": [],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "women"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-cedaw35",
+  "title": "العنف الجنساني ضد المرأة (تحديث للتوصية 19)",
+  "type": "gc",
+  "body": "CEDAW",
+  "number": "35",
+  "publisher": "لجنة القضاء على التمييز ضد المرأة",
+  "publisher_en": "UN Committee on the Elimination of Discrimination against Women",
+  "date": "2017",
+  "year": 2017,
+  "url": "https://docs.un.org/ar/CEDAW/C/GC/35",
+  "symbol": "CEDAW/C/GC/35",
+  "status": "",
+  "articles": [],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "women"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-cedaw36",
+  "title": "حق الفتيات والنساء في التعليم",
+  "type": "gc",
+  "body": "CEDAW",
+  "number": "36",
+  "publisher": "لجنة القضاء على التمييز ضد المرأة",
+  "publisher_en": "UN Committee on the Elimination of Discrimination against Women",
+  "date": "2017",
+  "year": 2017,
+  "url": "https://docs.un.org/ar/CEDAW/C/GC/36",
+  "symbol": "CEDAW/C/GC/36",
+  "status": "",
+  "articles": [],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "education"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-cedaw37",
+  "title": "الأبعاد الجنسانية للحد من مخاطر الكوارث في سياق تغير المناخ",
+  "type": "gc",
+  "body": "CEDAW",
+  "number": "37",
+  "publisher": "لجنة القضاء على التمييز ضد المرأة",
+  "publisher_en": "UN Committee on the Elimination of Discrimination against Women",
+  "date": "2018",
+  "year": 2018,
+  "url": "https://docs.un.org/ar/CEDAW/C/GC/37",
+  "symbol": "CEDAW/C/GC/37",
+  "status": "",
+  "articles": [],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "environment"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-cedaw38",
+  "title": "الاتجار بالنساء والفتيات في سياق الهجرة العالمية",
+  "type": "gc",
+  "body": "CEDAW",
+  "number": "38",
+  "publisher": "لجنة القضاء على التمييز ضد المرأة",
+  "publisher_en": "UN Committee on the Elimination of Discrimination against Women",
+  "date": "2020",
+  "year": 2020,
+  "url": "https://docs.un.org/ar/CEDAW/C/GC/38",
+  "symbol": "CEDAW/C/GC/38",
+  "status": "",
+  "articles": [],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "migration"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-cedaw40",
+  "title": "التمثيل المتساوي والشامل للمرأة في نظم صنع القرار",
+  "type": "gc",
+  "body": "CEDAW",
+  "number": "40",
+  "publisher": "لجنة القضاء على التمييز ضد المرأة",
+  "publisher_en": "UN Committee on the Elimination of Discrimination against Women",
+  "date": "2024",
+  "year": 2024,
+  "url": "https://docs.un.org/ar/CEDAW/C/GC/40",
+  "symbol": "CEDAW/C/GC/40",
+  "status": "",
+  "articles": [],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "participation"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-cedaw41",
+  "title": "القوالب النمطية الجنسانية وعلاقات القوة غير المتكافئة التي تغذيها",
+  "type": "gc",
+  "body": "CEDAW",
+  "number": "41",
+  "publisher": "لجنة القضاء على التمييز ضد المرأة",
+  "publisher_en": "UN Committee on the Elimination of Discrimination against Women",
+  "date": "2026",
+  "year": 2026,
+  "url": "https://tbinternet.ohchr.org/_layouts/15/treatybodyexternal/TBSearch.aspx?Lang=ar&DocTypeID=11&TreatyID=3",
+  "symbol": "",
+  "status": "مُعدّة للاعتماد في أكتوبر 2026: تحقّق من صفحة اللجنة",
+  "articles": [],
+  "langs": [],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "women"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-cat2",
+  "title": "تنفيذ المادة 2: واجب منع التعذيب",
+  "type": "gc",
+  "body": "CAT",
+  "number": "2",
+  "publisher": "لجنة مناهضة التعذيب",
+  "publisher_en": "UN Committee against Torture",
+  "date": "2008",
+  "year": 2008,
+  "url": "https://docs.un.org/ar/CAT/C/GC/2",
+  "symbol": "CAT/C/GC/2",
+  "status": "",
+  "articles": [
+   "2"
+  ],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "torture"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-cat3",
+  "title": "حق ضحايا التعذيب في الإنصاف والجبر (المادة 14)",
+  "type": "gc",
+  "body": "CAT",
+  "number": "3",
+  "publisher": "لجنة مناهضة التعذيب",
+  "publisher_en": "UN Committee against Torture",
+  "date": "2012",
+  "year": 2012,
+  "url": "https://docs.un.org/ar/CAT/C/GC/3",
+  "symbol": "CAT/C/GC/3",
+  "status": "",
+  "articles": [
+   "14"
+  ],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "torture",
+   "tj"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-cat4",
+  "title": "عدم الإعادة القسرية (المادة 3)",
+  "type": "gc",
+  "body": "CAT",
+  "number": "4",
+  "publisher": "لجنة مناهضة التعذيب",
+  "publisher_en": "UN Committee against Torture",
+  "date": "2017",
+  "year": 2017,
+  "url": "https://docs.un.org/ar/CAT/C/GC/4",
+  "symbol": "CAT/C/GC/4",
+  "status": "",
+  "articles": [
+   "3"
+  ],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "torture",
+   "migration"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-crc1",
+  "title": "أهداف التعليم (المادة 29)",
+  "type": "gc",
+  "body": "CRC",
+  "number": "1",
+  "publisher": "لجنة حقوق الطفل",
+  "publisher_en": "UN Committee on the Rights of the Child",
+  "date": "2001",
+  "year": 2001,
+  "url": "https://docs.un.org/ar/CRC/GC/2001/1",
+  "symbol": "CRC/GC/2001/1",
+  "status": "",
+  "articles": [
+   "29"
+  ],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "education"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-crc8",
+  "title": "الحماية من العقوبة البدنية",
+  "type": "gc",
+  "body": "CRC",
+  "number": "8",
+  "publisher": "لجنة حقوق الطفل",
+  "publisher_en": "UN Committee on the Rights of the Child",
+  "date": "2006",
+  "year": 2006,
+  "url": "https://docs.un.org/ar/CRC/C/GC/8",
+  "symbol": "CRC/C/GC/8",
+  "status": "",
+  "articles": [],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "children"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-crc12",
+  "title": "حق الطفل في الاستماع إليه",
+  "type": "gc",
+  "body": "CRC",
+  "number": "12",
+  "publisher": "لجنة حقوق الطفل",
+  "publisher_en": "UN Committee on the Rights of the Child",
+  "date": "2009",
+  "year": 2009,
+  "url": "https://docs.un.org/ar/CRC/C/GC/12",
+  "symbol": "CRC/C/GC/12",
+  "status": "",
+  "articles": [],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "children"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-crc13",
+  "title": "حق الطفل في التحرر من جميع أشكال العنف",
+  "type": "gc",
+  "body": "CRC",
+  "number": "13",
+  "publisher": "لجنة حقوق الطفل",
+  "publisher_en": "UN Committee on the Rights of the Child",
+  "date": "2011",
+  "year": 2011,
+  "url": "https://docs.un.org/ar/CRC/C/GC/13",
+  "symbol": "CRC/C/GC/13",
+  "status": "",
+  "articles": [],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "children"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-crc14",
+  "title": "مصالح الطفل الفضلى",
+  "type": "gc",
+  "body": "CRC",
+  "number": "14",
+  "publisher": "لجنة حقوق الطفل",
+  "publisher_en": "UN Committee on the Rights of the Child",
+  "date": "2013",
+  "year": 2013,
+  "url": "https://docs.un.org/ar/CRC/C/GC/14",
+  "symbol": "CRC/C/GC/14",
+  "status": "",
+  "articles": [],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "children"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-crc15",
+  "title": "حق الطفل في الصحة",
+  "type": "gc",
+  "body": "CRC",
+  "number": "15",
+  "publisher": "لجنة حقوق الطفل",
+  "publisher_en": "UN Committee on the Rights of the Child",
+  "date": "2013",
+  "year": 2013,
+  "url": "https://docs.un.org/ar/CRC/C/GC/15",
+  "symbol": "CRC/C/GC/15",
+  "status": "",
+  "articles": [],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "health"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-crc16",
+  "title": "التزامات الدول بشأن أثر قطاع الأعمال على حقوق الطفل",
+  "type": "gc",
+  "body": "CRC",
+  "number": "16",
+  "publisher": "لجنة حقوق الطفل",
+  "publisher_en": "UN Committee on the Rights of the Child",
+  "date": "2013",
+  "year": 2013,
+  "url": "https://docs.un.org/ar/CRC/C/GC/16",
+  "symbol": "CRC/C/GC/16",
+  "status": "",
+  "articles": [],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "business"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-crc20",
+  "title": "إعمال حقوق الطفل أثناء المراهقة",
+  "type": "gc",
+  "body": "CRC",
+  "number": "20",
+  "publisher": "لجنة حقوق الطفل",
+  "publisher_en": "UN Committee on the Rights of the Child",
+  "date": "2016",
+  "year": 2016,
+  "url": "https://docs.un.org/ar/CRC/C/GC/20",
+  "symbol": "CRC/C/GC/20",
+  "status": "",
+  "articles": [],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "children"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-crc24",
+  "title": "حقوق الطفل في نظام قضاء الأطفال",
+  "type": "gc",
+  "body": "CRC",
+  "number": "24",
+  "publisher": "لجنة حقوق الطفل",
+  "publisher_en": "UN Committee on the Rights of the Child",
+  "date": "2019",
+  "year": 2019,
+  "url": "https://docs.un.org/ar/CRC/C/GC/24",
+  "symbol": "CRC/C/GC/24",
+  "status": "",
+  "articles": [],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "children"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-crc25",
+  "title": "حقوق الطفل في البيئة الرقمية",
+  "type": "gc",
+  "body": "CRC",
+  "number": "25",
+  "publisher": "لجنة حقوق الطفل",
+  "publisher_en": "UN Committee on the Rights of the Child",
+  "date": "2021",
+  "year": 2021,
+  "url": "https://docs.un.org/ar/CRC/C/GC/25",
+  "symbol": "CRC/C/GC/25",
+  "status": "",
+  "articles": [],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "children",
+   "privacy"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-crc26",
+  "title": "حقوق الطفل والبيئة مع التركيز على تغير المناخ",
+  "type": "gc",
+  "body": "CRC",
+  "number": "26",
+  "publisher": "لجنة حقوق الطفل",
+  "publisher_en": "UN Committee on the Rights of the Child",
+  "date": "2023",
+  "year": 2023,
+  "url": "https://docs.un.org/ar/CRC/C/GC/26",
+  "symbol": "CRC/C/GC/26",
+  "status": "",
+  "articles": [],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "environment"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-crc27",
+  "title": "حق الطفل في الوصول إلى العدالة وسبل الانتصاف الفعالة",
+  "type": "gc",
+  "body": "CRC",
+  "number": "27",
+  "publisher": "لجنة حقوق الطفل",
+  "publisher_en": "UN Committee on the Rights of the Child",
+  "date": "2025",
+  "year": 2025,
+  "url": "https://tbinternet.ohchr.org/_layouts/15/treatybodyexternal/TBSearch.aspx?Lang=ar&DocTypeID=11&TreatyID=5",
+  "symbol": "",
+  "status": "صفحة المفوضية ما زالت تعرضه كمشروع: تحقّق من اعتماده النهائي",
+  "articles": [],
+  "langs": [],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "children"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-cmw3crc22",
+  "title": "المبادئ العامة لحقوق الأطفال في سياق الهجرة الدولية (مشترك)",
+  "type": "gc",
+  "body": "CMW",
+  "number": "3 / CRC 22",
+  "publisher": "لجنة العمال المهاجرين",
+  "publisher_en": "UN Committee on Migrant Workers",
+  "date": "2017",
+  "year": 2017,
+  "url": "https://tbinternet.ohchr.org/_layouts/15/treatybodyexternal/TBSearch.aspx?Lang=ar&DocTypeID=11&TreatyID=7",
+  "symbol": "",
+  "status": "",
+  "articles": [],
+  "langs": [],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "children",
+   "migration"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-cmw4crc23",
+  "title": "التزامات دول المنشأ والعبور والمقصد والعودة تجاه الأطفال المهاجرين (مشترك)",
+  "type": "gc",
+  "body": "CMW",
+  "number": "4 / CRC 23",
+  "publisher": "لجنة العمال المهاجرين",
+  "publisher_en": "UN Committee on Migrant Workers",
+  "date": "2017",
+  "year": 2017,
+  "url": "https://tbinternet.ohchr.org/_layouts/15/treatybodyexternal/TBSearch.aspx?Lang=ar&DocTypeID=11&TreatyID=7",
+  "symbol": "",
+  "status": "",
+  "articles": [],
+  "langs": [],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "migration"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-cmw1",
+  "title": "العمال المنزليون المهاجرون",
+  "type": "gc",
+  "body": "CMW",
+  "number": "1",
+  "publisher": "لجنة العمال المهاجرين",
+  "publisher_en": "UN Committee on Migrant Workers",
+  "date": "2011",
+  "year": 2011,
+  "url": "https://docs.un.org/ar/CMW/C/GC/1",
+  "symbol": "CMW/C/GC/1",
+  "status": "",
+  "articles": [],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "work"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-cmw2",
+  "title": "حقوق العمال المهاجرين في وضع غير نظامي وأفراد أسرهم",
+  "type": "gc",
+  "body": "CMW",
+  "number": "2",
+  "publisher": "لجنة العمال المهاجرين",
+  "publisher_en": "UN Committee on Migrant Workers",
+  "date": "2013",
+  "year": 2013,
+  "url": "https://docs.un.org/ar/CMW/C/GC/2",
+  "symbol": "CMW/C/GC/2",
+  "status": "",
+  "articles": [],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "migration"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-cmw5",
+  "title": "حق المهاجرين في الحرية وعدم التعرض للاحتجاز التعسفي",
+  "type": "gc",
+  "body": "CMW",
+  "number": "5",
+  "publisher": "لجنة العمال المهاجرين",
+  "publisher_en": "UN Committee on Migrant Workers",
+  "date": "2021",
+  "year": 2021,
+  "url": "https://docs.un.org/ar/CMW/C/GC/5",
+  "symbol": "CMW/C/GC/5",
+  "status": "",
+  "articles": [],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "detention",
+   "migration"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-crpd1",
+  "title": "الاعتراف بالأشخاص ذوي الإعاقة على قدم المساواة أمام القانون (المادة 12)",
+  "type": "gc",
+  "body": "CRPD",
+  "number": "1",
+  "publisher": "لجنة حقوق الأشخاص ذوي الإعاقة",
+  "publisher_en": "UN Committee on the Rights of Persons with Disabilities",
+  "date": "2014",
+  "year": 2014,
+  "url": "https://docs.un.org/ar/CRPD/C/GC/1",
+  "symbol": "CRPD/C/GC/1",
+  "status": "",
+  "articles": [
+   "12"
+  ],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "disability"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-crpd2",
+  "title": "إمكانية الوصول (المادة 9)",
+  "type": "gc",
+  "body": "CRPD",
+  "number": "2",
+  "publisher": "لجنة حقوق الأشخاص ذوي الإعاقة",
+  "publisher_en": "UN Committee on the Rights of Persons with Disabilities",
+  "date": "2014",
+  "year": 2014,
+  "url": "https://docs.un.org/ar/CRPD/C/GC/2",
+  "symbol": "CRPD/C/GC/2",
+  "status": "",
+  "articles": [
+   "9"
+  ],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "disability"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-crpd3",
+  "title": "النساء والفتيات ذوات الإعاقة",
+  "type": "gc",
+  "body": "CRPD",
+  "number": "3",
+  "publisher": "لجنة حقوق الأشخاص ذوي الإعاقة",
+  "publisher_en": "UN Committee on the Rights of Persons with Disabilities",
+  "date": "2016",
+  "year": 2016,
+  "url": "https://docs.un.org/ar/CRPD/C/GC/3",
+  "symbol": "CRPD/C/GC/3",
+  "status": "",
+  "articles": [],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "disability"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-crpd4",
+  "title": "الحق في التعليم الشامل للجميع (المادة 24)",
+  "type": "gc",
+  "body": "CRPD",
+  "number": "4",
+  "publisher": "لجنة حقوق الأشخاص ذوي الإعاقة",
+  "publisher_en": "UN Committee on the Rights of Persons with Disabilities",
+  "date": "2016",
+  "year": 2016,
+  "url": "https://docs.un.org/ar/CRPD/C/GC/4",
+  "symbol": "CRPD/C/GC/4",
+  "status": "",
+  "articles": [
+   "24"
+  ],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "education",
+   "disability"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-crpd5",
+  "title": "العيش المستقل والإدماج في المجتمع (المادة 19)",
+  "type": "gc",
+  "body": "CRPD",
+  "number": "5",
+  "publisher": "لجنة حقوق الأشخاص ذوي الإعاقة",
+  "publisher_en": "UN Committee on the Rights of Persons with Disabilities",
+  "date": "2017",
+  "year": 2017,
+  "url": "https://docs.un.org/ar/CRPD/C/GC/5",
+  "symbol": "CRPD/C/GC/5",
+  "status": "",
+  "articles": [
+   "19"
+  ],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "disability"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-crpd6",
+  "title": "المساواة وعدم التمييز (المادة 5)",
+  "type": "gc",
+  "body": "CRPD",
+  "number": "6",
+  "publisher": "لجنة حقوق الأشخاص ذوي الإعاقة",
+  "publisher_en": "UN Committee on the Rights of Persons with Disabilities",
+  "date": "2018",
+  "year": 2018,
+  "url": "https://docs.un.org/ar/CRPD/C/GC/6",
+  "symbol": "CRPD/C/GC/6",
+  "status": "",
+  "articles": [
+   "5"
+  ],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "disability"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-crpd7",
+  "title": "مشاركة الأشخاص ذوي الإعاقة عبر المنظمات الممثلة لهم",
+  "type": "gc",
+  "body": "CRPD",
+  "number": "7",
+  "publisher": "لجنة حقوق الأشخاص ذوي الإعاقة",
+  "publisher_en": "UN Committee on the Rights of Persons with Disabilities",
+  "date": "2018",
+  "year": 2018,
+  "url": "https://docs.un.org/ar/CRPD/C/GC/7",
+  "symbol": "CRPD/C/GC/7",
+  "status": "",
+  "articles": [],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "disability"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-crpd8",
+  "title": "حق الأشخاص ذوي الإعاقة في العمل والعمالة (المادة 27)",
+  "type": "gc",
+  "body": "CRPD",
+  "number": "8",
+  "publisher": "لجنة حقوق الأشخاص ذوي الإعاقة",
+  "publisher_en": "UN Committee on the Rights of Persons with Disabilities",
+  "date": "2022",
+  "year": 2022,
+  "url": "https://docs.un.org/ar/CRPD/C/GC/8",
+  "symbol": "CRPD/C/GC/8",
+  "status": "",
+  "articles": [
+   "27"
+  ],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "work",
+   "disability"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-ced1",
+  "title": "الاختفاء القسري في سياق الهجرة",
+  "type": "gc",
+  "body": "CED",
+  "number": "1",
+  "publisher": "لجنة الاختفاء القسري",
+  "publisher_en": "UN Committee on Enforced Disappearances",
+  "date": "2023",
+  "year": 2023,
+  "url": "https://docs.un.org/ar/CED/C/GC/1",
+  "symbol": "CED/C/GC/1",
+  "status": "",
+  "articles": [],
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "sections": [
+   [
+    "treaty",
+    "التعليقات العامة"
+   ]
+  ],
+  "rights": [
+   "disappearance",
+   "migration"
+  ],
+  "scope": "global",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-achpr3",
+  "title": "الحق في الحياة (المادة 4 من الميثاق الإفريقي)",
+  "type": "gc",
+  "body": "ACHPR",
+  "number": "3",
+  "publisher": "اللجنة الإفريقية",
+  "publisher_en": "African Commission on Human and Peoples' Rights",
+  "date": "2015",
+  "year": 2015,
+  "url": "https://achpr-library.uwazi.io/",
+  "symbol": "",
+  "status": "",
+  "articles": [
+   "4"
+  ],
+  "langs": [],
+  "sections": [
+   [
+    "regional",
+    "المنظومة الإفريقية"
+   ]
+  ],
+  "rights": [],
+  "scope": "africa",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-achpr4",
+  "title": "حق ضحايا التعذيب في الجبر (المادة 5)",
+  "type": "gc",
+  "body": "ACHPR",
+  "number": "4",
+  "publisher": "اللجنة الإفريقية",
+  "publisher_en": "African Commission on Human and Peoples' Rights",
+  "date": "2017",
+  "year": 2017,
+  "url": "https://achpr-library.uwazi.io/",
+  "symbol": "",
+  "status": "",
+  "articles": [
+   "5"
+  ],
+  "langs": [],
+  "sections": [
+   [
+    "regional",
+    "المنظومة الإفريقية"
+   ]
+  ],
+  "rights": [],
+  "scope": "africa",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-achpr5",
+  "title": "حرية التنقل والإقامة (المادة 12-1)",
+  "type": "gc",
+  "body": "ACHPR",
+  "number": "5",
+  "publisher": "اللجنة الإفريقية",
+  "publisher_en": "African Commission on Human and Peoples' Rights",
+  "date": "2019",
+  "year": 2019,
+  "url": "https://achpr-library.uwazi.io/",
+  "symbol": "",
+  "status": "",
+  "articles": [
+   "12-1"
+  ],
+  "langs": [],
+  "sections": [
+   [
+    "regional",
+    "المنظومة الإفريقية"
+   ]
+  ],
+  "rights": [],
+  "scope": "africa",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-achpr12",
+  "title": "المادة 14 من بروتوكول مابوتو: الصحة الجنسية والإنجابية",
+  "type": "gc",
+  "body": "ACHPR",
+  "number": "1 و2",
+  "publisher": "اللجنة الإفريقية",
+  "publisher_en": "African Commission on Human and Peoples' Rights",
+  "date": "2012",
+  "year": 2012,
+  "url": "https://achpr-library.uwazi.io/",
+  "symbol": "",
+  "status": "",
+  "articles": [
+   "14"
+  ],
+  "langs": [],
+  "sections": [
+   [
+    "regional",
+    "المنظومة الإفريقية"
+   ]
+  ],
+  "rights": [],
+  "scope": "africa",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "gc-achprcm",
+  "title": "إنهاء زواج الأطفال (مع لجنة خبراء حقوق الطفل)",
+  "type": "gc",
+  "body": "ACHPR",
+  "number": "مشترك",
+  "publisher": "اللجنة الإفريقية",
+  "publisher_en": "African Commission on Human and Peoples' Rights",
+  "date": "2017",
+  "year": 2017,
+  "url": "https://achpr-library.uwazi.io/",
+  "symbol": "",
+  "status": "",
+  "articles": [],
+  "langs": [],
+  "sections": [
+   [
+    "regional",
+    "المنظومة الإفريقية"
+   ]
+  ],
+  "rights": [],
+  "scope": "africa",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "sl-a-hrc-22-17-add-4",
+  "title": "خطة عمل الرباط بشأن حظر الدعوة إلى الكراهية",
+  "type": "guidelines",
+  "publisher": "مفوضية الأمم المتحدة السامية لحقوق الإنسان (وثيقة مجلس حقوق الإنسان)",
+  "date": "",
+  "year": null,
+  "url": "https://docs.un.org/ar/A/HRC/22/17/Add.4",
+  "symbol": "A/HRC/22/17/Add.4",
+  "sections": [
+   [
+    "standards",
+    "المبادئ التوجيهية والقواعد النموذجية"
+   ]
+  ],
+  "rights": [
+   "expression",
+   "religion"
+  ],
+  "scope": "global",
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "sl-002",
+  "title": "إعلان مبادئ حرية التعبير والوصول إلى المعلومات في إفريقيا",
+  "type": "declaration",
+  "publisher": "اللجنة الإفريقية / الاتحاد الإفريقي",
+  "date": "2019",
+  "year": 2019,
+  "url": "https://achpr-library.uwazi.io/",
+  "symbol": "",
+  "sections": [
+   [
+    "regional",
+    "المنظومة الإفريقية"
+   ]
+  ],
+  "rights": [
+   "expression"
+  ],
+  "scope": "africa",
+  "langs": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "sl-003",
+  "title": "المبادئ الأساسية بشأن استخدام القوة والأسلحة النارية",
+  "type": "guidelines",
+  "publisher": "الأمم المتحدة",
+  "date": "1990",
+  "year": 1990,
+  "url": "https://www.unodc.org/unodc/en/justice-and-prison-reform/compendium.html",
+  "symbol": "",
+  "sections": [
+   [
+    "standards",
+    "المبادئ التوجيهية والقواعد النموذجية"
+   ]
+  ],
+  "rights": [
+   "assembly"
+  ],
+  "scope": "global",
+  "langs": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "sl-004",
+  "title": "توجيهات الأمم المتحدة بشأن الأسلحة الأقل فتكًا",
+  "type": "guidelines",
+  "publisher": "مفوضية الأمم المتحدة السامية لحقوق الإنسان",
+  "date": "2020",
+  "year": 2020,
+  "url": "",
+  "symbol": "",
+  "sections": [
+   [
+    "standards",
+    "المبادئ التوجيهية والقواعد النموذجية"
+   ]
+  ],
+  "rights": [
+   "assembly"
+  ],
+  "scope": "global",
+  "langs": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "sl-005",
+  "title": "المبادئ التوجيهية للجنة الإفريقية بشأن حرية تكوين الجمعيات والتجمع",
+  "type": "guidelines",
+  "publisher": "اللجنة الإفريقية / الاتحاد الإفريقي",
+  "date": "2017",
+  "year": 2017,
+  "url": "https://achpr-library.uwazi.io/",
+  "symbol": "",
+  "sections": [
+   [
+    "regional",
+    "المنظومة الإفريقية"
+   ]
+  ],
+  "rights": [
+   "assembly"
+  ],
+  "scope": "africa",
+  "langs": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "sl-006",
+  "title": "المبادئ التوجيهية لحفظ الأمن أثناء التجمعات في إفريقيا",
+  "type": "guidelines",
+  "publisher": "اللجنة الإفريقية / الاتحاد الإفريقي",
+  "date": "2017",
+  "year": 2017,
+  "url": "https://achpr-library.uwazi.io/",
+  "symbol": "",
+  "sections": [
+   [
+    "regional",
+    "المنظومة الإفريقية"
+   ]
+  ],
+  "rights": [
+   "assembly"
+  ],
+  "scope": "africa",
+  "langs": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "sl-a-res-53-144",
+  "title": "إعلان المدافعين عن حقوق الإنسان",
+  "type": "declaration",
+  "publisher": "الأمم المتحدة",
+  "date": "",
+  "year": null,
+  "url": "https://docs.un.org/ar/A/RES/53/144",
+  "symbol": "A/RES/53/144",
+  "sections": [
+   [
+    "standards",
+    "الإعلانات والمبادئ"
+   ]
+  ],
+  "rights": [
+   "defenders"
+  ],
+  "scope": "global",
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "sl-008",
+  "title": "مبادئ سان خوسيه التوجيهية لمكافحة التخويف والانتقام",
+  "type": "guidelines",
+  "publisher": "رؤساء هيئات المعاهدات الأممية",
+  "date": "",
+  "year": null,
+  "url": "",
+  "symbol": "",
+  "sections": [
+   [
+    "standards",
+    "المبادئ التوجيهية والقواعد النموذجية"
+   ]
+  ],
+  "rights": [
+   "defenders"
+  ],
+  "scope": "global",
+  "langs": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "sl-009",
+  "title": "بروتوكول إسطنبول (طبعة 2022)",
+  "type": "guidelines",
+  "publisher": "مفوضية الأمم المتحدة السامية لحقوق الإنسان",
+  "date": "",
+  "year": null,
+  "url": "",
+  "symbol": "",
+  "sections": [
+   [
+    "standards",
+    "المبادئ التوجيهية والقواعد النموذجية"
+   ]
+  ],
+  "rights": [
+   "torture"
+  ],
+  "scope": "global",
+  "langs": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "sl-a-res-70-175",
+  "title": "قواعد نيلسون مانديلا لمعاملة السجناء",
+  "type": "guidelines",
+  "publisher": "الأمم المتحدة",
+  "date": "",
+  "year": null,
+  "url": "https://docs.un.org/ar/A/RES/70/175",
+  "symbol": "A/RES/70/175",
+  "sections": [
+   [
+    "standards",
+    "المبادئ التوجيهية والقواعد النموذجية"
+   ]
+  ],
+  "rights": [
+   "torture"
+  ],
+  "scope": "global",
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "sl-a-res-65-229",
+  "title": "قواعد بانكوك لمعاملة السجينات",
+  "type": "guidelines",
+  "publisher": "الأمم المتحدة",
+  "date": "",
+  "year": null,
+  "url": "https://docs.un.org/ar/A/RES/65/229",
+  "symbol": "A/RES/65/229",
+  "sections": [
+   [
+    "standards",
+    "المبادئ التوجيهية والقواعد النموذجية"
+   ]
+  ],
+  "rights": [
+   "torture"
+  ],
+  "scope": "global",
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "sl-012",
+  "title": "مبادئ روبن آيلاند التوجيهية لمنع التعذيب في إفريقيا",
+  "type": "guidelines",
+  "publisher": "اللجنة الإفريقية / الاتحاد الإفريقي",
+  "date": "2002",
+  "year": 2002,
+  "url": "https://achpr-library.uwazi.io/",
+  "symbol": "",
+  "sections": [
+   [
+    "regional",
+    "المنظومة الإفريقية"
+   ]
+  ],
+  "rights": [
+   "torture"
+  ],
+  "scope": "africa",
+  "langs": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "sl-a-res-43-173",
+  "title": "مجموعة مبادئ حماية جميع الأشخاص المحتجزين",
+  "type": "guidelines",
+  "publisher": "الأمم المتحدة",
+  "date": "",
+  "year": null,
+  "url": "https://docs.un.org/ar/A/RES/43/173",
+  "symbol": "A/RES/43/173",
+  "sections": [
+   [
+    "standards",
+    "المبادئ التوجيهية والقواعد النموذجية"
+   ]
+  ],
+  "rights": [
+   "detention"
+  ],
+  "scope": "global",
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "sl-a-hrc-30-37",
+  "title": "المبادئ الأساسية بشأن سبل الانتصاف لمن يُحرم من حريته",
+  "type": "guidelines",
+  "publisher": "الأمم المتحدة",
+  "date": "",
+  "year": null,
+  "url": "https://docs.un.org/ar/A/HRC/30/37",
+  "symbol": "A/HRC/30/37",
+  "sections": [
+   [
+    "standards",
+    "المبادئ التوجيهية والقواعد النموذجية"
+   ]
+  ],
+  "rights": [
+   "detention"
+  ],
+  "scope": "global",
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "sl-015",
+  "title": "مبادئ لواندا التوجيهية بشأن الاعتقال والاحتجاز لدى الشرطة والاحتجاز السابق للمحاكمة",
+  "type": "guidelines",
+  "publisher": "اللجنة الإفريقية / الاتحاد الإفريقي",
+  "date": "2014",
+  "year": 2014,
+  "url": "https://achpr-library.uwazi.io/",
+  "symbol": "",
+  "sections": [
+   [
+    "regional",
+    "المنظومة الإفريقية"
+   ]
+  ],
+  "rights": [
+   "detention"
+  ],
+  "scope": "africa",
+  "langs": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "sl-016",
+  "title": "المبادئ الأساسية بشأن استقلال السلطة القضائية",
+  "type": "guidelines",
+  "publisher": "الأمم المتحدة",
+  "date": "1985",
+  "year": 1985,
+  "url": "https://www.unodc.org/unodc/en/justice-and-prison-reform/compendium.html",
+  "symbol": "",
+  "sections": [
+   [
+    "standards",
+    "المبادئ التوجيهية والقواعد النموذجية"
+   ]
+  ],
+  "rights": [
+   "fairtrial"
+  ],
+  "scope": "global",
+  "langs": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "sl-017",
+  "title": "المبادئ الأساسية بشأن دور المحامين",
+  "type": "guidelines",
+  "publisher": "الأمم المتحدة",
+  "date": "1990",
+  "year": 1990,
+  "url": "https://www.unodc.org/unodc/en/justice-and-prison-reform/compendium.html",
+  "symbol": "",
+  "sections": [
+   [
+    "standards",
+    "المبادئ التوجيهية والقواعد النموذجية"
+   ]
+  ],
+  "rights": [
+   "fairtrial"
+  ],
+  "scope": "global",
+  "langs": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "sl-018",
+  "title": "المبادئ التوجيهية بشأن دور أعضاء النيابة العامة",
+  "type": "guidelines",
+  "publisher": "الأمم المتحدة",
+  "date": "1990",
+  "year": 1990,
+  "url": "https://www.unodc.org/unodc/en/justice-and-prison-reform/compendium.html",
+  "symbol": "",
+  "sections": [
+   [
+    "standards",
+    "المبادئ التوجيهية والقواعد النموذجية"
+   ]
+  ],
+  "rights": [
+   "fairtrial"
+  ],
+  "scope": "global",
+  "langs": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "sl-019",
+  "title": "مبادئ بنغالور للسلوك القضائي",
+  "type": "guidelines",
+  "publisher": "مجموعة النزاهة القضائية (أقرّها المجلس الاقتصادي والاجتماعي سنة 2006)",
+  "date": "",
+  "year": null,
+  "url": "",
+  "symbol": "",
+  "sections": [
+   [
+    "standards",
+    "المبادئ التوجيهية والقواعد النموذجية"
+   ]
+  ],
+  "rights": [
+   "fairtrial"
+  ],
+  "scope": "global",
+  "langs": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "sl-020",
+  "title": "مبادئ وتوجيهات الحق في المحاكمة العادلة والمساعدة القانونية في إفريقيا",
+  "type": "guidelines",
+  "publisher": "اللجنة الإفريقية / الاتحاد الإفريقي",
+  "date": "2003",
+  "year": 2003,
+  "url": "https://achpr-library.uwazi.io/",
+  "symbol": "",
+  "sections": [
+   [
+    "regional",
+    "المنظومة الإفريقية"
+   ]
+  ],
+  "rights": [
+   "fairtrial"
+  ],
+  "scope": "africa",
+  "langs": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "sl-021",
+  "title": "بروتوكول مينيسوتا بشأن التحقيق في حالات الوفاة غير المشروعة",
+  "type": "guidelines",
+  "publisher": "مفوضية الأمم المتحدة السامية لحقوق الإنسان",
+  "date": "2016",
+  "year": 2016,
+  "url": "",
+  "symbol": "",
+  "sections": [
+   [
+    "standards",
+    "المبادئ التوجيهية والقواعد النموذجية"
+   ]
+  ],
+  "rights": [
+   "life"
+  ],
+  "scope": "global",
+  "langs": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "sl-022",
+  "title": "ضمانات حماية حقوق من يواجهون عقوبة الإعدام",
+  "type": "declaration",
+  "publisher": "الأمم المتحدة",
+  "date": "1984",
+  "year": 1984,
+  "url": "https://www.unodc.org/unodc/en/justice-and-prison-reform/compendium.html",
+  "symbol": "",
+  "sections": [
+   [
+    "standards",
+    "الإعلانات والمبادئ"
+   ]
+  ],
+  "rights": [
+   "life"
+  ],
+  "scope": "global",
+  "langs": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "sl-a-res-47-133",
+  "title": "إعلان حماية جميع الأشخاص من الاختفاء القسري",
+  "type": "declaration",
+  "publisher": "الأمم المتحدة",
+  "date": "",
+  "year": null,
+  "url": "https://docs.un.org/ar/A/RES/47/133",
+  "symbol": "A/RES/47/133",
+  "sections": [
+   [
+    "standards",
+    "الإعلانات والمبادئ"
+   ]
+  ],
+  "rights": [
+   "disappearance"
+  ],
+  "scope": "global",
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "sl-ced-c-7",
+  "title": "المبادئ التوجيهية للبحث عن الأشخاص المختفين",
+  "type": "guidelines",
+  "publisher": "الأمم المتحدة",
+  "date": "",
+  "year": null,
+  "url": "https://docs.un.org/ar/CED/C/7",
+  "symbol": "CED/C/7",
+  "sections": [
+   [
+    "standards",
+    "المبادئ التوجيهية والقواعد النموذجية"
+   ]
+  ],
+  "rights": [
+   "disappearance"
+  ],
+  "scope": "global",
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "sl-e-cn-4-1985-4",
+  "title": "مبادئ سيراكوزا بشأن أحكام التقييد وعدم التقيد في العهد",
+  "type": "guidelines",
+  "publisher": "خبراء قانونيون (نُشرت كوثيقة أممية)",
+  "date": "",
+  "year": null,
+  "url": "https://docs.un.org/ar/E/CN.4/1985/4",
+  "symbol": "E/CN.4/1985/4",
+  "sections": [
+   [
+    "standards",
+    "المبادئ التوجيهية والقواعد النموذجية"
+   ]
+  ],
+  "rights": [
+   "terrorism"
+  ],
+  "scope": "global",
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "sl-026",
+  "title": "مبادئ وتوجيهات حقوق الإنسان والشعوب في سياق مكافحة الإرهاب في إفريقيا",
+  "type": "guidelines",
+  "publisher": "اللجنة الإفريقية / الاتحاد الإفريقي",
+  "date": "2015",
+  "year": 2015,
+  "url": "https://achpr-library.uwazi.io/",
+  "symbol": "",
+  "sections": [
+   [
+    "regional",
+    "المنظومة الإفريقية"
+   ]
+  ],
+  "rights": [
+   "terrorism"
+  ],
+  "scope": "africa",
+  "langs": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "sl-027",
+  "title": "مدونة الممارسات الجيدة في المسائل الانتخابية (لجنة البندقية)",
+  "type": "guidelines",
+  "publisher": "مجلس أوروبا",
+  "date": "",
+  "year": null,
+  "url": "https://www.venice.coe.int/",
+  "symbol": "",
+  "sections": [
+   [
+    "standards",
+    "المبادئ التوجيهية والقواعد النموذجية"
+   ]
+  ],
+  "rights": [
+   "participation"
+  ],
+  "scope": "global",
+  "langs": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "sl-a-res-48-104",
+  "title": "إعلان القضاء على العنف ضد المرأة",
+  "type": "declaration",
+  "publisher": "الأمم المتحدة",
+  "date": "",
+  "year": null,
+  "url": "https://docs.un.org/ar/A/RES/48/104",
+  "symbol": "A/RES/48/104",
+  "sections": [
+   [
+    "standards",
+    "الإعلانات والمبادئ"
+   ]
+  ],
+  "rights": [
+   "women"
+  ],
+  "scope": "global",
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "sl-029",
+  "title": "إعلان ومنهاج عمل بيجين",
+  "type": "declaration",
+  "publisher": "المؤتمر العالمي الرابع المعني بالمرأة (1995)",
+  "date": "1995",
+  "year": 1995,
+  "url": "",
+  "symbol": "",
+  "sections": [
+   [
+    "standards",
+    "الإعلانات والمبادئ"
+   ]
+  ],
+  "rights": [
+   "women"
+  ],
+  "scope": "global",
+  "langs": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "sl-a-res-64-142",
+  "title": "المبادئ التوجيهية للرعاية البديلة للأطفال",
+  "type": "guidelines",
+  "publisher": "الأمم المتحدة",
+  "date": "",
+  "year": null,
+  "url": "https://docs.un.org/ar/A/RES/64/142",
+  "symbol": "A/RES/64/142",
+  "sections": [
+   [
+    "standards",
+    "المبادئ التوجيهية والقواعد النموذجية"
+   ]
+  ],
+  "rights": [
+   "children"
+  ],
+  "scope": "global",
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "sl-a-res-40-33",
+  "title": "قواعد بكين لإدارة شؤون قضاء الأحداث",
+  "type": "guidelines",
+  "publisher": "الأمم المتحدة",
+  "date": "",
+  "year": null,
+  "url": "https://docs.un.org/ar/A/RES/40/33",
+  "symbol": "A/RES/40/33",
+  "sections": [
+   [
+    "standards",
+    "المبادئ التوجيهية والقواعد النموذجية"
+   ]
+  ],
+  "rights": [
+   "children"
+  ],
+  "scope": "global",
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "sl-a-res-73-195",
+  "title": "الاتفاق العالمي من أجل الهجرة الآمنة والمنظمة والنظامية",
+  "type": "declaration",
+  "publisher": "الأمم المتحدة",
+  "date": "",
+  "year": null,
+  "url": "https://docs.un.org/ar/A/RES/73/195",
+  "symbol": "A/RES/73/195",
+  "sections": [
+   [
+    "standards",
+    "الإعلانات والمبادئ"
+   ]
+  ],
+  "rights": [
+   "migration"
+  ],
+  "scope": "global",
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "sl-033",
+  "title": "المبادئ والتوجيهات الموصى بها بشأن حقوق الإنسان على الحدود الدولية",
+  "type": "guidelines",
+  "publisher": "مفوضية الأمم المتحدة السامية لحقوق الإنسان",
+  "date": "2014",
+  "year": 2014,
+  "url": "",
+  "symbol": "",
+  "sections": [
+   [
+    "standards",
+    "المبادئ التوجيهية والقواعد النموذجية"
+   ]
+  ],
+  "rights": [
+   "migration"
+  ],
+  "scope": "global",
+  "langs": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "sl-034",
+  "title": "إعلان وبرنامج عمل ديربان",
+  "type": "declaration",
+  "publisher": "المؤتمر العالمي لمكافحة العنصرية (2001)",
+  "date": "2001",
+  "year": 2001,
+  "url": "",
+  "symbol": "",
+  "sections": [
+   [
+    "standards",
+    "الإعلانات والمبادئ"
+   ]
+  ],
+  "rights": [
+   "racism"
+  ],
+  "scope": "global",
+  "langs": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "sl-a-res-36-55",
+  "title": "إعلان القضاء على جميع أشكال التعصب والتمييز القائمين على أساس الدين",
+  "type": "declaration",
+  "publisher": "الأمم المتحدة",
+  "date": "",
+  "year": null,
+  "url": "https://docs.un.org/ar/A/RES/36/55",
+  "symbol": "A/RES/36/55",
+  "sections": [
+   [
+    "standards",
+    "الإعلانات والمبادئ"
+   ]
+  ],
+  "rights": [
+   "religion"
+  ],
+  "scope": "global",
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "sl-a-hrc-res-16-18",
+  "title": "قرار مجلس حقوق الإنسان 16/18 بشأن مكافحة التعصب",
+  "type": "declaration",
+  "publisher": "الأمم المتحدة",
+  "date": "",
+  "year": null,
+  "url": "https://docs.un.org/ar/A/HRC/RES/16/18",
+  "symbol": "A/HRC/RES/16/18",
+  "sections": [
+   [
+    "standards",
+    "الإعلانات والمبادئ"
+   ]
+  ],
+  "rights": [
+   "religion"
+  ],
+  "scope": "global",
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "sl-a-res-68-167",
+  "title": "قرارات الجمعية العامة «الحق في الخصوصية في العصر الرقمي»",
+  "type": "declaration",
+  "publisher": "الأمم المتحدة",
+  "date": "",
+  "year": null,
+  "url": "https://docs.un.org/ar/A/RES/68/167",
+  "symbol": "A/RES/68/167",
+  "sections": [
+   [
+    "standards",
+    "الإعلانات والمبادئ"
+   ]
+  ],
+  "rights": [
+   "privacy"
+  ],
+  "scope": "global",
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "sl-038",
+  "title": "اتفاقية الاتحاد الإفريقي بشأن الأمن السيبراني وحماية البيانات الشخصية (مالابو 2014)",
+  "type": "charter",
+  "publisher": "اللجنة الإفريقية / الاتحاد الإفريقي",
+  "date": "",
+  "year": null,
+  "url": "https://achpr-library.uwazi.io/",
+  "symbol": "",
+  "sections": [
+   [
+    "regional",
+    "المنظومة الإفريقية"
+   ]
+  ],
+  "rights": [
+   "privacy"
+  ],
+  "scope": "africa",
+  "langs": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "sl-039",
+  "title": "إعلان منظمة العمل الدولية بشأن المبادئ والحقوق الأساسية في العمل",
+  "type": "declaration",
+  "publisher": "منظمة العمل الدولية",
+  "date": "1998",
+  "year": 1998,
+  "url": "https://normlex.ilo.org",
+  "symbol": "",
+  "sections": [
+   [
+    "standards",
+    "الإعلانات والمبادئ"
+   ]
+  ],
+  "rights": [
+   "work"
+  ],
+  "scope": "global",
+  "langs": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "sl-040",
+  "title": "مبادئ وتوجيهات إعمال الحقوق الاقتصادية والاجتماعية والثقافية في الميثاق الإفريقي (نيروبي)",
+  "type": "guidelines",
+  "publisher": "اللجنة الإفريقية / الاتحاد الإفريقي",
+  "date": "",
+  "year": null,
+  "url": "https://achpr-library.uwazi.io/",
+  "symbol": "",
+  "sections": [
+   [
+    "regional",
+    "المنظومة الإفريقية"
+   ]
+  ],
+  "rights": [
+   "work"
+  ],
+  "scope": "africa",
+  "langs": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "sl-a-hrc-4-18",
+  "title": "المبادئ الأساسية بشأن عمليات الإخلاء والترحيل بدافع التنمية",
+  "type": "guidelines",
+  "publisher": "الأمم المتحدة",
+  "date": "",
+  "year": null,
+  "url": "https://docs.un.org/ar/A/HRC/4/18",
+  "symbol": "A/HRC/4/18",
+  "sections": [
+   [
+    "standards",
+    "المبادئ التوجيهية والقواعد النموذجية"
+   ]
+  ],
+  "rights": [
+   "livelihood"
+  ],
+  "scope": "global",
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "sl-042",
+  "title": "المبادئ التوجيهية الطوعية للحق في الغذاء (الفاو 2004)",
+  "type": "guidelines",
+  "publisher": "منظمة الأغذية والزراعة",
+  "date": "",
+  "year": null,
+  "url": "https://www.fao.org/right-to-food/en/",
+  "symbol": "",
+  "sections": [
+   [
+    "standards",
+    "المبادئ التوجيهية والقواعد النموذجية"
+   ]
+  ],
+  "rights": [
+   "livelihood"
+  ],
+  "scope": "global",
+  "langs": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "sl-043",
+  "title": "مبادئ نيروبي للحقوق الاقتصادية والاجتماعية والثقافية",
+  "type": "guidelines",
+  "publisher": "اللجنة الإفريقية / الاتحاد الإفريقي",
+  "date": "",
+  "year": null,
+  "url": "https://achpr-library.uwazi.io/",
+  "symbol": "",
+  "sections": [
+   [
+    "regional",
+    "المنظومة الإفريقية"
+   ]
+  ],
+  "rights": [
+   "livelihood"
+  ],
+  "scope": "africa",
+  "langs": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "sl-a-res-60-147",
+  "title": "المبادئ الأساسية والتوجيهات بشأن الحق في الانتصاف والجبر",
+  "type": "guidelines",
+  "publisher": "الأمم المتحدة",
+  "date": "",
+  "year": null,
+  "url": "https://docs.un.org/ar/A/RES/60/147",
+  "symbol": "A/RES/60/147",
+  "sections": [
+   [
+    "standards",
+    "المبادئ التوجيهية والقواعد النموذجية"
+   ]
+  ],
+  "rights": [
+   "tj"
+  ],
+  "scope": "global",
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "sl-e-cn-4-2005-102-add-1",
+  "title": "المجموعة المحدّثة من المبادئ لمكافحة الإفلات من العقاب",
+  "type": "guidelines",
+  "publisher": "الأمم المتحدة",
+  "date": "",
+  "year": null,
+  "url": "https://docs.un.org/ar/E/CN.4/2005/102/Add.1",
+  "symbol": "E/CN.4/2005/102/Add.1",
+  "sections": [
+   [
+    "standards",
+    "المبادئ التوجيهية والقواعد النموذجية"
+   ]
+  ],
+  "rights": [
+   "tj"
+  ],
+  "scope": "global",
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "sl-046",
+  "title": "سياسة الاتحاد الإفريقي للعدالة الانتقالية",
+  "type": "guidelines",
+  "publisher": "اللجنة الإفريقية / الاتحاد الإفريقي",
+  "date": "2019",
+  "year": 2019,
+  "url": "https://achpr-library.uwazi.io/",
+  "symbol": "",
+  "sections": [
+   [
+    "regional",
+    "المنظومة الإفريقية"
+   ]
+  ],
+  "rights": [
+   "tj"
+  ],
+  "scope": "africa",
+  "langs": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "sl-a-hrc-17-31",
+  "title": "المبادئ التوجيهية بشأن الأعمال التجارية وحقوق الإنسان",
+  "type": "guidelines",
+  "publisher": "الأمم المتحدة",
+  "date": "",
+  "year": null,
+  "url": "https://docs.un.org/ar/A/HRC/17/31",
+  "symbol": "A/HRC/17/31",
+  "sections": [
+   [
+    "standards",
+    "المبادئ التوجيهية والقواعد النموذجية"
+   ]
+  ],
+  "rights": [
+   "business"
+  ],
+  "scope": "global",
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "sl-a-res-76-300",
+  "title": "قرار الجمعية العامة بشأن الحق في بيئة نظيفة وصحية ومستدامة",
+  "type": "declaration",
+  "publisher": "الأمم المتحدة",
+  "date": "",
+  "year": null,
+  "url": "https://docs.un.org/ar/A/RES/76/300",
+  "symbol": "A/RES/76/300",
+  "sections": [
+   [
+    "standards",
+    "الإعلانات والمبادئ"
+   ]
+  ],
+  "rights": [
+   "environment"
+  ],
+  "scope": "global",
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "sl-a-hrc-37-59",
+  "title": "المبادئ الإطارية بشأن حقوق الإنسان والبيئة",
+  "type": "guidelines",
+  "publisher": "الأمم المتحدة",
+  "date": "",
+  "year": null,
+  "url": "https://docs.un.org/ar/A/HRC/37/59",
+  "symbol": "A/HRC/37/59",
+  "sections": [
+   [
+    "standards",
+    "المبادئ التوجيهية والقواعد النموذجية"
+   ]
+  ],
+  "rights": [
+   "environment"
+  ],
+  "scope": "global",
+  "langs": [
+   "ar",
+   "en",
+   "fr",
+   "es",
+   "ru",
+   "zh"
+  ],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "sl-050",
+  "title": "مبادئ يوغياكارتا (2006) ومبادئ يوغياكارتا+10 (2017)، مبادئ خبراء غير ملزمة",
+  "type": "guidelines",
+  "publisher": "مجموعة من خبراء القانون الدولي (ليست وثيقة صادرة عن الأمم المتحدة)",
+  "date": "2006",
+  "year": 2006,
+  "url": "",
+  "symbol": "",
+  "sections": [
+   [
+    "standards",
+    "المبادئ التوجيهية والقواعد النموذجية"
+   ]
+  ],
+  "rights": [
+   "sogi"
+  ],
+  "scope": "global",
+  "langs": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "sl-051",
+  "title": "قرار اللجنة الإفريقية 275 بشأن الحماية من العنف على أساس الميول الجنسية والهوية الجندرية",
+  "type": "declaration",
+  "publisher": "اللجنة الإفريقية / الاتحاد الإفريقي",
+  "date": "2014",
+  "year": 2014,
+  "url": "https://achpr-library.uwazi.io/",
+  "symbol": "",
+  "sections": [
+   [
+    "regional",
+    "المنظومة الإفريقية"
+   ]
+  ],
+  "rights": [
+   "sogi"
+  ],
+  "scope": "africa",
+  "langs": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "co-ccpr-c-tun-co-6",
+  "title": "الملاحظات الختامية: اللجنة المعنية بحقوق الإنسان",
+  "type": "co",
+  "body": "CCPR",
+  "publisher": "اللجنة المعنية بحقوق الإنسان",
+  "publisher_en": "UN Human Rights Committee",
+  "date": "2020",
+  "year": 2020,
+  "url": "https://docs.un.org/ar/CCPR/C/TUN/CO/6",
+  "symbol": "CCPR/C/TUN/CO/6",
+  "summary": "معلومات المتابعة CCPR/C/TUN/FCO/6، وتقييم اللجنة لها في CCPR/C/140/2/Add.3 (2024)",
+  "scope": "tn",
+  "langs": [
+   "ar",
+   "en",
+   "fr"
+  ],
+  "sections": [
+   [
+    "tunisia",
+    "الملاحظات الختامية للجان التعاهدية"
+   ],
+   [
+    "treaty",
+    "الملاحظات الختامية"
+   ]
+  ],
+  "rights": [
+   "expression",
+   "assembly",
+   "defenders",
+   "detention",
+   "fairtrial",
+   "life",
+   "terrorism",
+   "participation",
+   "religion",
+   "privacy",
+   "torture",
+   "tj",
+   "sogi"
+  ],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "related": []
+ },
+ {
+  "id": "co-cerd-c-tun-co-20-22",
+  "title": "الملاحظات الختامية: لجنة القضاء على التمييز العنصري",
+  "type": "co",
+  "body": "CERD",
+  "publisher": "لجنة القضاء على التمييز العنصري",
+  "publisher_en": "UN Committee on the Elimination of Racial Discrimination",
+  "date": "2025",
+  "year": 2025,
+  "url": "https://docs.un.org/ar/CERD/C/TUN/CO/20-22",
+  "symbol": "CERD/C/TUN/CO/20-22",
+  "summary": "الدورة 116 (نوفمبر–ديسمبر 2025)",
+  "scope": "tn",
+  "langs": [
+   "ar",
+   "en",
+   "fr"
+  ],
+  "sections": [
+   [
+    "tunisia",
+    "الملاحظات الختامية للجان التعاهدية"
+   ],
+   [
+    "treaty",
+    "الملاحظات الختامية"
+   ]
+  ],
+  "rights": [
+   "racism",
+   "migration"
+  ],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "related": []
+ },
+ {
+  "id": "co-cedaw-c-tun-co-7",
+  "title": "الملاحظات الختامية: لجنة القضاء على التمييز ضد المرأة",
+  "type": "co",
+  "body": "CEDAW",
+  "publisher": "لجنة القضاء على التمييز ضد المرأة",
+  "publisher_en": "UN Committee on the Elimination of Discrimination against Women",
+  "date": "2023",
+  "year": 2023,
+  "url": "https://docs.un.org/ar/CEDAW/C/TUN/CO/7",
+  "symbol": "CEDAW/C/TUN/CO/7",
+  "summary": "معلومات المتابعة CEDAW/C/TUN/FCO/7 (2025)",
+  "scope": "tn",
+  "langs": [
+   "ar",
+   "en",
+   "fr"
+  ],
+  "sections": [
+   [
+    "tunisia",
+    "الملاحظات الختامية للجان التعاهدية"
+   ],
+   [
+    "treaty",
+    "الملاحظات الختامية"
+   ]
+  ],
+  "rights": [
+   "women"
+  ],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "related": []
+ },
+ {
+  "id": "co-crc-c-tun-co-4-6",
+  "title": "الملاحظات الختامية: لجنة حقوق الطفل",
+  "type": "co",
+  "body": "CRC",
+  "publisher": "لجنة حقوق الطفل",
+  "publisher_en": "UN Committee on the Rights of the Child",
+  "date": "2021",
+  "year": 2021,
+  "url": "https://docs.un.org/ar/CRC/C/TUN/CO/4-6",
+  "symbol": "CRC/C/TUN/CO/4-6",
+  "summary": "الإجراء المبسّط لتقديم التقارير",
+  "scope": "tn",
+  "langs": [
+   "ar",
+   "en",
+   "fr"
+  ],
+  "sections": [
+   [
+    "tunisia",
+    "الملاحظات الختامية للجان التعاهدية"
+   ],
+   [
+    "treaty",
+    "الملاحظات الختامية"
+   ]
+  ],
+  "rights": [
+   "children"
+  ],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "related": []
+ },
+ {
+  "id": "co-e-c-12-tun-co-3",
+  "title": "الملاحظات الختامية: لجنة الحقوق الاقتصادية والاجتماعية والثقافية",
+  "type": "co",
+  "body": "CESCR",
+  "publisher": "لجنة الحقوق الاقتصادية والاجتماعية والثقافية",
+  "publisher_en": "UN Committee on Economic, Social and Cultural Rights",
+  "date": "2016",
+  "year": 2016,
+  "url": "https://docs.un.org/ar/E/C.12/TUN/CO/3",
+  "symbol": "E/C.12/TUN/CO/3",
+  "summary": "",
+  "scope": "tn",
+  "langs": [
+   "ar",
+   "en",
+   "fr"
+  ],
+  "sections": [
+   [
+    "tunisia",
+    "الملاحظات الختامية للجان التعاهدية"
+   ],
+   [
+    "treaty",
+    "الملاحظات الختامية"
+   ]
+  ],
+  "rights": [
+   "work",
+   "health",
+   "education",
+   "livelihood",
+   "environment"
+  ],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "related": []
+ },
+ {
+  "id": "co-cat-c-tun-co-3",
+  "title": "الملاحظات الختامية: لجنة مناهضة التعذيب",
+  "type": "co",
+  "body": "CAT",
+  "publisher": "لجنة مناهضة التعذيب",
+  "publisher_en": "UN Committee against Torture",
+  "date": "2016",
+  "year": 2016,
+  "url": "https://docs.un.org/ar/CAT/C/TUN/CO/3",
+  "symbol": "CAT/C/TUN/CO/3",
+  "summary": "قائمة المسائل قبل التقرير الرابع CAT/C/TUN/QPR/4 (2023)",
+  "scope": "tn",
+  "langs": [
+   "ar",
+   "en",
+   "fr"
+  ],
+  "sections": [
+   [
+    "tunisia",
+    "الملاحظات الختامية للجان التعاهدية"
+   ],
+   [
+    "treaty",
+    "الملاحظات الختامية"
+   ]
+  ],
+  "rights": [
+   "torture",
+   "detention",
+   "tj",
+   "migration"
+  ],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "related": []
+ },
+ {
+  "id": "co-ced-c-tun-co-1",
+  "title": "الملاحظات الختامية: اللجنة المعنية بحالات الاختفاء القسري",
+  "type": "co",
+  "body": "CED",
+  "publisher": "اللجنة المعنية بحالات الاختفاء القسري",
+  "publisher_en": "UN Committee on Enforced Disappearances",
+  "date": "2016",
+  "year": 2016,
+  "url": "https://docs.un.org/ar/CED/C/TUN/CO/1",
+  "symbol": "CED/C/TUN/CO/1",
+  "summary": "",
+  "scope": "tn",
+  "langs": [
+   "ar",
+   "en",
+   "fr"
+  ],
+  "sections": [
+   [
+    "tunisia",
+    "الملاحظات الختامية للجان التعاهدية"
+   ],
+   [
+    "treaty",
+    "الملاحظات الختامية"
+   ]
+  ],
+  "rights": [
+   "disappearance"
+  ],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "related": []
+ },
+ {
+  "id": "co-crpd-c-tun-co-1",
+  "title": "الملاحظات الختامية: لجنة حقوق الأشخاص ذوي الإعاقة",
+  "type": "co",
+  "body": "CRPD",
+  "publisher": "لجنة حقوق الأشخاص ذوي الإعاقة",
+  "publisher_en": "UN Committee on the Rights of Persons with Disabilities",
+  "date": "2011",
+  "year": 2011,
+  "url": "https://docs.un.org/ar/CRPD/C/TUN/CO/1",
+  "symbol": "CRPD/C/TUN/CO/1",
+  "summary": "",
+  "scope": "tn",
+  "langs": [
+   "ar",
+   "en",
+   "fr"
+  ],
+  "sections": [
+   [
+    "tunisia",
+    "الملاحظات الختامية للجان التعاهدية"
+   ],
+   [
+    "treaty",
+    "الملاحظات الختامية"
+   ]
+  ],
+  "rights": [
+   "disability"
+  ],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "related": []
+ },
+ {
+  "id": "tn-ccpr-c-tun-fco-6",
+  "title": "معلومات تونس بشأن متابعة الملاحظات الختامية للجنة المعنية بحقوق الإنسان",
+  "type": "co",
+  "body": "CCPR",
+  "publisher": "اللجنة المعنية بحقوق الإنسان",
+  "publisher_en": "UN Human Rights Committee",
+  "date": "",
+  "year": null,
+  "url": "https://docs.un.org/ar/CCPR/C/TUN/FCO/6",
+  "symbol": "CCPR/C/TUN/FCO/6",
+  "scope": "tn",
+  "langs": [
+   "ar",
+   "en",
+   "fr"
+  ],
+  "sections": [
+   [
+    "tunisia",
+    "مراسلات الإجراءات الخاصة وردود الحكومة"
+   ]
+  ],
+  "rights": [
+   "expression",
+   "assembly",
+   "defenders",
+   "detention",
+   "fairtrial",
+   "life",
+   "terrorism",
+   "participation",
+   "religion",
+   "privacy",
+   "torture",
+   "tj",
+   "sogi"
+  ],
+  "summary": "ردّ حكومي مكتوب ضمن إجراء المتابعة.",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "related": []
+ },
+ {
+  "id": "tn-ccpr-c-140-2-add-3",
+  "title": "تقييم اللجنة المعنية بحقوق الإنسان لمعلومات المتابعة المقدمة من تونس",
+  "type": "co",
+  "body": "CCPR",
+  "publisher": "اللجنة المعنية بحقوق الإنسان",
+  "publisher_en": "UN Human Rights Committee",
+  "date": "2024",
+  "year": 2024,
+  "url": "https://docs.un.org/ar/CCPR/C/140/2/Add.3",
+  "symbol": "CCPR/C/140/2/Add.3",
+  "scope": "tn",
+  "langs": [
+   "ar",
+   "en",
+   "fr"
+  ],
+  "sections": [
+   [
+    "tunisia",
+    "الملاحظات الختامية للجان التعاهدية"
+   ]
+  ],
+  "rights": [
+   "expression",
+   "assembly",
+   "defenders",
+   "detention",
+   "fairtrial",
+   "life",
+   "terrorism",
+   "participation",
+   "religion",
+   "privacy",
+   "torture",
+   "tj",
+   "sogi"
+  ],
+  "summary": "",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "related": []
+ },
+ {
+  "id": "tn-cedaw-c-tun-fco-7",
+  "title": "معلومات تونس بشأن متابعة الملاحظات الختامية للجنة المرأة",
+  "type": "co",
+  "body": "CEDAW",
+  "publisher": "لجنة القضاء على التمييز ضد المرأة",
+  "publisher_en": "UN Committee on the Elimination of Discrimination against Women",
+  "date": "2025",
+  "year": 2025,
+  "url": "https://docs.un.org/ar/CEDAW/C/TUN/FCO/7",
+  "symbol": "CEDAW/C/TUN/FCO/7",
+  "scope": "tn",
+  "langs": [
+   "ar",
+   "en",
+   "fr"
+  ],
+  "sections": [
+   [
+    "tunisia",
+    "مراسلات الإجراءات الخاصة وردود الحكومة"
+   ]
+  ],
+  "rights": [
+   "women"
+  ],
+  "summary": "ردّ حكومي مكتوب ضمن إجراء المتابعة.",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "related": []
+ },
+ {
+  "id": "tn-cat-c-tun-qpr-4",
+  "title": "قائمة المسائل قبل تقديم التقرير الدوري الرابع لتونس (لجنة مناهضة التعذيب)",
+  "type": "co",
+  "body": "CAT",
+  "publisher": "لجنة مناهضة التعذيب",
+  "publisher_en": "UN Committee against Torture",
+  "date": "2023",
+  "year": 2023,
+  "url": "https://docs.un.org/ar/CAT/C/TUN/QPR/4",
+  "symbol": "CAT/C/TUN/QPR/4",
+  "scope": "tn",
+  "langs": [
+   "ar",
+   "en",
+   "fr"
+  ],
+  "sections": [
+   [
+    "tunisia",
+    "الملاحظات الختامية للجان التعاهدية"
+   ]
+  ],
+  "rights": [
+   "torture",
+   "detention",
+   "tj",
+   "migration"
+  ],
+  "summary": "",
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "pdf": "",
+  "related": []
+ },
+ {
+  "id": "vr-tn-assembly",
+  "title": "تقرير زيارة المقرر الخاص المعني بالحق في حرية التجمع السلمي وتكوين الجمعيات إلى تونس",
+  "type": "sp-report",
+  "publisher": "الإجراءات الخاصة لمجلس حقوق الإنسان",
+  "publisher_en": "UN Special Procedures",
+  "date": "",
+  "year": null,
+  "url": "https://www.ohchr.org/ar/documents/reports/visit-tunisia-report-special-rapporteur-rights-freedom-peaceful-assembly-and",
+  "scope": "tn",
+  "rights": [
+   "assembly"
+  ],
+  "sections": [
+   [
+    "tunisia",
+    "تقارير الزيارات القطرية"
+   ],
+   [
+    "hrc",
+    "تقارير المقررين الخاصين"
+   ]
+  ],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "langs": [],
+  "symbol": "",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "vr-tn-ct",
+  "title": "تقرير زيارة المقرر الخاص المعني بحقوق الإنسان في سياق مكافحة الإرهاب إلى تونس",
+  "type": "sp-report",
+  "publisher": "الإجراءات الخاصة لمجلس حقوق الإنسان",
+  "publisher_en": "UN Special Procedures",
+  "date": "",
+  "year": null,
+  "url": "https://www.ohchr.org/ar/documents/reports/visit-tunisia-report-special-rapporteur-promotion-and-protection-human-rights-and",
+  "scope": "tn",
+  "rights": [
+   "terrorism"
+  ],
+  "sections": [
+   [
+    "tunisia",
+    "تقارير الزيارات القطرية"
+   ],
+   [
+    "hrc",
+    "تقارير المقررين الخاصين"
+   ]
+  ],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "langs": [],
+  "symbol": "",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "vr-tn-forb",
+  "title": "تقرير زيارة المقرر الخاص المعني بحرية الدين أو المعتقد إلى تونس",
+  "type": "sp-report",
+  "publisher": "الإجراءات الخاصة لمجلس حقوق الإنسان",
+  "publisher_en": "UN Special Procedures",
+  "date": "",
+  "year": null,
+  "url": "https://www.ohchr.org/ar/documents/reports/visit-tunisia-report-special-rapporteur-freedom-religion-or-belief",
+  "scope": "tn",
+  "rights": [
+   "religion"
+  ],
+  "sections": [
+   [
+    "tunisia",
+    "تقارير الزيارات القطرية"
+   ],
+   [
+    "hrc",
+    "تقارير المقررين الخاصين"
+   ]
+  ],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "langs": [],
+  "symbol": "",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "vr-tn-edu",
+  "title": "تقرير زيارة المقرر الخاص المعني بالحق في التعليم إلى تونس",
+  "type": "sp-report",
+  "publisher": "الإجراءات الخاصة لمجلس حقوق الإنسان",
+  "publisher_en": "UN Special Procedures",
+  "date": "",
+  "year": null,
+  "url": "https://www.ohchr.org/ar/documents/country-reports/visit-tunisia-report-special-rapporteur-right-education",
+  "scope": "tn",
+  "rights": [
+   "education"
+  ],
+  "sections": [
+   [
+    "tunisia",
+    "تقارير الزيارات القطرية"
+   ],
+   [
+    "hrc",
+    "تقارير المقررين الخاصين"
+   ]
+  ],
+  "checked": "2026-11-02",
+  "added": "2026-11-02",
+  "langs": [],
+  "symbol": "",
+  "pdf": "",
+  "summary": "",
+  "related": []
+ },
+ {
+  "id": "case-afcthpr-belgeith-2022",
+  "title": "بلقيث ضد الجمهورية التونسية (الطلب رقم 017/2021)",
+  "title_orig": "Brahim Ben Mohamed Ben Brahim Belgeith v. Republic of Tunisia, Application No. 017/2021",
+  "type": "judgment",
+  "publisher": "المحكمة الإفريقية لحقوق الإنسان والشعوب",
+  "date": "2022-09-22",
+  "year": 2022,
+  "url": "https://www.african-court.org/cpmt/details-case/0172021",
+  "symbol": "",
+  "summary": "حكم في الأصل وجبر الضرر اعتبر أن المراسيم الصادرة في إطار الحالة الاستثنائية تخرق المادة 13 من الميثاق الإفريقي، وأمر بإلغائها والعودة إلى الديمقراطية الدستورية وإرساء محكمة دستورية.",
+  "langs": [
+   "en",
+   "fr",
+   "ar"
+  ],
+  "scope": "tn",
+  "rights": [
+   "participation",
+   "terrorism",
+   "fairtrial"
+  ],
+  "court": "afcthpr",
+  "added": "2026-11-02",
+  "sections": [
+   [
+    "caselaw",
+    "المحكمة الإفريقية لحقوق الإنسان والشعوب"
+   ],
+   [
+    "tunisia",
+    "قرارات الهيئات والمحاكم الإقليمية"
+   ]
+  ],
+  "checked": "2026-11-02",
+  "pdf": "",
+  "related": []
+ },
+ {
+  "id": "case-afcthpr-rahmani-2024",
+  "title": "حمادي الرحماني وآخرون ضد الجمهورية التونسية (الطلب رقم 008/2024): تدابير مؤقتة",
+  "title_orig": "Hammadi Rahmani and Others v. Republic of Tunisia, Application No. 008/2024, Ruling on provisional measures",
+  "type": "order",
+  "publisher": "المحكمة الإفريقية لحقوق الإنسان والشعوب",
+  "date": "2024-10-03",
+  "year": 2024,
+  "url": "https://www.african-court.org/ajudata/download-file/decision/657/EN/358",
+  "symbol": "",
+  "summary": "أمرت المحكمة تونس بتعليق المرسوم المعدِّل لقانون المجلس المؤقت للقضاء والأمر الرئاسي القاضي بإعفاء أربعة قضاة إلى حين البت في الأصل.",
+  "langs": [
+   "en"
+  ],
+  "scope": "tn",
+  "rights": [
+   "fairtrial"
+  ],
+  "court": "afcthpr",
+  "added": "2026-11-02",
+  "sections": [
+   [
+    "caselaw",
+    "المحكمة الإفريقية لحقوق الإنسان والشعوب"
+   ],
+   [
+    "tunisia",
+    "قرارات الهيئات والمحاكم الإقليمية"
+   ]
+  ],
+  "checked": "2026-11-02",
+  "pdf": "",
+  "related": []
+ },
+ {
+  "id": "case-wgad-35-2024",
+  "title": "الرأي رقم 35/2024 بشأن ثمانية محتجزين في تونس (قضية «التآمر»)",
+  "title_orig": "Opinion No. 35/2024 concerning Mohamad Khayam al Turki and seven others (Tunisia)",
+  "type": "opinion",
+  "publisher": "الفريق العامل المعني بالاحتجاز التعسفي",
+  "date": "2024-10-08",
+  "year": 2024,
+  "url": "https://digitallibrary.un.org/record/4069597",
+  "symbol": "A/HRC/WGAD/2024/35",
+  "summary": "رأي اعتُمد في الدورة 100 للفريق العامل (أوت 2024) بشأن احتجاز ثمانية أشخاص منهم خيام التركي وشيماء عيسى وعصام الشابي وغازي الشواشي ورضا بلحاج وجوهر بن مبارك.",
+  "langs": [],
+  "scope": "tn",
+  "rights": [
+   "detention",
+   "fairtrial"
+  ],
+  "court": "wgad",
+  "added": "2026-11-02",
+  "sections": [
+   [
+    "caselaw",
+    "آراء الفريق العامل المعني بالاحتجاز التعسفي"
+   ],
+   [
+    "tunisia",
+    "قرارات الهيئات والمحاكم الإقليمية"
+   ]
+  ],
+  "checked": "2026-11-02",
+  "pdf": "",
+  "related": []
+ },
+ {
+  "id": "case-wgad-61-2024",
+  "title": "الرأي رقم 61/2024 بشأن عبير موسي (تونس)",
+  "title_orig": "Opinion No. 61/2024 concerning Abir Moussi (Tunisia)",
+  "type": "opinion",
+  "publisher": "الفريق العامل المعني بالاحتجاز التعسفي",
+  "date": "2025-02-27",
+  "year": 2025,
+  "url": "https://digitallibrary.un.org/record/4080135",
+  "symbol": "A/HRC/WGAD/2024/61",
+  "summary": "رأي اعتُمد في الدورة 101 للفريق العامل (نوفمبر 2024) بشأن احتجاز رئيسة الحزب الدستوري الحر.",
+  "langs": [],
+  "scope": "tn",
+  "rights": [
+   "detention",
+   "participation"
+  ],
+  "court": "wgad",
+  "added": "2026-11-02",
+  "sections": [
+   [
+    "caselaw",
+    "آراء الفريق العامل المعني بالاحتجاز التعسفي"
+   ],
+   [
+    "tunisia",
+    "قرارات الهيئات والمحاكم الإقليمية"
+   ]
+  ],
+  "checked": "2026-11-02",
+  "pdf": "",
+  "related": []
+ },
+ {
+  "id": "case-cat-jaidane-2017",
+  "title": "راشد جعيدان ضد تونس (البلاغ رقم 654/2015)",
+  "title_orig": "Rached Jaïdane v. Tunisia, Communication No. 654/2015",
+  "type": "decision",
+  "publisher": "لجنة مناهضة التعذيب",
+  "date": "2017-08-11",
+  "year": 2017,
+  "url": "https://digitallibrary.un.org/record/3988600",
+  "symbol": "CAT/C/61/D/654/2015",
+  "summary": "قرار اللجنة بموجب المادة 22 من الاتفاقية بشأن بلاغ ضد تونس، اعتُمد في 11 أوت 2017.",
+  "langs": [],
+  "scope": "tn",
+  "rights": [
+   "torture",
+   "tj"
+  ],
+  "court": "cat",
+  "added": "2026-11-02",
+  "sections": [
+   [
+    "caselaw",
+    "قرارات هيئات المعاهدات"
+   ],
+   [
+    "tunisia",
+    "قرارات الهيئات والمحاكم الإقليمية"
+   ]
+  ],
+  "checked": "2026-11-02",
+  "pdf": "",
+  "related": []
+ },
+ {
+  "id": "leg-decree-54-2022",
+  "title": "المرسوم عدد 54 لسنة 2022 المؤرخ في 13 سبتمبر 2022 المتعلق بمكافحة الجرائم المتصلة بأنظمة المعلومات والاتصال",
+  "type": "legislation",
+  "publisher": "الجمهورية التونسية",
+  "date": "2022-09-13",
+  "year": 2022,
+  "url": "https://legislation-securite.tn/",
+  "summary": "ابحث عن النص بعدده وسنته في قاعدة البيانات، وتحقّق منه في الرائد الرسمي للجمهورية التونسية قبل الاقتباس.",
+  "langs": [
+   "ar",
+   "fr"
+  ],
+  "scope": "tn",
+  "rights": [
+   "expression",
+   "privacy"
+  ],
+  "added": "2026-11-02",
+  "sections": [
+   [
+    "tunisia",
+    "التشريعات الوطنية"
+   ]
+  ],
+  "checked": "2026-11-02",
+  "symbol": "",
+  "pdf": "",
+  "related": []
+ },
+ {
+  "id": "leg-decree-88-2011",
+  "title": "المرسوم عدد 88 لسنة 2011 المؤرخ في 24 سبتمبر 2011 المتعلق بتنظيم الجمعيات",
+  "type": "legislation",
+  "publisher": "الجمهورية التونسية",
+  "date": "2011-09-24",
+  "year": 2011,
+  "url": "https://legislation-securite.tn/",
+  "summary": "ابحث عن النص بعدده وسنته في قاعدة البيانات، وتحقّق منه في الرائد الرسمي للجمهورية التونسية قبل الاقتباس.",
+  "langs": [
+   "ar",
+   "fr"
+  ],
+  "scope": "tn",
+  "rights": [
+   "assembly",
+   "defenders"
+  ],
+  "added": "2026-11-02",
+  "sections": [
+   [
+    "tunisia",
+    "التشريعات الوطنية"
+   ]
+  ],
+  "checked": "2026-11-02",
+  "symbol": "",
+  "pdf": "",
+  "related": []
+ },
+ {
+  "id": "leg-decree-115-2011",
+  "title": "المرسوم عدد 115 لسنة 2011 المؤرخ في 2 نوفمبر 2011 المتعلق بحرية الصحافة والطباعة والنشر",
+  "type": "legislation",
+  "publisher": "الجمهورية التونسية",
+  "date": "2011-11-02",
+  "year": 2011,
+  "url": "https://legislation-securite.tn/",
+  "summary": "ابحث عن النص بعدده وسنته في قاعدة البيانات، وتحقّق منه في الرائد الرسمي للجمهورية التونسية قبل الاقتباس.",
+  "langs": [
+   "ar",
+   "fr"
+  ],
+  "scope": "tn",
+  "rights": [
+   "expression"
+  ],
+  "added": "2026-11-02",
+  "sections": [
+   [
+    "tunisia",
+    "التشريعات الوطنية"
+   ]
+  ],
+  "checked": "2026-11-02",
+  "symbol": "",
+  "pdf": "",
+  "related": []
+ },
+ {
+  "id": "leg-law-22-2016",
+  "title": "القانون الأساسي عدد 22 لسنة 2016 المؤرخ في 24 مارس 2016 المتعلق بالحق في النفاذ إلى المعلومة",
+  "type": "legislation",
+  "publisher": "الجمهورية التونسية",
+  "date": "2016-03-24",
+  "year": 2016,
+  "url": "https://legislation-securite.tn/",
+  "summary": "ابحث عن النص بعدده وسنته في قاعدة البيانات، وتحقّق منه في الرائد الرسمي للجمهورية التونسية قبل الاقتباس.",
+  "langs": [
+   "ar",
+   "fr"
+  ],
+  "scope": "tn",
+  "rights": [
+   "expression"
+  ],
+  "added": "2026-11-02",
+  "sections": [
+   [
+    "tunisia",
+    "التشريعات الوطنية"
+   ]
+  ],
+  "checked": "2026-11-02",
+  "symbol": "",
+  "pdf": "",
+  "related": []
+ },
+ {
+  "id": "leg-law-58-2017",
+  "title": "القانون الأساسي عدد 58 لسنة 2017 المؤرخ في 11 أوت 2017 المتعلق بالقضاء على العنف ضد المرأة",
+  "type": "legislation",
+  "publisher": "الجمهورية التونسية",
+  "date": "2017-08-11",
+  "year": 2017,
+  "url": "https://legislation-securite.tn/",
+  "summary": "ابحث عن النص بعدده وسنته في قاعدة البيانات، وتحقّق منه في الرائد الرسمي للجمهورية التونسية قبل الاقتباس.",
+  "langs": [
+   "ar",
+   "fr"
+  ],
+  "scope": "tn",
+  "rights": [
+   "women"
+  ],
+  "added": "2026-11-02",
+  "sections": [
+   [
+    "tunisia",
+    "التشريعات الوطنية"
+   ]
+  ],
+  "checked": "2026-11-02",
+  "symbol": "",
+  "pdf": "",
+  "related": []
+ },
+ {
+  "id": "leg-law-50-2018",
+  "title": "القانون الأساسي عدد 50 لسنة 2018 المؤرخ في 23 أكتوبر 2018 المتعلق بالقضاء على جميع أشكال التمييز العنصري",
+  "type": "legislation",
+  "publisher": "الجمهورية التونسية",
+  "date": "2018-10-23",
+  "year": 2018,
+  "url": "https://legislation-securite.tn/",
+  "summary": "ابحث عن النص بعدده وسنته في قاعدة البيانات، وتحقّق منه في الرائد الرسمي للجمهورية التونسية قبل الاقتباس.",
+  "langs": [
+   "ar",
+   "fr"
+  ],
+  "scope": "tn",
+  "rights": [
+   "racism",
+   "migration"
+  ],
+  "added": "2026-11-02",
+  "sections": [
+   [
+    "tunisia",
+    "التشريعات الوطنية"
+   ]
+  ],
+  "checked": "2026-11-02",
+  "symbol": "",
+  "pdf": "",
+  "related": []
+ },
+ {
+  "id": "leg-law-61-2016",
+  "title": "القانون الأساسي عدد 61 لسنة 2016 المؤرخ في 3 أوت 2016 المتعلق بمنع الاتجار بالأشخاص ومكافحته",
+  "type": "legislation",
+  "publisher": "الجمهورية التونسية",
+  "date": "2016-08-03",
+  "year": 2016,
+  "url": "https://legislation-securite.tn/",
+  "summary": "ابحث عن النص بعدده وسنته في قاعدة البيانات، وتحقّق منه في الرائد الرسمي للجمهورية التونسية قبل الاقتباس.",
+  "langs": [
+   "ar",
+   "fr"
+  ],
+  "scope": "tn",
+  "rights": [
+   "migration",
+   "work"
+  ],
+  "added": "2026-11-02",
+  "sections": [
+   [
+    "tunisia",
+    "التشريعات الوطنية"
+   ]
+  ],
+  "checked": "2026-11-02",
+  "symbol": "",
+  "pdf": "",
+  "related": []
+ },
+ {
+  "id": "leg-law-43-2013",
+  "title": "القانون الأساسي عدد 43 لسنة 2013 المؤرخ في 21 أكتوبر 2013 المتعلق بالهيئة الوطنية للوقاية من التعذيب",
+  "type": "legislation",
+  "publisher": "الجمهورية التونسية",
+  "date": "2013-10-21",
+  "year": 2013,
+  "url": "https://legislation-securite.tn/",
+  "summary": "ابحث عن النص بعدده وسنته في قاعدة البيانات، وتحقّق منه في الرائد الرسمي للجمهورية التونسية قبل الاقتباس.",
+  "langs": [
+   "ar",
+   "fr"
+  ],
+  "scope": "tn",
+  "rights": [
+   "torture"
+  ],
+  "added": "2026-11-02",
+  "sections": [
+   [
+    "tunisia",
+    "التشريعات الوطنية"
+   ]
+  ],
+  "checked": "2026-11-02",
+  "symbol": "",
+  "pdf": "",
+  "related": []
+ },
+ {
+  "id": "leg-law-53-2013",
+  "title": "القانون الأساسي عدد 53 لسنة 2013 المؤرخ في 24 ديسمبر 2013 المتعلق بإرساء العدالة الانتقالية وتنظيمها",
+  "type": "legislation",
+  "publisher": "الجمهورية التونسية",
+  "date": "2013-12-24",
+  "year": 2013,
+  "url": "https://legislation-securite.tn/",
+  "summary": "ابحث عن النص بعدده وسنته في قاعدة البيانات، وتحقّق منه في الرائد الرسمي للجمهورية التونسية قبل الاقتباس.",
+  "langs": [
+   "ar",
+   "fr"
+  ],
+  "scope": "tn",
+  "rights": [
+   "tj"
+  ],
+  "added": "2026-11-02",
+  "sections": [
+   [
+    "tunisia",
+    "التشريعات الوطنية"
+   ]
+  ],
+  "checked": "2026-11-02",
+  "symbol": "",
+  "pdf": "",
+  "related": []
+ },
+ {
+  "id": "leg-law-26-2015",
+  "title": "القانون الأساسي عدد 26 لسنة 2015 المؤرخ في 7 أوت 2015 المتعلق بمكافحة الإرهاب ومنع غسل الأموال",
+  "type": "legislation",
+  "publisher": "الجمهورية التونسية",
+  "date": "2015-08-07",
+  "year": 2015,
+  "url": "https://legislation-securite.tn/",
+  "summary": "ابحث عن النص بعدده وسنته في قاعدة البيانات، وتحقّق منه في الرائد الرسمي للجمهورية التونسية قبل الاقتباس.",
+  "langs": [
+   "ar",
+   "fr"
+  ],
+  "scope": "tn",
+  "rights": [
+   "terrorism"
+  ],
+  "added": "2026-11-02",
+  "sections": [
+   [
+    "tunisia",
+    "التشريعات الوطنية"
+   ]
+  ],
+  "checked": "2026-11-02",
+  "symbol": "",
+  "pdf": "",
+  "related": []
+ },
+ {
+  "id": "leg-decree-50-1978",
+  "title": "الأمر عدد 50 لسنة 1978 المؤرخ في 26 جانفي 1978 المتعلق بتنظيم حالة الطوارئ",
+  "type": "legislation",
+  "publisher": "الجمهورية التونسية",
+  "date": "1978-01-26",
+  "year": 1978,
+  "url": "https://legislation-securite.tn/",
+  "summary": "ابحث عن النص بعدده وسنته في قاعدة البيانات، وتحقّق منه في الرائد الرسمي للجمهورية التونسية قبل الاقتباس.",
+  "langs": [
+   "ar",
+   "fr"
+  ],
+  "scope": "tn",
+  "rights": [
+   "terrorism",
+   "assembly"
+  ],
+  "added": "2026-11-02",
+  "sections": [
+   [
+    "tunisia",
+    "التشريعات الوطنية"
+   ]
+  ],
+  "checked": "2026-11-02",
+  "symbol": "",
+  "pdf": "",
+  "related": []
+ },
+ {
+  "id": "leg-decree-11-2022",
+  "title": "المرسوم عدد 11 لسنة 2022 المؤرخ في 12 فيفري 2022 المتعلق بإحداث المجلس الأعلى المؤقت للقضاء",
+  "type": "legislation",
+  "publisher": "الجمهورية التونسية",
+  "date": "2022-02-12",
+  "year": 2022,
+  "url": "https://legislation-securite.tn/",
+  "summary": "ابحث عن النص بعدده وسنته في قاعدة البيانات، وتحقّق منه في الرائد الرسمي للجمهورية التونسية قبل الاقتباس.",
+  "langs": [
+   "ar",
+   "fr"
+  ],
+  "scope": "tn",
+  "rights": [
+   "fairtrial"
+  ],
+  "added": "2026-11-02",
+  "sections": [
+   [
+    "tunisia",
+    "التشريعات الوطنية"
+   ]
+  ],
+  "checked": "2026-11-02",
+  "symbol": "",
+  "pdf": "",
+  "related": []
+ }
+]

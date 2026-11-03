@@ -1,0 +1,1295 @@
+[
+ {
+  "id": "tn-ohchr",
+  "title": "صفحة تونس لدى المفوضية السامية",
+  "title_en": "OHCHR country page: Tunisia",
+  "url": "https://www.ohchr.org/ar/countries/tunisia",
+  "kind": "صفحة بلد",
+  "summary": "مدخل موحّد: بيانات المفوض السامي، تقارير زيارات المقررين الخاصين، الملاحظات الختامية، حالة تقديم التقارير.",
+  "tip": "ابدأ منها عند إعداد أي ملف عن تونس، ثم انتقل إلى الروابط المتخصصة أدناه.",
+  "langs": [
+   "ar"
+  ],
+  "tunisia": true,
+  "section": "tunisia",
+  "group": "مداخل عامة",
+  "also": [],
+  "links": [
+   [
+    "بيان المفوض السامي بشأن المجتمع المدني والإعلام (ماي 2026)",
+    "https://www.ohchr.org/ar/press-releases/2026/05/turk-calls-tunisia-end-repressive-measures-against-civil-society-and-media"
+   ]
+  ],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ },
+ {
+  "id": "tn-tb",
+  "title": "تونس في قاعدة بيانات الهيئات التعاهدية",
+  "title_en": "Treaty bodies: Tunisia country page",
+  "url": "https://tbinternet.ohchr.org/_layouts/TreatyBodyExternal/countries.aspx?CountryCode=TUN&Lang=AR",
+  "kind": "قاعدة بيانات",
+  "summary": "كل ما قدّمته تونس للجان وما صدر عنها: التقارير الدورية، قوائم المسائل، الملاحظات الختامية، معلومات المتابعة.",
+  "tip": "رتّب حسب اللجنة ثم نوع الوثيقة. التقارير البديلة للمنظمات منشورة في صفحة كل دورة.",
+  "langs": [
+   "ar"
+  ],
+  "tunisia": true,
+  "section": "tunisia",
+  "group": "الملاحظات الختامية للجان التعاهدية",
+  "also": [],
+  "links": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ },
+ {
+  "id": "tn-ratif",
+  "title": "حالة تصديقات تونس",
+  "title_en": "Ratification status: Tunisia",
+  "url": "https://tbinternet.ohchr.org/_layouts/TreatyBodyExternal/Treaty.aspx?CountryID=178&Lang=AR",
+  "kind": "قاعدة بيانات",
+  "summary": "الاتفاقيات والبروتوكولات التي صادقت عليها تونس، وتواريخها، والإعلانات التي تقبل اختصاص اللجان بتلقي البلاغات الفردية.",
+  "tip": "تحقّق منها قبل أي بلاغ فردي: قبول اختصاص اللجنة شرط للمقبولية.",
+  "langs": [
+   "ar"
+  ],
+  "tunisia": true,
+  "section": "tunisia",
+  "group": "مداخل عامة",
+  "also": [
+   [
+    "standards",
+    "مراجع النصوص وحالة التصديق"
+   ]
+  ],
+  "links": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ },
+ {
+  "id": "tn-upr",
+  "title": "الاستعراض الدوري الشامل لتونس",
+  "title_en": "UPR: Tunisia",
+  "url": "https://www.ohchr.org/ar/hr-bodies/upr/tn-index",
+  "kind": "صفحة بلد",
+  "summary": "وثائق الدورات الأربع (2008، 2012، 2017، 2022): التقرير الوطني، تجميع الأمم المتحدة، ملخص أصحاب المصلحة، تقرير الفريق العامل وإضافته.",
+  "tip": "إضافة تقرير الفريق العامل تبيّن موقف تونس من كل توصية (مؤيَّدة أو محاط بها علمًا).",
+  "langs": [
+   "ar"
+  ],
+  "tunisia": true,
+  "section": "tunisia",
+  "group": "توصيات الاستعراض الدوري الشامل",
+  "also": [
+   [
+    "hrc",
+    "الاستعراض الدوري الشامل"
+   ]
+  ],
+  "links": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ },
+ {
+  "id": "tn-visits",
+  "title": "زيارات المقررين الخاصين إلى تونس",
+  "title_en": "Special procedures country visits: Tunisia",
+  "url": "https://spinternet.ohchr.org/_Layouts/SpecialProceduresInternet/ViewCountryVisits.aspx?Lang=en&country=TUN",
+  "kind": "قاعدة بيانات",
+  "summary": "قائمة الزيارات المنجزة والطلبات المعلّقة، مع روابط تقارير الزيارات.",
+  "tip": "قارن الطلبات المعلّقة بالدعوة الدائمة التي وجّهتها تونس للإجراءات الخاصة.",
+  "langs": [],
+  "tunisia": true,
+  "section": "tunisia",
+  "group": "تقارير الزيارات القطرية",
+  "also": [
+   [
+    "hrc",
+    "تقارير المقررين الخاصين"
+   ]
+  ],
+  "links": [
+   [
+    "تقرير المقرر الخاص المعني بحرية التجمع وتكوين الجمعيات",
+    "https://www.ohchr.org/ar/documents/reports/visit-tunisia-report-special-rapporteur-rights-freedom-peaceful-assembly-and"
+   ],
+   [
+    "تقرير المقرر الخاص المعني بحقوق الإنسان في سياق مكافحة الإرهاب",
+    "https://www.ohchr.org/ar/documents/reports/visit-tunisia-report-special-rapporteur-promotion-and-protection-human-rights-and"
+   ],
+   [
+    "تقرير المقرر الخاص المعني بحرية الدين أو المعتقد",
+    "https://www.ohchr.org/ar/documents/reports/visit-tunisia-report-special-rapporteur-freedom-religion-or-belief"
+   ],
+   [
+    "تقرير المقرر الخاص المعني بالحق في التعليم",
+    "https://www.ohchr.org/ar/documents/country-reports/visit-tunisia-report-special-rapporteur-right-education"
+   ]
+  ],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ },
+ {
+  "id": "tn-court",
+  "title": "المحكمة الإفريقية: قضايا ضد تونس",
+  "title_en": "African Court: cases against Tunisia",
+  "url": "https://www.african-court.org/",
+  "kind": "محكمة إقليمية",
+  "summary": "أحكام وتدابير مؤقتة صدرت ضد تونس، منها حكم 2022 بشأن مراسيم الحالة الاستثنائية وحكم 2024 بشأن حلّ المجلس الأعلى للقضاء.",
+  "tip": "سحبت تونس إعلان المادة 34(6) في 7 مارس 2025، وأصبح السحب نافذًا في 7 مارس 2026. القضايا المرفوعة قبل هذا التاريخ تستمر.",
+  "langs": [],
+  "tunisia": true,
+  "section": "tunisia",
+  "group": "قرارات الهيئات والمحاكم الإقليمية",
+  "also": [
+   [
+    "caselaw",
+    "المحكمة الإفريقية لحقوق الإنسان والشعوب"
+   ]
+  ],
+  "links": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ },
+ {
+  "id": "udhr",
+  "title": "الإعلان العالمي لحقوق الإنسان",
+  "title_en": "Universal Declaration of Human Rights",
+  "url": "https://www.un.org/ar/about-us/universal-declaration-of-human-rights",
+  "kind": "نص",
+  "summary": "النص العربي الرسمي للإعلان (1948).",
+  "tip": "",
+  "langs": [
+   "ar"
+  ],
+  "tunisia": false,
+  "section": "standards",
+  "group": "الإعلانات والمبادئ",
+  "also": [],
+  "links": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ },
+ {
+  "id": "core",
+  "title": "الاتفاقيات الأساسية التسع وبروتوكولاتها",
+  "title_en": "Core international human rights instruments",
+  "url": "https://www.ohchr.org/en/core-international-human-rights-instruments-and-their-monitoring-bodies",
+  "kind": "نصوص",
+  "summary": "قائمة الصكوك الأساسية وهيئات رصدها. الروابط الفرعية تفتح النص العربي على موقع المفوضية.",
+  "tip": "",
+  "langs": [
+   "ar"
+  ],
+  "tunisia": false,
+  "section": "standards",
+  "group": "المعاهدات والاتفاقيات",
+  "also": [],
+  "links": [
+   [
+    "العهد الدولي الخاص بالحقوق المدنية والسياسية",
+    "https://www.ohchr.org/AR/ProfessionalInterest/Pages/CCPR.aspx"
+   ],
+   [
+    "العهد الدولي الخاص بالحقوق الاقتصادية والاجتماعية والثقافية",
+    "https://www.ohchr.org/AR/ProfessionalInterest/Pages/CESCR.aspx"
+   ],
+   [
+    "اتفاقية القضاء على التمييز العنصري",
+    "https://www.ohchr.org/AR/ProfessionalInterest/Pages/CERD.aspx"
+   ],
+   [
+    "اتفاقية القضاء على التمييز ضد المرأة",
+    "https://www.ohchr.org/AR/ProfessionalInterest/Pages/CEDAW.aspx"
+   ],
+   [
+    "اتفاقية مناهضة التعذيب",
+    "https://www.ohchr.org/AR/ProfessionalInterest/Pages/CAT.aspx"
+   ],
+   [
+    "البروتوكول الاختياري لاتفاقية مناهضة التعذيب",
+    "https://www.ohchr.org/AR/ProfessionalInterest/Pages/OPCAT.aspx"
+   ],
+   [
+    "اتفاقية حقوق الطفل",
+    "https://www.ohchr.org/AR/ProfessionalInterest/Pages/CRC.aspx"
+   ],
+   [
+    "اتفاقية حماية العمال المهاجرين",
+    "https://www.ohchr.org/AR/ProfessionalInterest/Pages/CMW.aspx"
+   ],
+   [
+    "اتفاقية حقوق الأشخاص ذوي الإعاقة",
+    "https://www.ohchr.org/AR/HRBodies/CRPD/Pages/ConventionRightsPersonsWithDisabilities.aspx"
+   ],
+   [
+    "اتفاقية الحماية من الاختفاء القسري",
+    "https://www.ohchr.org/AR/HRBodies/CED/Pages/ConventionCED.aspx"
+   ],
+   [
+    "البروتوكول الاختياري الأول للعهد (البلاغات)",
+    "https://www.ohchr.org/AR/ProfessionalInterest/Pages/OPCCPR1.aspx"
+   ],
+   [
+    "البروتوكول الاختياري الثاني للعهد (إلغاء الإعدام)",
+    "https://www.ohchr.org/AR/ProfessionalInterest/Pages/2ndOPCCPR.aspx"
+   ],
+   [
+    "البروتوكول الاختياري لاتفاقية المرأة",
+    "https://www.ohchr.org/AR/ProfessionalInterest/Pages/OPCEDAW.aspx"
+   ]
+  ],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ },
+ {
+  "id": "untc",
+  "title": "مجموعة معاهدات الأمم المتحدة (الفصل الرابع)",
+  "title_en": "UN Treaty Collection, Chapter IV",
+  "url": "https://treaties.un.org/Pages/Treaties.aspx?id=4&subid=A&lang=en",
+  "kind": "قاعدة بيانات",
+  "summary": "المرجع الرسمي لحالة كل معاهدة: الأطراف، تواريخ التصديق، نصوص التحفظات والإعلانات والاعتراضات عليها.",
+  "tip": "النص الحرفي لتحفظات تونس يوجد هنا لا في مواقع اللجان.",
+  "langs": [],
+  "tunisia": false,
+  "section": "standards",
+  "group": "مراجع النصوص وحالة التصديق",
+  "also": [],
+  "links": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ },
+ {
+  "id": "dash",
+  "title": "لوحة التصديقات التفاعلية",
+  "title_en": "Status of ratification interactive dashboard",
+  "url": "https://indicators.ohchr.org/",
+  "kind": "قاعدة بيانات",
+  "summary": "خريطة وجداول تبيّن من صادق على ماذا، مع قبول إجراءات البلاغات والتحقيق.",
+  "tip": "مفيدة للمقارنة الإقليمية في التقارير (تونس مقارنة بدول شمال إفريقيا).",
+  "langs": [],
+  "tunisia": false,
+  "section": "standards",
+  "group": "مراجع النصوص وحالة التصديق",
+  "also": [],
+  "links": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ },
+ {
+  "id": "umn",
+  "title": "مكتبة حقوق الإنسان بجامعة منيسوتا (القسم العربي)",
+  "title_en": "University of Minnesota Human Rights Library (Arabic)",
+  "url": "https://hrlibrary.umn.edu/arab/",
+  "kind": "مكتبة",
+  "summary": "ترجمات عربية لعدد كبير من الصكوك الدولية والإقليمية، ومنها الميثاق الإفريقي والميثاق العربي.",
+  "tip": "مصدر أكاديمي غير رسمي: اعتمد النص الأممي الرسمي عند الاقتباس.",
+  "langs": [
+   "ar"
+  ],
+  "tunisia": false,
+  "section": "standards",
+  "group": "مراجع النصوص وحالة التصديق",
+  "also": [],
+  "links": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ },
+ {
+  "id": "unodc",
+  "title": "خلاصة معايير الأمم المتحدة في منع الجريمة والعدالة الجنائية",
+  "title_en": "UNODC Compendium of standards and norms",
+  "url": "https://www.unodc.org/unodc/en/justice-and-prison-reform/compendium.html",
+  "kind": "نصوص",
+  "summary": "قواعد نيلسون مانديلا، قواعد بانكوك، مبادئ استقلال القضاء ودور المحامين، معايير قضاء الأحداث.",
+  "tip": "أساسية لملفات السجون والاحتجاز والمحاكمة العادلة.",
+  "langs": [],
+  "tunisia": false,
+  "section": "standards",
+  "group": "المبادئ التوجيهية والقواعد النموذجية",
+  "also": [],
+  "links": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ },
+ {
+  "id": "tb-hub",
+  "title": "بوابة الهيئات التعاهدية",
+  "title_en": "Treaty bodies hub",
+  "url": "https://www.ohchr.org/ar/treaty-bodies",
+  "kind": "بوابة",
+  "summary": "مدخل اللجان العشر، مع صفحات المتابعة، والإجراء المبسّط لتقديم التقارير، وإرشادات التقارير.",
+  "tip": "",
+  "langs": [
+   "ar"
+  ],
+  "tunisia": false,
+  "section": "treaty",
+  "group": "اللجان",
+  "also": [],
+  "links": [
+   [
+    "اللجنة المعنية بحقوق الإنسان",
+    "https://www.ohchr.org/en/treaty-bodies/ccpr"
+   ],
+   [
+    "لجنة الحقوق الاقتصادية والاجتماعية والثقافية",
+    "https://www.ohchr.org/en/treaty-bodies/cescr"
+   ],
+   [
+    "لجنة القضاء على التمييز العنصري",
+    "https://www.ohchr.org/en/treaty-bodies/cerd"
+   ],
+   [
+    "لجنة القضاء على التمييز ضد المرأة",
+    "https://www.ohchr.org/en/treaty-bodies/cedaw"
+   ],
+   [
+    "لجنة مناهضة التعذيب",
+    "https://www.ohchr.org/en/treaty-bodies/cat"
+   ],
+   [
+    "اللجنة الفرعية لمنع التعذيب",
+    "https://www.ohchr.org/en/treaty-bodies/spt"
+   ],
+   [
+    "لجنة حقوق الطفل",
+    "https://www.ohchr.org/en/treaty-bodies/crc"
+   ],
+   [
+    "لجنة العمال المهاجرين",
+    "https://www.ohchr.org/en/treaty-bodies/cmw"
+   ],
+   [
+    "لجنة حقوق الأشخاص ذوي الإعاقة",
+    "https://www.ohchr.org/en/treaty-bodies/crpd"
+   ],
+   [
+    "اللجنة المعنية بحالات الاختفاء القسري",
+    "https://www.ohchr.org/en/treaty-bodies/ced"
+   ]
+  ],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ },
+ {
+  "id": "tbdb",
+  "title": "قاعدة بيانات الهيئات التعاهدية",
+  "title_en": "Treaty Body Database",
+  "url": "https://tbinternet.ohchr.org/_layouts/15/treatybodyexternal/TBSearch.aspx?Lang=ar",
+  "kind": "قاعدة بيانات",
+  "summary": "البحث في كل وثائق اللجان حسب اللجنة والبلد ونوع الوثيقة والدورة واللغة.",
+  "tip": "اختر «التعليقات العامة» كنوع وثيقة لتحصل على القائمة الكاملة لأي لجنة بالعربية.",
+  "langs": [
+   "ar"
+  ],
+  "tunisia": false,
+  "section": "treaty",
+  "group": "التقارير الدورية للدول",
+  "also": [
+   [
+    "treaty",
+    "الملاحظات الختامية"
+   ]
+  ],
+  "links": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ },
+ {
+  "id": "gc",
+  "title": "التعليقات والتوصيات العامة لكل اللجان",
+  "title_en": "General comments (all committees)",
+  "url": "https://www.ohchr.org/ar/treaty-bodies/general-comments",
+  "kind": "قائمة",
+  "summary": "صفحة موحّدة تحيل إلى التعليقات العامة لكل لجنة. فهرس الوثائق في هذه المكتبة يرتّب أهمها حسب الحق.",
+  "tip": "",
+  "langs": [
+   "ar"
+  ],
+  "tunisia": false,
+  "section": "treaty",
+  "group": "التعليقات العامة",
+  "also": [],
+  "links": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ },
+ {
+  "id": "juris",
+  "title": "قاعدة Juris لاجتهادات اللجان",
+  "title_en": "Juris: treaty body jurisprudence",
+  "url": "https://juris.ohchr.org/",
+  "kind": "قاعدة بيانات",
+  "summary": "آراء وقرارات اللجان في البلاغات الفردية، قابلة للتصفية حسب اللجنة والمادة والبلد والموضوع والنتيجة.",
+  "tip": "ابحث بالمادة (مثل المادة 19 من العهد) لتجد كيف طبّقت اللجنة التعليق العام على وقائع محددة.",
+  "langs": [],
+  "tunisia": false,
+  "section": "caselaw",
+  "group": "قرارات هيئات المعاهدات",
+  "also": [
+   [
+    "treaty",
+    "البلاغات الفردية والقرارات"
+   ]
+  ],
+  "links": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ },
+ {
+  "id": "indiv",
+  "title": "إجراءات البلاغات الفردية",
+  "title_en": "Individual communications procedures",
+  "url": "https://www.ohchr.org/en/treaty-bodies/individual-communications-procedures-treaty-bodies",
+  "kind": "دليل",
+  "summary": "شروط المقبولية، النماذج، عناوين الإرسال، والتدابير المؤقتة العاجلة.",
+  "tip": "",
+  "langs": [],
+  "tunisia": false,
+  "section": "treaty",
+  "group": "البلاغات الفردية والقرارات",
+  "also": [],
+  "links": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ },
+ {
+  "id": "follow",
+  "title": "متابعة الملاحظات الختامية",
+  "title_en": "Follow-up to concluding observations",
+  "url": "https://www.ohchr.org/en/treaty-bodies/follow-concluding-observations",
+  "kind": "دليل",
+  "summary": "كيف تختار اللجان توصيات ذات أولوية وتطلب ردًّا خلال سنتين، وكيف تُقدّم المنظمات معلومات المتابعة.",
+  "tip": "فرصة مناصرة بين دورتين: معلومات المتابعة تُقدَّم في نفس آجال الدولة.",
+  "langs": [],
+  "tunisia": false,
+  "section": "treaty",
+  "group": "الملاحظات الختامية",
+  "also": [],
+  "links": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ },
+ {
+  "id": "calendar",
+  "title": "رزنامة دورات اللجان",
+  "title_en": "Treaty bodies master calendar",
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/MasterCalendar.aspx",
+  "kind": "رزنامة",
+  "summary": "مواعيد الدورات والبلدان المدرجة وآجال التقارير البديلة.",
+  "tip": "تابع موعد استعراض تونس أمام لجنة مناهضة التعذيب (التقرير الرابع).",
+  "langs": [],
+  "tunisia": false,
+  "section": "treaty",
+  "group": "التقارير الدورية للدول",
+  "also": [],
+  "links": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ },
+ {
+  "id": "hrc",
+  "title": "مجلس حقوق الإنسان",
+  "title_en": "Human Rights Council",
+  "url": "https://www.ohchr.org/en/hrbodies/hrc/home",
+  "kind": "بوابة",
+  "summary": "الدورات العادية والاستثنائية، القرارات، لجان التحقيق وبعثات تقصي الحقائق، إجراء الشكاوى.",
+  "tip": "",
+  "langs": [],
+  "tunisia": false,
+  "section": "hrc",
+  "group": "المجلس ووثائقه",
+  "also": [],
+  "links": [
+   [
+    "وثائق المجلس",
+    "https://www.ohchr.org/en/hr-bodies/hrc/documents"
+   ]
+  ],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ },
+ {
+  "id": "webtv",
+  "title": "تلفزيون الأمم المتحدة على الشبكة",
+  "title_en": "UN Web TV",
+  "url": "https://media.un.org/en/webtv",
+  "kind": "فيديو",
+  "summary": "بث مباشر ومؤرشف لجلسات المجلس والحوارات التفاعلية مع اللجان.",
+  "tip": "مفيد لاقتباس ما قاله الوفد الرسمي حرفيًا أثناء الحوار.",
+  "langs": [],
+  "tunisia": false,
+  "section": "hrc",
+  "group": "المجلس ووثائقه",
+  "also": [],
+  "links": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ },
+ {
+  "id": "uprinfo",
+  "title": "UPR Info",
+  "title_en": "UPR Info",
+  "url": "https://www.upr-info.org/",
+  "kind": "منظمة متابعة",
+  "summary": "منظمة غير حكومية تتابع الاستعراض الدوري: قواعد بيانات التوصيات، أدلة للمنظمات، الاجتماعات التمهيدية.",
+  "tip": "مصدر غير أممي: تحقّق من الأرقام من وثائق الأمم المتحدة.",
+  "langs": [],
+  "tunisia": false,
+  "section": "hrc",
+  "group": "الاستعراض الدوري الشامل",
+  "also": [],
+  "links": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ },
+ {
+  "id": "sp-hub",
+  "title": "بوابة الإجراءات الخاصة",
+  "title_en": "Special procedures hub",
+  "url": "https://www.ohchr.org/ar/special-procedures-human-rights-council",
+  "kind": "بوابة",
+  "summary": "تعريف بالولايات، التقارير السنوية، الزيارات القطرية، دعوات تقديم المساهمات.",
+  "tip": "",
+  "langs": [
+   "ar"
+  ],
+  "tunisia": false,
+  "section": "hrc",
+  "group": "الإجراءات الخاصة",
+  "also": [],
+  "links": [
+   [
+    "دعوات تقديم المساهمات للتقارير",
+    "https://www.ohchr.org/en/special-procedures-human-rights-council/reports-and-related-calls-input"
+   ],
+   [
+    "الزيارات القطرية",
+    "https://www.ohchr.org/en/special-procedures-human-rights-council/country-and-other-visits"
+   ],
+   [
+    "دليل أصحاب الولايات",
+    "https://www.ohchr.org/en/documents/procedural-documents/directory-special-procedures-mandate-holders"
+   ]
+  ],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ },
+ {
+  "id": "sp-list",
+  "title": "قائمة الولايات المواضيعية",
+  "title_en": "Thematic mandates",
+  "url": "https://spinternet.ohchr.org/ViewAllCountryMandates.aspx?Type=TM&lang=en",
+  "kind": "قائمة",
+  "summary": "كل المقررين الخاصين والأفرقة العاملة، مع قرارات الإنشاء والتجديد والبريد الإلكتروني لكل ولاية.",
+  "tip": "",
+  "langs": [],
+  "tunisia": false,
+  "section": "hrc",
+  "group": "فرق العمل",
+  "also": [
+   [
+    "hrc",
+    "الإجراءات الخاصة"
+   ]
+  ],
+  "links": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ },
+ {
+  "id": "spcomm",
+  "title": "قاعدة مراسلات الإجراءات الخاصة",
+  "title_en": "Special procedures communications",
+  "url": "https://spcommreports.ohchr.org/",
+  "kind": "قاعدة بيانات",
+  "summary": "كل الرسائل التي وجّهها المقررون الخاصون إلى الدول والشركات منذ 2011، مع ردود الحكومات.",
+  "tip": "صفِّ النتائج حسب البلد ثم الولاية والفترة. الردود منشورة بجانب الرسالة إن وُجدت.",
+  "langs": [],
+  "tunisia": false,
+  "section": "hrc",
+  "group": "المراسلات المشتركة",
+  "also": [
+   [
+    "hrc",
+    "ردود الحكومات"
+   ],
+   [
+    "tunisia",
+    "مراسلات الإجراءات الخاصة وردود الحكومة"
+   ]
+  ],
+  "links": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ },
+ {
+  "id": "sp-submit",
+  "title": "تقديم معلومات أو حالة إلى الإجراءات الخاصة",
+  "title_en": "Online submission",
+  "url": "https://spsubmission.ohchr.org/",
+  "kind": "استمارة",
+  "summary": "الاستمارة الرسمية لإبلاغ المقررين الخاصين بانتهاك فردي أو بنمط عام.",
+  "tip": "احصل على موافقة الضحية أو أسرتها، واذكر سبل الانتصاف المحلية المستنفدة إن وجدت.",
+  "langs": [],
+  "tunisia": false,
+  "section": "hrc",
+  "group": "الإجراءات الخاصة",
+  "also": [
+   [
+    "hrc",
+    "المراسلات المشتركة"
+   ]
+  ],
+  "links": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ },
+ {
+  "id": "sp-what",
+  "title": "ما هي المراسلات؟",
+  "title_en": "What are communications",
+  "url": "https://www.ohchr.org/en/special-procedures-human-rights-council/what-are-communications",
+  "kind": "دليل",
+  "summary": "أنواع الرسائل (نداءات عاجلة، رسائل ادعاء، رسائل تعليق على تشريعات) وكيف تُنشر.",
+  "tip": "",
+  "langs": [],
+  "tunisia": false,
+  "section": "hrc",
+  "group": "المراسلات المشتركة",
+  "also": [],
+  "links": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ },
+ {
+  "id": "reprisals",
+  "title": "الأعمال الانتقامية بسبب التعاون مع الأمم المتحدة",
+  "title_en": "Reprisals",
+  "url": "https://www.ohchr.org/en/special-procedures-human-rights-council/acts-intimidation-and-reprisal-cooperation-special-procedures",
+  "kind": "دليل",
+  "summary": "كيف يُبلَّغ عن التخويف أو الانتقام من المدافعين الذين تعاونوا مع الآليات الأممية.",
+  "tip": "",
+  "langs": [],
+  "tunisia": false,
+  "section": "hrc",
+  "group": "الإجراءات الخاصة",
+  "also": [],
+  "links": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ },
+ {
+  "id": "ods",
+  "title": "نظام الوثائق الرسمية",
+  "title_en": "Official Document System (ODS)",
+  "url": "https://documents.un.org/",
+  "kind": "قاعدة بيانات",
+  "summary": "النص الكامل لكل وثائق الأمم المتحدة الرسمية باللغات الست. الرابط الدائم: docs.un.org/ar/ متبوعًا برمز الوثيقة.",
+  "tip": "استعمل أداة «الرمز إلى رابط» في هذه المكتبة لتحويل أي رمز إلى نسخته العربية.",
+  "langs": [
+   "ar"
+  ],
+  "tunisia": false,
+  "section": "tools",
+  "group": "أدوات البحث الشاملة",
+  "also": [],
+  "links": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ },
+ {
+  "id": "udl",
+  "title": "المكتبة الرقمية للأمم المتحدة",
+  "title_en": "UN Digital Library",
+  "url": "https://digitallibrary.un.org/?ln=ar",
+  "kind": "قاعدة بيانات",
+  "summary": "فهرسة دقيقة للوثائق والقرارات ومحاضر التصويت، مع ملفات PDF بكل اللغات.",
+  "tip": "أفضل أداة لإيجاد قرارات المجلس والجمعية العامة وسجل التصويت لكل دولة.",
+  "langs": [
+   "ar"
+  ],
+  "tunisia": false,
+  "section": "tools",
+  "group": "أدوات البحث الشاملة",
+  "also": [],
+  "links": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ },
+ {
+  "id": "uhri",
+  "title": "الفهرس العالمي لحقوق الإنسان",
+  "title_en": "Universal Human Rights Index",
+  "url": "https://uhri.ohchr.org/",
+  "kind": "قاعدة بيانات",
+  "summary": "أكثر من 260 ألف توصية وملاحظة من الهيئات التعاهدية والإجراءات الخاصة والاستعراض الدوري، مصنّفة حسب البلد والموضوع والفئة وأهداف التنمية المستدامة.",
+  "tip": "اختر تونس ثم موضوعًا واحدًا لتحصل على كل ما أوصت به الآليات الثلاث في هذا الموضوع.",
+  "langs": [],
+  "tunisia": false,
+  "section": "tools",
+  "group": "أدوات البحث الشاملة",
+  "also": [
+   [
+    "tunisia",
+    "توصيات الاستعراض الدوري الشامل"
+   ]
+  ],
+  "links": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ },
+ {
+  "id": "dhl",
+  "title": "دليل مكتبة داغ همرشولد لوثائق حقوق الإنسان",
+  "title_en": "Dag Hammarskjöld Library research guide",
+  "url": "https://research.un.org/en/docs/humanrights",
+  "kind": "دليل",
+  "summary": "شرح تقني لرموز الوثائق وأنواعها وكيفية تتبّع قرار أو تقرير عبر الهيئات.",
+  "tip": "",
+  "langs": [],
+  "tunisia": false,
+  "section": "tools",
+  "group": "أدوات البحث الشاملة",
+  "also": [],
+  "links": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ },
+ {
+  "id": "normlex",
+  "title": "NORMLEX (منظمة العمل الدولية)",
+  "title_en": "ILO NORMLEX",
+  "url": "https://normlex.ilo.org",
+  "kind": "قاعدة بيانات",
+  "summary": "اتفاقيات العمل، تصديقات كل دولة، تعليقات لجنة الخبراء، وحالات لجنة الحرية النقابية.",
+  "tip": "تعليقات لجنة الخبراء على تونس بشأن الاتفاقيتين 87 و98 مرجع أساسي للحقوق النقابية.",
+  "langs": [],
+  "tunisia": true,
+  "section": "tools",
+  "group": "الوكالات والبرامج الأممية",
+  "also": [
+   [
+    "standards",
+    "مراجع النصوص وحالة التصديق"
+   ]
+  ],
+  "links": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ },
+ {
+  "id": "refworld",
+  "title": "Refworld (المفوضية السامية لشؤون اللاجئين)",
+  "title_en": "UNHCR Refworld",
+  "url": "https://www.refworld.org/",
+  "kind": "قاعدة بيانات",
+  "summary": "معلومات بلدان المنشأ، سياسات اللجوء، اجتهادات قضائية وطنية ودولية في اللجوء وعدم الإعادة القسرية.",
+  "tip": "",
+  "langs": [],
+  "tunisia": false,
+  "section": "tools",
+  "group": "الوكالات والبرامج الأممية",
+  "also": [],
+  "links": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ },
+ {
+  "id": "unesco-obs",
+  "title": "مرصد اليونسكو للصحفيين القتلى",
+  "title_en": "UNESCO Observatory of Killed Journalists",
+  "url": "https://www.unesco.org/en/safety-journalists/observatory",
+  "kind": "قاعدة بيانات",
+  "summary": "حالات قتل الصحفيين ومتابعة الدول للتحقيقات القضائية فيها.",
+  "tip": "",
+  "langs": [],
+  "tunisia": false,
+  "section": "tools",
+  "group": "الوكالات والبرامج الأممية",
+  "also": [],
+  "links": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ },
+ {
+  "id": "evaw",
+  "title": "قاعدة بيانات هيئة الأمم المتحدة للمرأة حول العنف ضد المرأة",
+  "title_en": "UN Women Global Database on VAW",
+  "url": "https://data.unwomen.org/global-database-on-violence-against-women",
+  "kind": "قاعدة بيانات",
+  "summary": "التشريعات والسياسات الوطنية لمكافحة العنف ضد النساء، حسب البلد.",
+  "tip": "",
+  "langs": [],
+  "tunisia": true,
+  "section": "tools",
+  "group": "الوكالات والبرامج الأممية",
+  "also": [],
+  "links": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ },
+ {
+  "id": "iom-mm",
+  "title": "مشروع المهاجرين المفقودين (المنظمة الدولية للهجرة)",
+  "title_en": "IOM Missing Migrants Project",
+  "url": "https://missingmigrants.iom.int/",
+  "kind": "بيانات",
+  "summary": "أرقام الوفيات والمفقودين على طرق الهجرة، ومنها طريق وسط المتوسط.",
+  "tip": "",
+  "langs": [],
+  "tunisia": true,
+  "section": "tools",
+  "group": "الوكالات والبرامج الأممية",
+  "also": [],
+  "links": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ },
+ {
+  "id": "fao-rtf",
+  "title": "الحق في الغذاء (منظمة الأغذية والزراعة)",
+  "title_en": "FAO Right to Food",
+  "url": "https://www.fao.org/right-to-food/en/",
+  "kind": "دليل",
+  "summary": "المبادئ التوجيهية الطوعية للحق في الغذاء (2004) وأدوات تطبيقها.",
+  "tip": "",
+  "langs": [],
+  "tunisia": false,
+  "section": "tools",
+  "group": "الوكالات والبرامج الأممية",
+  "also": [],
+  "links": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ },
+ {
+  "id": "achpr",
+  "title": "اللجنة الإفريقية لحقوق الإنسان والشعوب",
+  "title_en": "African Commission on Human and Peoples' Rights",
+  "url": "https://achpr.au.int/ar",
+  "kind": "بوابة",
+  "summary": "تقارير الدول وملاحظاتها الختامية، البلاغات، القرارات، التعليقات العامة، الآليات الخاصة (حرية التعبير، المدافعون، السجون، المرأة، اللاجئون والمهاجرون).",
+  "tip": "بعد سحب إعلان المادة 34(6) أصبحت اللجنة الإفريقية الطريق الإقليمي للأفراد والمنظمات ضد تونس، ويمكنها إحالة قضايا إلى المحكمة.",
+  "langs": [
+   "ar"
+  ],
+  "tunisia": true,
+  "section": "regional",
+  "group": "المنظومة الإفريقية",
+  "also": [
+   [
+    "caselaw",
+    "اللجنة الإفريقية لحقوق الإنسان والشعوب"
+   ]
+  ],
+  "links": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ },
+ {
+  "id": "achpr-lib",
+  "title": "مكتبة المعايير غير الملزمة للجنة الإفريقية",
+  "title_en": "ACHPR soft law library",
+  "url": "https://achpr-library.uwazi.io/",
+  "kind": "مكتبة",
+  "summary": "التعليقات العامة والمبادئ التوجيهية والإعلانات التي اعتمدتها اللجنة، قابلة للبحث.",
+  "tip": "",
+  "langs": [],
+  "tunisia": false,
+  "section": "regional",
+  "group": "المنظومة الإفريقية",
+  "also": [],
+  "links": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ },
+ {
+  "id": "afcourt",
+  "title": "المحكمة الإفريقية لحقوق الإنسان والشعوب",
+  "title_en": "African Court on Human and Peoples' Rights",
+  "url": "https://www.african-court.org/",
+  "kind": "محكمة إقليمية",
+  "summary": "الأحكام والتدابير المؤقتة والآراء الاستشارية، وقائمة القضايا حسب الدولة.",
+  "tip": "",
+  "langs": [],
+  "tunisia": false,
+  "section": "caselaw",
+  "group": "المحكمة الإفريقية لحقوق الإنسان والشعوب",
+  "also": [
+   [
+    "regional",
+    "المنظومة الإفريقية"
+   ]
+  ],
+  "links": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ },
+ {
+  "id": "africanlii",
+  "title": "AfricanLII",
+  "title_en": "African Legal Information Institute",
+  "url": "https://africanlii.org/",
+  "kind": "مكتبة",
+  "summary": "نصوص كاملة لقرارات اللجنة الإفريقية وأحكام المحكمة والتعليقات العامة للهيئات الإفريقية.",
+  "tip": "",
+  "langs": [],
+  "tunisia": false,
+  "section": "caselaw",
+  "group": "اللجنة الإفريقية لحقوق الإنسان والشعوب",
+  "also": [],
+  "links": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ },
+ {
+  "id": "acerwc",
+  "title": "لجنة الخبراء الإفريقية لحقوق الطفل ورفاهه",
+  "title_en": "ACERWC",
+  "url": "https://www.acerwc.africa/",
+  "kind": "بوابة",
+  "summary": "تعليقات عامة وقرارات حول الطفل في إفريقيا، والتعليق المشترك مع اللجنة الإفريقية حول زواج الأطفال.",
+  "tip": "تحقّق من حالة تصديق تونس على الميثاق الإفريقي لحقوق الطفل قبل الاستناد إليه.",
+  "langs": [],
+  "tunisia": false,
+  "section": "regional",
+  "group": "المنظومة الإفريقية",
+  "also": [],
+  "links": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ },
+ {
+  "id": "au-treaties",
+  "title": "معاهدات الاتحاد الإفريقي",
+  "title_en": "AU treaties",
+  "url": "https://au.int/en/treaties",
+  "kind": "قاعدة بيانات",
+  "summary": "نصوص المعاهدات الإفريقية وقوائم التوقيع والتصديق المحدّثة.",
+  "tip": "",
+  "langs": [],
+  "tunisia": true,
+  "section": "regional",
+  "group": "المنظومة الإفريقية",
+  "also": [],
+  "links": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ },
+ {
+  "id": "las",
+  "title": "جامعة الدول العربية",
+  "title_en": "League of Arab States",
+  "url": "http://www.lasportal.org/",
+  "kind": "بوابة",
+  "summary": "إدارة حقوق الإنسان ولجنة حقوق الإنسان العربية (لجنة الميثاق) التي تنظر في تقارير الدول الأطراف في الميثاق العربي لحقوق الإنسان (2004).",
+  "tip": "لا توجد قاعدة بيانات علنية شاملة لوثائق لجنة الميثاق؛ تحقّق من حالة تصديق تونس على الميثاق قبل الاستناد إليه.",
+  "langs": [
+   "ar"
+  ],
+  "tunisia": false,
+  "section": "regional",
+  "group": "المنظومة العربية",
+  "also": [],
+  "links": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ },
+ {
+  "id": "iphrc",
+  "title": "الهيئة الدائمة المستقلة لحقوق الإنسان (منظمة التعاون الإسلامي)",
+  "title_en": "OIC IPHRC",
+  "url": "https://www.oic-iphrc.org/",
+  "kind": "بوابة",
+  "summary": "هيئة تابعة لمنظمة التعاون الإسلامي. نُقلت من قسم المنظومة العربية لأن المنظمة ليست جزءًا من المنظومة العربية لحقوق الإنسان.",
+  "tip": "",
+  "langs": [
+   "ar"
+  ],
+  "tunisia": false,
+  "section": "tools",
+  "group": "منظمات حكومية دولية أخرى",
+  "also": [],
+  "links": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ },
+ {
+  "id": "venice",
+  "title": "لجنة البندقية (مجلس أوروبا)",
+  "title_en": "Venice Commission",
+  "url": "https://www.venice.coe.int/",
+  "kind": "قاعدة بيانات",
+  "summary": "آراء حول الدساتير والقوانين الانتخابية والقضائية. تونس عضو في اللجنة، وصدرت عنها آراء بشأن تونس.",
+  "tip": "ابحث بـ Tunisia في قائمة الآراء حسب البلد.",
+  "langs": [],
+  "tunisia": true,
+  "section": "regional",
+  "group": "المنظومة الأوروبية",
+  "also": [],
+  "links": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ },
+ {
+  "id": "hudoc",
+  "title": "HUDOC (المحكمة الأوروبية لحقوق الإنسان)",
+  "title_en": "HUDOC",
+  "url": "https://hudoc.echr.coe.int/",
+  "kind": "قاعدة بيانات",
+  "summary": "اجتهاد مقارن غني في التعبير والتجمع والاحتجاز والمحاكمة العادلة، يُستأنس به في المرافعة.",
+  "tip": "",
+  "langs": [],
+  "tunisia": false,
+  "section": "caselaw",
+  "group": "المحكمة الأوروبية لحقوق الإنسان",
+  "also": [
+   [
+    "regional",
+    "المنظومة الأوروبية"
+   ]
+  ],
+  "links": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ },
+ {
+  "id": "icrc",
+  "title": "قواعد بيانات القانون الدولي الإنساني (اللجنة الدولية للصليب الأحمر)",
+  "title_en": "ICRC IHL databases",
+  "url": "https://ihl-databases.icrc.org/",
+  "kind": "قاعدة بيانات",
+  "summary": "المعاهدات وحالة التصديق والقانون العرفي والتطبيق الوطني.",
+  "tip": "",
+  "langs": [],
+  "tunisia": false,
+  "section": "tools",
+  "group": "منظمات متابعة ومصادر مكمّلة",
+  "also": [],
+  "links": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ },
+ {
+  "id": "ccprc",
+  "title": "مركز الحقوق المدنية والسياسية",
+  "title_en": "CCPR Centre",
+  "url": "https://ccprcentre.org/",
+  "kind": "منظمة متابعة",
+  "summary": "ملخصات دورات اللجنة المعنية بحقوق الإنسان، وتقييم متابعة التوصيات حسب البلد.",
+  "tip": "",
+  "langs": [],
+  "tunisia": false,
+  "section": "tools",
+  "group": "منظمات متابعة ومصادر مكمّلة",
+  "also": [],
+  "links": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ },
+ {
+  "id": "echr",
+  "title": "المحكمة الأوروبية لحقوق الإنسان",
+  "title_en": "European Court of Human Rights",
+  "url": "https://www.echr.coe.int/",
+  "kind": "محكمة إقليمية",
+  "summary": "الموقع الرسمي للمحكمة: الاتفاقية الأوروبية، الأدلة الموضوعية حسب المادة، صحائف الوقائع.",
+  "tip": "الأدلة الموضوعية (Case-law guides) تلخّص اجتهاد المحكمة مادةً مادة، وتصلح للمقارنة.",
+  "langs": [
+   "en",
+   "fr"
+  ],
+  "tunisia": false,
+  "section": "caselaw",
+  "group": "المحكمة الأوروبية لحقوق الإنسان",
+  "also": [],
+  "links": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ },
+ {
+  "id": "iacthr-juris",
+  "title": "محرك بحث اجتهاد محكمة البلدان الأمريكية",
+  "title_en": "Inter-American Court: jurisprudence search",
+  "url": "https://corteidh.or.cr/jurisprudencia-search.cfm?lang=en",
+  "kind": "قاعدة بيانات",
+  "summary": "أحكام المحكمة وآراؤها الاستشارية، قابلة للبحث حسب الموضوع والدولة.",
+  "tip": "غنية في الاختفاء القسري وجبر الضرر وحرية التعبير.",
+  "langs": [
+   "es",
+   "en"
+  ],
+  "tunisia": false,
+  "section": "caselaw",
+  "group": "المنظومة الأمريكية",
+  "also": [],
+  "links": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ },
+ {
+  "id": "coe-esc",
+  "title": "الميثاق الاجتماعي الأوروبي ولجنته",
+  "title_en": "European Social Charter",
+  "url": "https://www.coe.int/en/web/european-social-charter",
+  "kind": "بوابة",
+  "summary": "الحقوق الاقتصادية والاجتماعية في مجلس أوروبا: قرارات اللجنة الأوروبية للحقوق الاجتماعية والشكاوى الجماعية.",
+  "tip": "",
+  "langs": [
+   "en",
+   "fr"
+  ],
+  "tunisia": false,
+  "section": "regional",
+  "group": "المنظومة الأوروبية",
+  "also": [],
+  "links": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ },
+ {
+  "id": "coe-cpt",
+  "title": "اللجنة الأوروبية لمنع التعذيب",
+  "title_en": "European Committee for the Prevention of Torture (CPT)",
+  "url": "https://www.coe.int/en/web/cpt",
+  "kind": "بوابة",
+  "summary": "تقارير زيارات أماكن الاحتجاز ومعايير اللجنة، مرجع مقارن لأوضاع السجون.",
+  "tip": "",
+  "langs": [
+   "en",
+   "fr"
+  ],
+  "tunisia": false,
+  "section": "regional",
+  "group": "المنظومة الأوروبية",
+  "also": [],
+  "links": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ },
+ {
+  "id": "iachr",
+  "title": "لجنة البلدان الأمريكية لحقوق الإنسان",
+  "title_en": "Inter-American Commission on Human Rights",
+  "url": "https://www.oas.org/en/iachr/",
+  "kind": "بوابة",
+  "summary": "العرائض والتقارير القطرية والمواضيعية والمقررون الخاصون في منظمة الدول الأمريكية.",
+  "tip": "",
+  "langs": [
+   "es",
+   "en",
+   "pt",
+   "fr"
+  ],
+  "tunisia": false,
+  "section": "regional",
+  "group": "المنظومة الأمريكية",
+  "also": [],
+  "links": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ },
+ {
+  "id": "iacthr",
+  "title": "محكمة البلدان الأمريكية لحقوق الإنسان",
+  "title_en": "Inter-American Court of Human Rights",
+  "url": "https://corteidh.or.cr/",
+  "kind": "محكمة إقليمية",
+  "summary": "أحكام المحكمة وآراؤها الاستشارية والتدابير المؤقتة.",
+  "tip": "",
+  "langs": [
+   "es",
+   "en"
+  ],
+  "tunisia": false,
+  "section": "regional",
+  "group": "المنظومة الأمريكية",
+  "also": [],
+  "links": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ },
+ {
+  "id": "iort",
+  "title": "المطبعة الرسمية للجمهورية التونسية (الرائد الرسمي)",
+  "title_en": "Official Printing Office of Tunisia (JORT)",
+  "url": "http://www.iort.gov.tn/",
+  "kind": "قاعدة بيانات",
+  "summary": "المصدر الرسمي للنصوص القانونية المنشورة في الرائد الرسمي للجمهورية التونسية.",
+  "tip": "ابحث بنوع النص وعدده وسنته، وانسخ مرجع العدد من الرائد الرسمي عند الإحالة.",
+  "langs": [
+   "ar",
+   "fr"
+  ],
+  "tunisia": true,
+  "section": "tunisia",
+  "group": "التشريعات الوطنية",
+  "also": [],
+  "links": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ },
+ {
+  "id": "dcaf-leg",
+  "title": "قاعدة البيانات القانونية للقطاع الأمني في تونس (DCAF)",
+  "title_en": "DCAF Tunisia legal database",
+  "url": "https://legislation-securite.tn/",
+  "kind": "قاعدة بيانات",
+  "summary": "أكثر من 3000 نص قانوني يتعلق بالأمن والقضاء والحريات، مع محرك بحث وقائمة بالنصوص الجديدة.",
+  "tip": "مصدر غير رسمي مفيد للنصوص الأمنية والجزائية؛ تحقّق من النص في الرائد الرسمي قبل الاقتباس.",
+  "langs": [
+   "ar",
+   "fr"
+  ],
+  "tunisia": true,
+  "section": "tunisia",
+  "group": "التشريعات الوطنية",
+  "also": [],
+  "links": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ },
+ {
+  "id": "wgad",
+  "title": "آراء الفريق العامل المعني بالاحتجاز التعسفي",
+  "title_en": "Working Group on Arbitrary Detention",
+  "url": "https://www.ohchr.org/en/special-procedures/wg-arbitrary-detention",
+  "kind": "ولاية أممية",
+  "summary": "صفحة الفريق العامل: الآراء المعتمدة في الحالات الفردية، المداولات، المبادئ الأساسية بشأن سبل الانتصاف.",
+  "tip": "الآراء تُنشر حسب الدورة؛ ابحث فيها باسم البلد أو الشخص المحتجز.",
+  "langs": [],
+  "tunisia": true,
+  "section": "caselaw",
+  "group": "آراء الفريق العامل المعني بالاحتجاز التعسفي",
+  "also": [
+   [
+    "hrc",
+    "فرق العمل"
+   ]
+  ],
+  "links": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ },
+ {
+  "id": "arab-charter-text",
+  "title": "نص الميثاق العربي لحقوق الإنسان (2004)",
+  "title_en": "Arab Charter on Human Rights (2004)",
+  "url": "https://hrlibrary.umn.edu/arab/",
+  "kind": "نص",
+  "summary": "النص العربي للميثاق ضمن مكتبة حقوق الإنسان بجامعة منيسوتا (القسم العربي، باب الصكوك الإقليمية).",
+  "tip": "الميثاق دخل حيّز النفاذ سنة 2008. تحقّق من حالة تصديق تونس عليه قبل الاستناد إليه.",
+  "langs": [
+   "ar"
+  ],
+  "tunisia": false,
+  "section": "regional",
+  "group": "المنظومة العربية",
+  "also": [],
+  "links": [],
+  "checked": "2026-11-02",
+  "added": "2026-11-02"
+ }
+]

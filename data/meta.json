@@ -1,0 +1,472 @@
+{
+ "name": "مكتبة صغار الباحثين",
+ "name_en": "Young Researchers' Library",
+ "tagline": "مكتبة بحثية حقوقية: المعايير الدولية، الآليات الأممية والإقليمية، الاجتهادات، وملف تونس",
+ "updated": "2026-11-02",
+ "sections": [
+  {
+   "id": "standards",
+   "name": "المعايير والصكوك الدولية",
+   "icon": "scale",
+   "desc": "المعاهدات والبروتوكولات الملزمة، ثم الإعلانات والمبادئ والقواعد غير الملزمة، مع مراجع النصوص وحالة التصديق.",
+   "groups": [
+    "المعاهدات والاتفاقيات",
+    "البروتوكولات الاختيارية",
+    "الإعلانات والمبادئ",
+    "المبادئ التوجيهية والقواعد النموذجية",
+    "مراجع النصوص وحالة التصديق"
+   ]
+  },
+  {
+   "id": "treaty",
+   "name": "الهيئات التعاهدية",
+   "icon": "committee",
+   "desc": "اللجان الأممية العشر وما يصدر عنها: تعليقات عامة، ملاحظات ختامية، قرارات في البلاغات الفردية، وتقارير الدول.",
+   "groups": [
+    "اللجان",
+    "التعليقات العامة",
+    "الملاحظات الختامية",
+    "البلاغات الفردية والقرارات",
+    "التقارير الدورية للدول"
+   ]
+  },
+  {
+   "id": "hrc",
+   "name": "مجلس حقوق الإنسان",
+   "icon": "council",
+   "desc": "المجلس ووثائقه، الاستعراض الدوري الشامل، والإجراءات الخاصة بمقرريها وأفرقتها ومراسلاتها وردود الحكومات.",
+   "groups": [
+    "المجلس ووثائقه",
+    "الاستعراض الدوري الشامل",
+    "الإجراءات الخاصة",
+    "تقارير المقررين الخاصين",
+    "فرق العمل",
+    "المراسلات المشتركة",
+    "ردود الحكومات"
+   ]
+  },
+  {
+   "id": "caselaw",
+   "name": "الاجتهادات والقرارات الحقوقية",
+   "icon": "gavel",
+   "desc": "أحكام المحاكم الإقليمية، قرارات اللجان الأممية في البلاغات الفردية، وآراء الفريق العامل المعني بالاحتجاز التعسفي.",
+   "groups": [
+    "المحكمة الأوروبية لحقوق الإنسان",
+    "المحكمة الإفريقية لحقوق الإنسان والشعوب",
+    "اللجنة الإفريقية لحقوق الإنسان والشعوب",
+    "قرارات هيئات المعاهدات",
+    "آراء الفريق العامل المعني بالاحتجاز التعسفي",
+    "المنظومة الأمريكية"
+   ]
+  },
+  {
+   "id": "regional",
+   "name": "المنظومات الإقليمية",
+   "icon": "globe",
+   "desc": "المنظومات الإفريقية والعربية والأوروبية والأمريكية: صكوكها وهيئاتها ومصادرها.",
+   "groups": [
+    "المنظومة الإفريقية",
+    "المنظومة العربية",
+    "المنظومة الأوروبية",
+    "المنظومة الأمريكية"
+   ]
+  },
+  {
+   "id": "rights",
+   "name": "الحقوق والحريات",
+   "icon": "rights",
+   "desc": "لكل حق: الأساس القانوني، التفسير، الآليات المختصة، الاجتهادات، التوصيات، والتطبيقات الوطنية في تونس."
+  },
+  {
+   "id": "tunisia",
+   "name": "ملف تونس",
+   "icon": "flag",
+   "desc": "توصيات الاستعراض الدوري، الملاحظات الختامية، المراسلات وردود الحكومة، الزيارات، القرارات الإقليمية، والتشريعات الوطنية.",
+   "groups": [
+    "مداخل عامة",
+    "توصيات الاستعراض الدوري الشامل",
+    "الملاحظات الختامية للجان التعاهدية",
+    "مراسلات الإجراءات الخاصة وردود الحكومة",
+    "تقارير الزيارات القطرية",
+    "قرارات الهيئات والمحاكم الإقليمية",
+    "التشريعات الوطنية"
+   ]
+  },
+  {
+   "id": "reports",
+   "name": "الأبحاث والتقارير حول تونس",
+   "icon": "report",
+   "desc": "تقارير ودراسات المنظمات الدولية والإقليمية والوطنية حول حقوق الإنسان في تونس منذ 2020، مرتّبة من الأحدث."
+  },
+  {
+   "id": "tools",
+   "name": "أدوات البحث والمصادر المساندة",
+   "icon": "search",
+   "desc": "قواعد البحث الشاملة في وثائق الأمم المتحدة، والوكالات المتخصصة، ومنظمات المتابعة.",
+   "groups": [
+    "أدوات البحث الشاملة",
+    "الوكالات والبرامج الأممية",
+    "منظمات متابعة ومصادر مكمّلة",
+    "منظمات حكومية دولية أخرى"
+   ]
+  }
+ ],
+ "doc_types": {
+  "treaty": {
+   "name": "معاهدة / اتفاقية",
+   "force": "ملزم للدول الأطراف"
+  },
+  "protocol": {
+   "name": "بروتوكول اختياري",
+   "force": "ملزم للدول الأطراف فيه"
+  },
+  "charter": {
+   "name": "ميثاق إقليمي",
+   "force": "ملزم للدول الأطراف"
+  },
+  "declaration": {
+   "name": "إعلان / مبادئ",
+   "force": "غير ملزم"
+  },
+  "guidelines": {
+   "name": "مبادئ توجيهية / قواعد نموذجية",
+   "force": "غير ملزم"
+  },
+  "gc": {
+   "name": "تعليق عام / توصية عامة",
+   "force": "تفسير معتمد من هيئة تعاهدية"
+  },
+  "co": {
+   "name": "ملاحظات ختامية",
+   "force": "توصيات"
+  },
+  "decision": {
+   "name": "قرار في بلاغ فردي",
+   "force": "قرار شبه قضائي"
+  },
+  "judgment": {
+   "name": "حكم قضائي",
+   "force": "ملزم للدولة المعنية"
+  },
+  "order": {
+   "name": "أمر بتدابير مؤقتة",
+   "force": "ملزم للدولة المعنية"
+  },
+  "opinion": {
+   "name": "رأي الفريق العامل",
+   "force": "رأي غير ملزم"
+  },
+  "sp-report": {
+   "name": "تقرير زيارة قطرية",
+   "force": "توصيات"
+  },
+  "legislation": {
+   "name": "نص تشريعي وطني",
+   "force": "قانون وطني نافذ أو منشور"
+  },
+  "report": {
+   "name": "تقرير بحثي",
+   "force": ""
+  },
+  "briefing": {
+   "name": "ورقة إحاطة / تحليل قانوني",
+   "force": ""
+  },
+  "submission": {
+   "name": "تقرير مقدَّم إلى آلية",
+   "force": ""
+  },
+  "statement": {
+   "name": "بيان",
+   "force": ""
+  },
+  "annual": {
+   "name": "فصل من تقرير سنوي",
+   "force": ""
+  },
+  "mandate": {
+   "name": "ولاية من الإجراءات الخاصة",
+   "force": ""
+  }
+ },
+ "langs": {
+  "ar": "العربية",
+  "en": "الإنجليزية",
+  "fr": "الفرنسية",
+  "es": "الإسبانية",
+  "it": "الإيطالية",
+  "nl": "الهولندية",
+  "pt": "البرتغالية",
+  "ru": "الروسية",
+  "zh": "الصينية"
+ },
+ "topics": [
+  {
+   "id": "civil",
+   "name": "الحقوق المدنية والسياسية",
+   "rights": [
+    "participation",
+    "terrorism"
+   ]
+  },
+  {
+   "id": "judiciary",
+   "name": "استقلال القضاء والمحاكمة العادلة",
+   "rights": [
+    "fairtrial"
+   ]
+  },
+  {
+   "id": "detention",
+   "name": "الاحتجاز التعسفي وأوضاع السجون",
+   "rights": [
+    "detention"
+   ]
+  },
+  {
+   "id": "torture",
+   "name": "التعذيب والوفيات أثناء الاحتجاز",
+   "rights": [
+    "torture",
+    "life"
+   ]
+  },
+  {
+   "id": "expression",
+   "name": "حرية التعبير والصحافة",
+   "rights": [
+    "expression",
+    "privacy"
+   ]
+  },
+  {
+   "id": "assembly",
+   "name": "حرية التجمع السلمي وتكوين الجمعيات",
+   "rights": [
+    "assembly"
+   ]
+  },
+  {
+   "id": "defenders",
+   "name": "المدافعون عن حقوق الإنسان",
+   "rights": [
+    "defenders"
+   ]
+  },
+  {
+   "id": "esc",
+   "name": "الحقوق الاقتصادية والاجتماعية",
+   "rights": [
+    "work",
+    "health",
+    "education",
+    "livelihood"
+   ]
+  },
+  {
+   "id": "women",
+   "name": "حقوق النساء والمساواة",
+   "rights": [
+    "women"
+   ]
+  },
+  {
+   "id": "migrants",
+   "name": "حقوق المهاجرين واللاجئين",
+   "rights": [
+    "migration"
+   ]
+  },
+  {
+   "id": "discrimination",
+   "name": "التمييز والعنف وخطاب الكراهية",
+   "rights": [
+    "racism",
+    "sogi"
+   ]
+  },
+  {
+   "id": "environment",
+   "name": "البيئة والحقوق البيئية",
+   "rights": [
+    "environment"
+   ]
+  }
+ ],
+ "publishers": {
+  "hrw": {
+   "name": "هيومن رايتس ووتش",
+   "en": "Human Rights Watch",
+   "url": "https://www.hrw.org/middle-east/north-africa/tunisia"
+  },
+  "amnesty": {
+   "name": "منظمة العفو الدولية",
+   "en": "Amnesty International",
+   "url": "https://www.amnesty.org/en/location/middle-east-and-north-africa/north-africa/tunisia/report-tunisia/"
+  },
+  "fidh": {
+   "name": "الفيدرالية الدولية لحقوق الإنسان",
+   "en": "FIDH",
+   "url": "https://www.fidh.org/fr/regions/maghreb-moyen-orient/tunisie/"
+  },
+  "icj": {
+   "name": "لجنة الحقوقيين الدولية",
+   "en": "International Commission of Jurists (ICJ)",
+   "url": "https://www.icj.org/country/tunisia/"
+  },
+  "rsf": {
+   "name": "مراسلون بلا حدود",
+   "en": "Reporters Without Borders (RSF)",
+   "url": "https://rsf.org/en/country/tunisia"
+  },
+  "civicus": {
+   "name": "سيفيكوس",
+   "en": "CIVICUS",
+   "url": "https://www.civicus.org/index.php/component/tags/tag/tunisia"
+  },
+  "article19": {
+   "name": "المادة 19",
+   "en": "ARTICLE 19",
+   "url": "https://www.article19.org/"
+  },
+  "omct": {
+   "name": "المنظمة العالمية لمناهضة التعذيب",
+   "en": "OMCT",
+   "url": "https://omct-tunisie.org/"
+  },
+  "asf": {
+   "name": "محامون بلا حدود",
+   "en": "Avocats Sans Frontières (ASF)",
+   "url": "https://asf.be/country/tn-en/"
+  },
+  "euromed": {
+   "name": "الأورومتوسطية للحقوق",
+   "en": "EuroMed Rights",
+   "url": "https://euromedrights.org/country/countries-we-work-on/tunisia-2/"
+  },
+  "tn-ngos": {
+   "name": "تحالف منظمات تونسية",
+   "en": "Tunisian civil society coalition",
+   "url": "https://asf.be/country/tn-en/"
+  }
+ },
+ "trackers": [
+  {
+   "publisher": "amnesty",
+   "title": "صفحة تونس في التقرير السنوي لمنظمة العفو الدولية",
+   "url": "https://www.amnesty.org/en/location/middle-east-and-north-africa/north-africa/tunisia/report-tunisia/",
+   "summary": "تُحدَّث مع كل تقرير سنوي عن حالة حقوق الإنسان في العالم."
+  },
+  {
+   "publisher": "hrw",
+   "title": "صفحة تونس لدى هيومن رايتس ووتش",
+   "url": "https://www.hrw.org/middle-east/north-africa/tunisia",
+   "summary": "كل تقارير المنظمة وبياناتها حول تونس."
+  },
+  {
+   "publisher": "rsf",
+   "title": "تونس في مؤشر حرية الصحافة",
+   "url": "https://rsf.org/en/country/tunisia",
+   "summary": "الترتيب السنوي والملف القُطري لمراسلون بلا حدود."
+  },
+  {
+   "publisher": "civicus",
+   "title": "تونس لدى سيفيكوس",
+   "url": "https://www.civicus.org/index.php/component/tags/tag/tunisia",
+   "summary": "تحديثات رصد الفضاء المدني والمقابلات."
+  },
+  {
+   "publisher": "icj",
+   "title": "صفحة تونس لدى لجنة الحقوقيين الدولية",
+   "url": "https://www.icj.org/country/tunisia/",
+   "summary": "الإحاطات القانونية والبيانات حول القضاء والعدالة الانتقالية."
+  },
+  {
+   "publisher": "omct",
+   "title": "المنظمة العالمية لمناهضة التعذيب في تونس",
+   "url": "https://omct-tunisie.org/",
+   "summary": "تقارير التعذيب والهجرة ومرافقة الضحايا."
+  },
+  {
+   "publisher": "euromed",
+   "title": "تونس لدى الأورومتوسطية للحقوق",
+   "url": "https://euromedrights.org/country/countries-we-work-on/tunisia-2/",
+   "summary": "منشورات وبيانات حول الحقوق في تونس."
+  },
+  {
+   "publisher": "fidh",
+   "title": "تونس لدى الفيدرالية الدولية لحقوق الإنسان",
+   "url": "https://www.fidh.org/fr/regions/maghreb-moyen-orient/tunisie/",
+   "summary": "تقارير وبيانات الفيدرالية ورابطاتها الأعضاء."
+  }
+ ],
+ "bodies_en": {
+  "CCPR": "UN Human Rights Committee",
+  "CESCR": "UN Committee on Economic, Social and Cultural Rights",
+  "CERD": "UN Committee on the Elimination of Racial Discrimination",
+  "CEDAW": "UN Committee on the Elimination of Discrimination against Women",
+  "CAT": "UN Committee against Torture",
+  "CRC": "UN Committee on the Rights of the Child",
+  "CMW": "UN Committee on Migrant Workers",
+  "CRPD": "UN Committee on the Rights of Persons with Disabilities",
+  "CED": "UN Committee on Enforced Disappearances",
+  "ACHPR": "African Commission on Human and Peoples' Rights",
+  "SPT": "UN Subcommittee on Prevention of Torture"
+ },
+ "bodies": [
+  {
+   "code": "CCPR",
+   "name": "اللجنة المعنية بحقوق الإنسان"
+  },
+  {
+   "code": "CESCR",
+   "name": "لجنة الحقوق الاقتصادية والاجتماعية والثقافية"
+  },
+  {
+   "code": "CERD",
+   "name": "لجنة القضاء على التمييز العنصري"
+  },
+  {
+   "code": "CEDAW",
+   "name": "لجنة القضاء على التمييز ضد المرأة"
+  },
+  {
+   "code": "CAT",
+   "name": "لجنة مناهضة التعذيب"
+  },
+  {
+   "code": "CRC",
+   "name": "لجنة حقوق الطفل"
+  },
+  {
+   "code": "CMW",
+   "name": "لجنة العمال المهاجرين"
+  },
+  {
+   "code": "CRPD",
+   "name": "لجنة حقوق الأشخاص ذوي الإعاقة"
+  },
+  {
+   "code": "CED",
+   "name": "لجنة الاختفاء القسري"
+  },
+  {
+   "code": "ACHPR",
+   "name": "اللجنة الإفريقية"
+  }
+ ],
+ "scopes": {
+  "tn": "تونس",
+  "global": "عالمي",
+  "africa": "إفريقيا",
+  "arab": "العالم العربي",
+  "europe": "أوروبا",
+  "americas": "الأمريكتان"
+ },
+ "launch": "2026-11-02",
+ "org": {
+  "name": "",
+  "url": "",
+  "email": ""
+ }
+}
