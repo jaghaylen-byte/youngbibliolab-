@@ -47,6 +47,7 @@
   /* ------------------------------------------------------------------ state */
   var D = {}, IDX = [], BY = {}, RIGHT = {}, SEC = {}, PUB = {};
   var main = document.getElementById("main");
+  var REDUCE = !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
   var st = {
     route: "", sq: { q: "", kind: "", type: "", publisher: "", right: "", scope: "", lang: "", section: "", yfrom: "", yto: "", sort: "rel", limit: 40 },
     rep: { topic: "", publisher: "", lang: "", type: "", q: "" }, lib: { cat: "", ar: false, tn: false, q: "" }, gd: { body: "", q: "", sort: "body" }, gcBody: "", expanded: {}, citeStyle: "chicago", filtersOpen: false
@@ -300,32 +301,178 @@
   }
 
   /* ------------------------------------------------------------------ views */
+  /* ------------------------------------------------------------------ home
+     The hero shows one right as a small network: its binding text, its authoritative interpretation,
+     the UN mechanism that monitors it and what has been reported about Tunisia. Related rights sit
+     on the edge of the network and switch the hero when chosen. Everything is built from the data. */
+  var HERO_PICKS = ["expression", "torture", "migration", "fairtrial", "women"];
+  var SRC_SHORT = {
+    "العهد الدولي للحقوق المدنية والسياسية": "العهد الدولي للحقوق المدنية والسياسية",
+    "العهد الدولي للحقوق الاقتصادية والاجتماعية والثقافية": "العهد الدولي للحقوق الاقتصادية والاجتماعية",
+    "الاتفاقية الدولية لحماية جميع الأشخاص من الاختفاء القسري": "اتفاقية الاختفاء القسري"
+  };
+  function plural(n, one, two, few, many) { return n === 1 ? one : n === 2 ? two : n >= 3 && n <= 10 ? n + " " + few : n + " " + many; }
+  function rightItems(id) { return IDX.filter(function (it) { return (it.rights || []).indexOf(id) >= 0; }); }
+  function rightTnReports(id) { return IDX.filter(function (it) { return it.kind === "report" && (it.rights || []).indexOf(id) >= 0; }); }
+  function heroNodes(r) {
+    var nodes = [];
+    var bind = r.legal.filter(function (l) { var d = BY[l.doc]; return d && BIND[d.type] === "f-bind" && !l.regional; })[0];
+    if (bind) {
+      var art = bind.articles && bind.articles !== "كاملة" ? (/[،,\-]/.test(bind.articles) ? "المواد " : "المادة ") + bind.articles : "النص كاملًا";
+      nodes.push({ k: "bind", kind: "النص الملزم", val: SRC_SHORT[bind.source] || bind.source, sub: art, href: href(bind.doc) });
+    }
+    var gc = r.interp.map(function (x) { return BY[x]; }).filter(Boolean)[0];
+    if (gc) {
+      var body = (D.meta.bodies.filter(function (b) { return b.code === gc.body; })[0] || {}).name || gc.publisher || "";
+      nodes.push({ k: "interp", kind: "التفسير المعتمد", val: gc.type === "gc" && gc.number ? "التعليق العام رقم " + gc.number : gc.title, sub: body, href: href(gc.id) });
+    }
+    var mech = r.mechanisms[0];
+    if (mech) nodes.push({ k: "mech", kind: "الرقابة الأممية", val: mech.name, sub: "الإجراءات الخاصة", href: mech.url, ext: true });
+    var reps = rightTnReports(r.id).length;
+    nodes.push({ k: "tn", kind: "التطبيق في تونس", val: reps ? plural(reps, "تقرير واحد", "تقريران", "تقارير", "تقريرًا") + " منذ 2020" : "إرشادات البحث عن تونس", sub: "في صفحة الحق", href: "#right-" + r.id });
+    return nodes;
+  }
+  // stable pseudo-random numbers per right, so each right has its own network shape
+  function seeded(str) { var h = 2166136261; for (var i = 0; i < str.length; i++) { h ^= str.charCodeAt(i); h = Math.imul(h, 16777619); } return function () { h = Math.imul(h ^ (h >>> 15), 2246822507); h = Math.imul(h ^ (h >>> 13), 3266489909); h ^= h >>> 16; return (h >>> 0) / 4294967296; }; }
+  var SAT_POS = [[85, 11], [15, 11], [15, 89], [85, 89]];
+  var REL_POS = [[50, 3], [9, 50], [91, 50]];
+  function heroNet(r, first) {
+    var nodes = heroNodes(r), rnd = seeded(r.id), C = [50, 50];
+    var rel = r.related.filter(function (x) { return RIGHT[x]; }).slice(0, 3);
+    var amb = [];
+    for (var i = 0; i < 16; i++) amb.push([4 + rnd() * 92, 4 + rnd() * 92]);
+    amb = amb.filter(function (p) { return Math.abs(p[0] - 50) > 16 || Math.abs(p[1] - 50) > 14; });
+    var lines = [];
+    function ln(a, b, cls) { lines.push('<line x1="' + a[0] + '" y1="' + a[1] + '" x2="' + b[0] + '" y2="' + b[1] + '" class="' + cls + '" pathLength="1"/>'); }
+    nodes.forEach(function (n, i) { ln(C, SAT_POS[i], "l-main l-" + n.k); });
+    rel.forEach(function (x, i) { ln(C, REL_POS[i], "l-rel"); });
+    amb.forEach(function (p) {
+      var all = SAT_POS.slice(0, nodes.length).concat(REL_POS.slice(0, rel.length)).concat(amb.filter(function (q) { return q !== p; }));
+      all.sort(function (a, b) { return Math.hypot(a[0] - p[0], a[1] - p[1]) - Math.hypot(b[0] - p[0], b[1] - p[1]); });
+      ln(p, all[0], "l-amb"); if (all[1] && Math.hypot(all[1][0] - p[0], all[1][1] - p[1]) < 30) ln(p, all[1], "l-amb");
+    });
+    var html = '<svg class="hn-lines" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">' + lines.join("") + "</svg>";
+    html += amb.map(function (p) { return '<span class="hn-amb" style="--x:' + p[0].toFixed(1) + "%;--y:" + p[1].toFixed(1) + '%" aria-hidden="true"></span>'; }).join("");
+    html += '<a class="hn-center" href="#right-' + r.id + '" style="--x:50%;--y:50%"><span class="hn-dot" aria-hidden="true"></span><span class="hn-title">' + esc(r.title) + '</span><span class="hn-open">افتح صفحة الحق</span></a>';
+    html += '<ol class="hn-sats">' + nodes.map(function (n, i) {
+      return '<li class="hn-sat k-' + n.k + '" style="--x:' + SAT_POS[i][0] + "%;--y:" + SAT_POS[i][1] + '%;--i:' + i + '"><span class="hn-dot" aria-hidden="true"></span>' +
+        '<a href="' + esc(n.href) + '"' + (n.ext ? ' target="_blank" rel="noopener"' : "") + '><span class="hn-kind">' + esc(n.kind) + '</span><span class="hn-val">' + esc(n.val) + '</span><span class="hn-sub">' + esc(n.sub) + "</span></a></li>";
+    }).join("") + "</ol>";
+    html += rel.map(function (x, i) {
+      return '<button type="button" class="hn-rel" data-hero="' + x + '" style="--x:' + REL_POS[i][0] + "%;--y:" + REL_POS[i][1] + '%"><span class="hn-dot" aria-hidden="true"></span><span>' + esc(RIGHT[x].title) + "</span></button>";
+    }).join("");
+    return html;
+  }
+  function heroPills(cur) {
+    var picks = HERO_PICKS.filter(function (x) { return RIGHT[x]; });
+    if (picks.indexOf(cur) < 0) picks = [cur].concat(picks.slice(0, 5));
+    return picks.map(function (x) { return '<button type="button" class="hp" data-hero="' + x + '" aria-pressed="' + (x === cur) + '">' + esc(RIGHT[x].title) + "</button>"; }).join("");
+  }
+
   function vHome() {
-    var hints = ["حرية التعبير", "CCPR/C/GC/34", "المادة 9 الاحتجاز", "المقرر الخاص المعني بالتعذيب", "تونس الهجرة", "CEDAW"];
-    var doors = [
-      ["rights", "rights", "أبحث في حق", "من النص الملزم إلى التفسير والآليات والتطبيق في تونس، لـ " + D.rights.length + " حقًا.", D.rights.slice(0, 4).map(function (r) { return ['#right-' + r.id, r.title]; })],
-      ["search", "search", "أبحث عن وثيقة", "برمزها أو اسمها أو اللجنة أو المادة، مع فلاتر النوع والسنة واللغة.", [["#docs", "فهرس التعليقات العامة"], ["#section-caselaw", "الاجتهادات والقرارات"], ["#library", "المواقع وقواعد البيانات"], ["#guides", "أدلة البحث"]]],
-      ["tunisia", "flag", "أتابع تونس", "الملاحظات الختامية، الاستعراض الدوري، القرارات الإقليمية، و" + D.reports.length + " تقريرًا منذ 2020.", [["#tunisia", "ملف تونس"], ["#reports", "التقارير حول تونس"], ["#laws", "التشريعات الوطنية"], ["#right-migration", "الهجرة واللجوء"]]]
-    ].map(function (d) {
-      return '<article class="door' + (d[0] === "tunisia" ? " tn" : "") + '"><a class="door-head" href="#' + d[0] + '"><span class="ico">' + ic(d[1], "lg") + "</span><h2>" + esc(d[2]) + "</h2></a><p>" + esc(d[3]) + "</p>" +
-        '<ul class="door-links">' + d[4].map(function (l) { return '<li><a href="' + l[0] + '">' + esc(l[1]) + "</a></li>"; }).join("") + "</ul></article>";
-    }).join("");
-    var mini = [["المعايير", "standards"], ["الهيئات التعاهدية", "treaty"], ["مجلس حقوق الإنسان", "hrc"], ["الاجتهادات", "caselaw"], ["المنظومات الإقليمية", "regional"]].map(function (x, i) {
-      return (i ? '<span class="arrow" aria-hidden="true">←</span>' : "") + '<a class="mini" href="#section-' + x[1] + '">' + ic(SEC[x[1]].icon) + "<span>" + esc(x[0]) + '</span><b class="num">' + inSection(x[1]).length + "</b></a>";
-    }).join("");
-    var latest = IDX.filter(function (it) { return it.kind === "report" || (it.kind === "document" && it.year && it.year >= new Date().getFullYear() - 1); })
-      .sort(function (a, b) { return String(b.date || b.year).localeCompare(String(a.date || a.year)); }).slice(0, 5);
-    return '<section class="hero"><span class="eyebrow">' + esc(D.meta.name_en) + "</span><h1>" + esc(D.meta.name) + "</h1><p>" + esc(D.meta.tagline) + "</p>" +
-      '<form class="bigsearch" id="homeSearch" role="search"><input id="hq" type="search" placeholder="ابحث بالحق، الاتفاقية، رقم المادة، رمز الوثيقة، اللجنة، المقرر الخاص…" aria-label="بحث في المكتبة" autocomplete="off">' + ic("search") +
+    var cur = st.heroRight && RIGHT[st.heroRight] ? st.heroRight : HERO_PICKS[0];
+    var hints = ["CCPR/C/GC/34", "المادة 9 الاحتجاز", "المقرر الخاص المعني بالتعذيب", "تونس الهجرة"];
+    var count = function (types) { return IDX.filter(function (it) { return types.indexOf(it.type) >= 0; }).length; };
+
+    var hero = '<section class="h-hero" aria-labelledby="h-title"><div class="h-copy">' +
+      '<h1 id="h-title">من نص الاتفاقية إلى تطبيقها في تونس</h1>' +
+      '<p class="h-lede">مكتبة مفتوحة تربط كل حق بنصّه الملزم، وتفسيره المعتمد، والآليات التي تراقبه، وما رُصد في تونس بشأنه.</p>' +
+      '<form class="bigsearch" id="homeSearch" role="search"><input id="hq" type="search" placeholder="ابحث بالحق أو رمز الوثيقة أو رقم المادة أو اللجنة…" aria-label="بحث في المكتبة">' + ic("search") +
       '<button class="btn primary" type="submit">بحث</button></form>' +
-      '<div class="hints"><span>أمثلة:</span>' + hints.map(function (h) { return '<a href="#search" data-q="' + esc(h) + '">' + esc(h) + "</a>"; }).join("") + "</div></section>" +
-      '<div class="doors">' + doors + "</div>" +
-      '<div class="tier">خريطة المنظومة باختصار <a href="#map" class="tier-link">الخريطة الكاملة</a></div><nav class="minimap" aria-label="خريطة المنظومة">' + mini + "</nav>" +
-      '<div class="tn-band" style="margin-top:22px"><div><strong>تنبيه حول تونس</strong><p>' + esc(D.tunisia.note_court) + '</p></div><div class="btns"><a class="btn tn" href="#tunisia">ملف تونس</a></div></div>' +
-      '<div class="tier">أحدث الوثائق والتقارير <a href="#reports" class="tier-link">كل التقارير</a></div>' + rows(latest) +
-      '<div class="learn-cta"><div><strong>جديد في منظومة حقوق الإنسان؟</strong><p>مسار قصير من خمس خطوات يشرح الفرق بين المعاهدة والتعليق العام والملاحظات الختامية، مع تمرين عملي في كل خطوة.</p></div><a class="btn primary" href="#learn">' + ic("book") + " ابدأ التعلّم</a></div>" +
-      '<div class="facts"><span><b>' + D.resources.length + "</b> موقعًا وقاعدة بيانات</span><span><b>" + D.documents.length + "</b> وثيقة مفهرسة</span><span><b>" + D.reports.length +
-      "</b> تقريرًا حول تونس</span><span><b>" + D.rights.length + "</b> حقًا مفهرسًا</span><span>آخر تحديث: <b>" + esc(fmtDate(D.meta.updated)) + "</b></span></div>";
+      '<div class="hints"><span>جرّب:</span>' + hints.map(function (h) { return '<a href="#search" data-q="' + esc(h) + '">' + esc(h) + "</a>"; }).join("") + "</div>" +
+      '<div class="h-ctas"><button type="button" class="btn h-ghost" data-jump="h-rights">' + ic("rights") + " ابدأ من حق</button>" +
+      '<a class="btn h-ghost" href="#learn">' + ic("book") + " جديد في المنظومة؟ ابدأ هنا</a></div></div>" +
+      '<figure class="h-net" aria-labelledby="hn-cap"><figcaption id="hn-cap" class="sr">شبكة حق مختار: نصه الملزم، وتفسيره، وآلية رقابته، وما يخص تونس</figcaption>' +
+      '<div class="hn" id="hn" aria-live="off">' + heroNet(RIGHT[cur], true) + "</div>" +
+      '<div class="hn-pick"><span id="hp-l">استكشف حقًا:</span><div class="hp-row" role="group" aria-labelledby="hp-l">' + heroPills(cur) + "</div></div></figure></section>";
+
+    var RG = (D.meta.right_groups || []).slice(), known = RG.map(function (g) { return g.id; });
+    if (D.rights.some(function (r) { return known.indexOf(r.group) < 0; })) RG.push({ id: "_other", name: "حقوق أخرى" });
+    var groups = RG.map(function (g) {
+      var list = D.rights.filter(function (r) { return g.id === "_other" ? known.indexOf(r.group) < 0 : r.group === g.id; });
+      return '<details class="ri-col" open><summary><h3>' + esc(g.name) + '</h3><span class="num">' + list.length + "</span></summary><ul>" +
+        list.map(function (r) { return '<li><a href="#right-' + r.id + '"><span>' + esc(r.title) + '</span><small class="num" title="وثائق وتقارير مرتبطة">' + rightItems(r.id).length + "</small></a></li>"; }).join("") +
+        "</ul></details>";
+    }).join("");
+    var rightsIdx = '<section class="h-sec" id="h-rights" aria-labelledby="h-ri" tabindex="-1"><div class="h-head"><h2 id="h-ri">فهرس الحقوق</h2>' +
+      "<p>" + D.rights.length + " حقًا، ولكل حق صفحة من ستة أجزاء: النص الملزم، والتفسير، والمعايير غير الملزمة، والآليات، والمنظومات الإقليمية، وتونس. الرقم بجانب كل حق هو عدد الوثائق والتقارير المرتبطة به.</p></div>" +
+      '<div class="ri">' + groups + "</div></section>";
+
+    var layers = [
+      ["f-bind", "scale", "النص الملزم", "معاهدات ومواثيق تلتزم بها الدول التي صادقت عليها.", count(["treaty", "protocol", "charter"]), "نصًا", "#section-standards"],
+      ["f-interp", "committee", "التفسير المعتمد", "تعليقات عامة وقرارات تشرح كيف تُفهم المواد وتُطبَّق.", count(["gc", "decision"]), "وثيقة", "#docs"],
+      ["f-soft", "rights", "التوصيات والمعايير غير الملزمة", "ملاحظات ختامية وتقارير وإعلانات توجّه الدول ولا تُلزمها.", count(["co", "sp-report", "declaration", "guidelines", "opinion"]), "وثيقة", "#map"],
+      ["tn", "flag", "التطبيق في تونس", "ما قالته الآليات والمنظمات عن تونس، والتشريعات الوطنية.", D.reports.length, "تقريرًا منذ 2020", "#tunisia"]
+    ];
+    var system = '<section class="h-sec" aria-labelledby="h-sys"><div class="h-head"><h2 id="h-sys">كيف تُقرأ المنظومة</h2>' +
+      '<p>الوثائق ليست بالقوة نفسها. المكتبة تميّز كل نوع بلون ثابت، من الأقوى قانونيًا إلى التطبيق على تونس. <a href="#glossary">ما الفرق بين هذه الأنواع؟</a></p></div>' +
+      '<ol class="layers">' + layers.map(function (l) {
+        return '<li class="layer ' + l[0] + '"><a href="' + l[6] + '"><span class="ly-ic">' + ic(l[1]) + "</span><h3>" + esc(l[2]) + "</h3><p>" + esc(l[3]) + '</p><span class="ly-n"><b class="num">' + l[4] + "</b> " + esc(l[5]) + "</span></a></li>";
+      }).join("") + "</ol></section>";
+
+    var reps = IDX.filter(function (it) { return it.kind === "report"; }).sort(function (a, b) { return String(b.date).localeCompare(String(a.date)); }).slice(0, 3);
+    var tn = '<section class="h-sec tn-desk" aria-labelledby="h-tn"><div class="tn-note"><h2 id="h-tn">مكتب تونس</h2>' +
+      '<p class="tn-flag"><b>تغيير إجرائي</b> ' + esc(D.tunisia.note_court) + "</p>" +
+      '<div class="btns"><a class="btn tn" href="#tunisia">' + ic("flag") + ' ملف تونس</a><a class="btn" href="#reports">كل التقارير</a></div></div>' +
+      '<div class="tn-latest"><h3>أحدث التقارير حول تونس</h3><ul class="mini-list">' + reps.map(miniItem).join("") + "</ul></div></section>";
+
+    var recent = IDX.filter(function (it) { return it.kind === "document" || it.kind === "report"; })
+      .sort(function (a, b) { return String(b.added || "").localeCompare(String(a.added || "")) || String(b.date || b.year).localeCompare(String(a.date || a.year)); })
+      .filter(function (it) { return reps.indexOf(it) < 0; }).slice(0, 5);
+    var steps = (D.glossary.learn || []).map(function (s, i) { return '<li><span class="stepn num" aria-hidden="true">' + (i + 1) + "</span><span>" + esc(s.title) + "</span></li>"; }).join("");
+    var more = '<div class="h-two"><section class="h-sec" aria-labelledby="h-new"><div class="h-head row-head"><h2 id="h-new">أُضيف مؤخرًا</h2><a href="#search">تصفّح كل المكتبة</a></div>' +
+      '<ul class="mini-list boxed">' + recent.map(miniItem).join("") + "</ul></section>" +
+      '<section class="h-sec learn-path" aria-labelledby="h-learn"><div class="h-head"><h2 id="h-learn">جديد في المنظومة؟</h2><p>مسار قصير في خمس خطوات، مع تمرين عملي في كل خطوة.</p></div>' +
+      '<ol class="lp-steps">' + steps + '</ol><div class="btns"><a class="btn primary" href="#learn">' + ic("book") + ' ابدأ المسار</a><a class="btn" href="#glossary">معجم المصطلحات</a></div></section></div>';
+
+    return '<div class="home">' + hero + rightsIdx + system + tn + more + "</div>";
+  }
+  function miniItem(it) {
+    return '<li><a href="' + href(it.id) + '"><span class="mi-title">' + esc(it.title) + '</span><span class="mi-meta"><span class="num">' + esc(fmtDate(it.date) || it.year || "") + "</span>" +
+      '<span class="mi-type ' + (BIND[it.type] || "f-res") + '">' + esc(typeName(it.type)) + "</span>" + (it.publisher ? "<span>" + esc(it.publisher) + "</span>" : "") + (isNew(it) ? '<span class="badge new">جديد</span>' : "") + "</span></a></li>";
+  }
+
+  /* hero behaviour: switch rights, gentle auto-advance until the visitor interacts */
+  var heroTimer = 0, heroTouched = false;
+  function heroSet(id, user) {
+    var box = document.getElementById("hn"); if (!box || !RIGHT[id]) return;
+    if (user) { heroTouched = true; clearInterval(heroTimer); box.setAttribute("aria-live", "polite"); }
+    st.heroRight = id;
+    var swap = function () {
+      box.innerHTML = heroNet(RIGHT[id]);
+      box.classList.remove("out");
+      var row = document.querySelector(".hp-row"); if (row) row.innerHTML = heroPills(id);
+      if (user) { var p = document.querySelector('.hp[data-hero="' + id + '"]'); if (p && document.activeElement && document.activeElement.closest && document.activeElement.closest(".h-net")) p.focus({ preventScroll: true }); }
+    };
+    if (REDUCE) swap(); else { box.classList.add("out"); setTimeout(swap, 220); }
+  }
+  function heroInit() {
+    clearInterval(heroTimer);
+    var box = document.getElementById("hn"); if (!box) return;
+    if (!REDUCE && !st.heroDrawn) {
+      st.heroDrawn = true;
+      if (document.documentElement.classList.contains("intro-on")) {
+        box.classList.add("wait");
+        document.addEventListener("yrl:intro-leave", function () { var b = document.getElementById("hn"); if (b) { b.classList.remove("wait"); b.classList.add("draw"); } }, { once: true });
+      } else box.classList.add("draw");
+    }
+    if (REDUCE || heroTouched) return;
+    var fig = box.closest(".h-net");
+    var hold = function () { heroTouched = true; clearInterval(heroTimer); };
+    fig.addEventListener("pointerenter", hold, { once: true });
+    fig.addEventListener("focusin", hold, { once: true });
+    heroTimer = setInterval(function () {
+      if (document.hidden || !document.getElementById("hn")) return;
+      var r = box.getBoundingClientRect(); if (r.bottom < 0 || r.top > innerHeight) return;
+      var picks = HERO_PICKS.filter(function (x) { return RIGHT[x]; }), i = picks.indexOf(st.heroRight || picks[0]);
+      heroSet(picks[(i + 1) % picks.length], false);
+    }, 9000);
+  }
+  function homeAfter() {
+    heroInit();
+    if (window.matchMedia("(max-width: 640px)").matches) {
+      [].slice.call(document.querySelectorAll(".ri-col")).forEach(function (d) { d.removeAttribute("open"); });
+    }
   }
 
   /* ---- new pages: about, learn, glossary, laws */
@@ -999,12 +1146,22 @@
     if (r === "guides") updSym();
     if (r === "search") syncSearchHash();
     markNav(r);
+    if (r === "home") homeAfter(); else clearInterval(heroTimer);
     var h1 = main.querySelector("h1");
     document.title = (r === "home" ? D.meta.name : (h1 ? h1.textContent.trim() + " · " : "") + D.meta.name);
     if (keepScroll) window.scrollTo(0, y);
   }
   function go(hash) { if (location.hash === "#" + hash) render(); else location.hash = hash; }
   window.addEventListener("hashchange", function () { render(); window.scrollTo(0, 0); });
+  // compact masthead once the page scrolls
+  (function () {
+    var mast = document.querySelector(".mast"), on = false, tick = false;
+    if (!mast) return;
+    window.addEventListener("scroll", function () {
+      if (tick) return; tick = true;
+      requestAnimationFrame(function () { tick = false; var v = window.scrollY > 40; if (v !== on) { on = v; mast.classList.toggle("compact", v); } });
+    }, { passive: true });
+  })();
 
   /* ------------------------------------------------------------------ events */
   document.getElementById("mastSearch").addEventListener("submit", function (e) {
@@ -1048,6 +1205,13 @@
     var n = document.getElementById(id); if (n) { n.focus(); try { if (pos != null) n.setSelectionRange(pos, pos); } catch (e) {} }
   }
   main.addEventListener("click", function (e) {
+    var hb = e.target.closest("[data-hero], [data-jump]");
+    if (hb) {
+      if (hb.dataset.hero) { heroSet(hb.dataset.hero, true); return; }
+      var t = document.getElementById(hb.dataset.jump);
+      if (t) { t.scrollIntoView({ behavior: REDUCE ? "auto" : "smooth", block: "start" }); t.focus({ preventScroll: true }); }
+      return;
+    }
     var el = e.target.closest("[data-act], [data-q], [data-section], [data-gcbody], [data-cstyle], [data-year], [data-lang], [data-libcat], [data-node], [data-topic]");
     if (!el) return;
     if (el.dataset.node) { st.lib.cat = el.dataset.node; go("library"); return; }
@@ -1186,6 +1350,12 @@
   updateNavCount();
   load().then(function () {
     document.getElementById("upd").textContent = fmtDate(D.meta.updated);
+    var org = D.meta.org || {}, fo = document.getElementById("footOrg");
+    if (fo && (org.name || org.email || org.url)) {
+      fo.innerHTML = '<h2>تواصل</h2>' + (org.name ? "<span>" + esc(org.name) + "</span>" : "") + (org.url ? ext(org.url, esc(host(org.url))) : "") +
+        (org.email ? '<a href="mailto:' + esc(org.email) + '">' + esc(org.email) + "</a>" : "");
+      fo.hidden = false;
+    }
     render();
   }).catch(function (err) {
     main.innerHTML = '<div class="error-box"><b>تعذّر تحميل بيانات المكتبة.</b><p>إن فتحت الملف مباشرة من جهازك (file://)، فالمتصفح يمنع قراءة ملفات البيانات. شغّل خادمًا محليًا من مجلد المشروع:</p><code>python3 -m http.server 8000</code><p>ثم افتح http://localhost:8000. على GitHub Pages تعمل المكتبة مباشرة.</p><code>' + esc(err.message) + "</code></div>";

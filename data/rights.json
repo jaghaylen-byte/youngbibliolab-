@@ -75,7 +75,8 @@
    "privacy",
    "religion",
    "racism"
-  ]
+  ],
+  "group": "civil"
  },
  {
   "id": "assembly",
@@ -151,7 +152,8 @@
    "defenders",
    "participation",
    "work"
-  ]
+  ],
+  "group": "civil"
  },
  {
   "id": "defenders",
@@ -196,7 +198,8 @@
    "expression",
    "assembly",
    "detention"
-  ]
+  ],
+  "group": "civil"
  },
  {
   "id": "torture",
@@ -278,7 +281,8 @@
    "life",
    "tj",
    "migration"
-  ]
+  ],
+  "group": "justice"
  },
  {
   "id": "detention",
@@ -339,7 +343,8 @@
    "torture",
    "fairtrial",
    "terrorism"
-  ]
+  ],
+  "group": "justice"
  },
  {
   "id": "fairtrial",
@@ -401,7 +406,8 @@
    "detention",
    "terrorism",
    "tj"
-  ]
+  ],
+  "group": "justice"
  },
  {
   "id": "life",
@@ -467,7 +473,8 @@
    "torture",
    "disappearance",
    "terrorism"
-  ]
+  ],
+  "group": "justice"
  },
  {
   "id": "disappearance",
@@ -510,7 +517,8 @@
    "detention",
    "tj",
    "migration"
-  ]
+  ],
+  "group": "justice"
  },
  {
   "id": "terrorism",
@@ -557,7 +565,8 @@
    "fairtrial",
    "detention",
    "expression"
-  ]
+  ],
+  "group": "justice"
  },
  {
   "id": "participation",
@@ -632,7 +641,8 @@
    "assembly",
    "expression",
    "women"
-  ]
+  ],
+  "group": "civil"
  },
  {
   "id": "women",
@@ -720,7 +730,8 @@
    "children",
    "health",
    "work"
-  ]
+  ],
+  "group": "equality"
  },
  {
   "id": "children",
@@ -782,7 +793,8 @@
    "education",
    "women",
    "migration"
-  ]
+  ],
+  "group": "equality"
  },
  {
   "id": "migration",
@@ -879,7 +891,8 @@
    "detention",
    "torture",
    "work"
-  ]
+  ],
+  "group": "equality"
  },
  {
   "id": "racism",
@@ -964,7 +977,8 @@
    "migration",
    "expression",
    "sogi"
-  ]
+  ],
+  "group": "equality"
  },
  {
   "id": "religion",
@@ -1021,7 +1035,8 @@
   "related": [
    "expression",
    "racism"
-  ]
+  ],
+  "group": "civil"
  },
  {
   "id": "privacy",
@@ -1091,7 +1106,8 @@
   "related": [
    "expression",
    "children"
-  ]
+  ],
+  "group": "civil"
  },
  {
   "id": "health",
@@ -1172,7 +1188,8 @@
    "livelihood",
    "women",
    "disability"
-  ]
+  ],
+  "group": "esc"
  },
  {
   "id": "education",
@@ -1257,7 +1274,8 @@
    "children",
    "disability",
    "women"
-  ]
+  ],
+  "group": "esc"
  },
  {
   "id": "work",
@@ -1330,7 +1348,8 @@
    "livelihood",
    "assembly",
    "migration"
-  ]
+  ],
+  "group": "esc"
  },
  {
   "id": "livelihood",
@@ -1409,7 +1428,8 @@
    "health",
    "environment",
    "work"
-  ]
+  ],
+  "group": "esc"
  },
  {
   "id": "disability",
@@ -1463,7 +1483,8 @@
    "education",
    "health",
    "work"
-  ]
+  ],
+  "group": "equality"
  },
  {
   "id": "tj",
@@ -1516,7 +1537,8 @@
    "torture",
    "disappearance",
    "fairtrial"
-  ]
+  ],
+  "group": "justice"
  },
  {
   "id": "business",
@@ -1552,7 +1574,8 @@
    "work",
    "environment",
    "children"
-  ]
+  ],
+  "group": "esc"
  },
  {
   "id": "environment",
@@ -1603,7 +1626,8 @@
    "livelihood",
    "health",
    "business"
-  ]
+  ],
+  "group": "esc"
  },
  {
   "id": "sogi",
@@ -1641,6 +1665,7 @@
    "privacy",
    "racism",
    "torture"
-  ]
+  ],
+  "group": "equality"
  }
 ]

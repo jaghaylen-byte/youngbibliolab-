@@ -4,7 +4,7 @@
 (function () {
   "use strict";
   var SHOW = true;                 // false = إيقاف الشاشة الافتتاحية
-  var ONCE_PER_SESSION = true;     // true = تظهر مرة واحدة في كل جلسة تصفح، لا عند كل تحديث للصفحة
+  var ONCE_PER_SESSION = false;    // false = تظهر عند كل فتح أو تحديث للموقع؛ true = مرة واحدة فقط في كل جلسة تصفح
   var KEY = "yrl:intro-seen";
   // الكلمات المدمجة في الشبكة (يمكن تعديلها أو إضافة كلمات)
   var WORDS = ["Human Rights", "Freedom", "Dignity", "Justice", "Equality", "Liberty", "Democracy"];
@@ -177,6 +177,8 @@
     if (done) return; done = true;
     try { sessionStorage.setItem(KEY, "1"); } catch (e) {}
     el.classList.add("leaving");
+    // let the page know, so the homepage network can assemble as the welcome screen fades
+    setTimeout(function () { try { document.dispatchEvent(new CustomEvent("yrl:intro-leave")); } catch (e) {} }, reduce ? 0 : 280);
     var finish = function () {
       running = false; cancelAnimationFrame(raf);
       el.remove(); root.classList.remove("intro-on");
