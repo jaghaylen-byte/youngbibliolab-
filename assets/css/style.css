@@ -811,3 +811,8 @@ main:has(> .loading) { min-height: calc(100vh - 60px); }
 #main .mini-list li > a { display: grid; }
 #main .ri-col li a { display: flex; }
 #main .tn-rights li > a { display: grid; }
+
+/* v3.3 name «مَتْن» */
+.brand-text b { font-size: 26px; letter-spacing: 0; }
+.brand-text small { direction: rtl; text-align: right; font-size: 13px; }
+.foot-sub { display: block; color: #b9b3f0; font-size: 14px; margin-top: -2px; }

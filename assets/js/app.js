@@ -1,4 +1,4 @@
-/* مكتبة صغار الباحثين — application script.
+/* مَتْن · المكتبة الحقوقية (Matn · Human Rights Library) — application script.
    Content lives in data/*.json; this file only renders it. To add documents, edit the JSON files (see README.md). */
 (function () {
   "use strict";
@@ -375,7 +375,7 @@
     var count = function (types) { return IDX.filter(function (it) { return types.indexOf(it.type) >= 0; }).length; };
 
     var hero = '<section class="h-hero" aria-labelledby="h-title"><div class="h-copy">' +
-      '<h1 id="h-title">من نص الاتفاقية إلى تطبيقها في تونس</h1>' +
+      '<h1 id="h-title">من المعايير الدولية إلى واقع حقوق الإنسان في تونس</h1>' +
       '<p class="h-lede">مكتبة مفتوحة تربط كل حق بنصّه الملزم، وتفسيره المعتمد، والآليات التي تراقبه، وما رُصد في تونس بشأنه.</p>' +
       '<form class="bigsearch" id="homeSearch" role="search"><input id="hq" type="search" placeholder="ابحث بالحق أو رمز الوثيقة أو رقم المادة أو اللجنة…" aria-label="بحث في المكتبة">' + ic("search") +
       '<button class="btn primary" type="submit">بحث</button></form>' +
@@ -1124,7 +1124,7 @@
     var s = st.citeStyle, rtl = s === "arabic";
     return '<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word"><head><meta charset="utf-8"><title>' + esc(name) + "</title>" +
       "<style>body{font-family:'Times New Roman',serif;font-size:12pt}h1{font-size:16pt}li{margin-bottom:8pt}</style></head><body dir=\"" + (rtl ? "rtl" : "ltr") + "\">" +
-      '<h1 dir="rtl">' + esc(name) + "</h1><p dir=\"rtl\">قائمة مراجع من مكتبة صغار الباحثين، نمط " + esc(STYLES.filter(function (x) { return x[0] === s; })[0][1]) + "، بتاريخ " + esc(fmtDate(today())) + "</p><ol>" +
+      '<h1 dir="rtl">' + esc(name) + "</h1><p dir=\"rtl\">قائمة مراجع من «مَتْن · المكتبة الحقوقية»، نمط " + esc(STYLES.filter(function (x) { return x[0] === s; })[0][1]) + "، بتاريخ " + esc(fmtDate(today())) + "</p><ol>" +
       items.map(function (d) { return "<li>" + cite(d, s) + "</li>"; }).join("") + "</ol></body></html>";
   }
   function download(name, mime, content) {
