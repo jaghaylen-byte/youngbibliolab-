@@ -214,7 +214,7 @@ details.more ul { margin: 6px 0 0; padding-inline-start: 18px; display: grid; ga
 .legal { display: grid; gap: 0; }
 .legal-row { display: flex; justify-content: space-between; gap: 14px; padding: 7px 0; border-bottom: 1px dashed var(--line); font-size: 14px; flex-wrap: wrap; }
 .legal-row:last-child { border-bottom: 0; }
-.legal-row .a { font-family: var(--f-mono); font-size: 13px; color: var(--accent); }
+.legal-row .a { font-family: var(--f-body); font-variant-numeric: tabular-nums; font-size: 14px; color: var(--accent); }
 .sub { font-size: 12.5px; font-weight: 600; color: var(--muted); margin: 14px 0 6px; }
 .plain { margin: 0; padding-inline-start: 18px; display: grid; gap: 5px; font-size: 14px; }
 .tnbox { background: var(--tn-soft); border-radius: 8px; padding: 12px 14px; font-size: 14.5px; }
@@ -702,3 +702,14 @@ table.gdocs tr:last-child td { border-bottom: 0; }
 @media print { .h-hero { box-shadow: none; clip-path: none; background: none; color: #000; } .hn, .hn-pick, .h-ctas, .site-foot { display: none !important; } .h-copy h1 { color: #000; } }
 .hn.wait { opacity: 0; transition: none; }
 main:has(> .loading) { min-height: calc(100vh - 60px); }
+
+/* v3.1 accessibility: larger tap targets on inner pages */
+.crumbs a { display: inline-block; padding-block: 4px; }
+.noscript { padding: 24px 0; display: grid; gap: 12px; }
+@media (max-width: 760px) {
+  .crumbs { font-size: 14px; }
+  .crumbs a { padding-block: 8px; }
+}
+#main .links a, #main .more li a, #main .card-top h3 > a, #main dd > a, #main .legend a, #main li > a:only-child, #main h3 > a { display: inline-block; padding-block: 3px; }
+#main .more summary { padding-block: 6px; }
+#main .legal-row a { display: inline-block; padding-block: 3px; }

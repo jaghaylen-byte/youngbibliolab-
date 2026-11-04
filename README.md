@@ -213,3 +213,10 @@ python3 -m http.server 8000
 - **الحقوق المقترحة تحت الشبكة:** القائمة `HERO_PICKS` في أول قسم «home» داخل `assets/js/app.js`.
 - **مجموعات فهرس الحقوق:** كل حق في `rights.json` يحمل الحقل `group`، وأسماء المجموعات في `right_groups` داخل `meta.json`. عند إضافة حق جديد أعطه `group` موجودًا، وإلا يظهر تحت «حقوق أخرى».
 - **الخطوط:** العناوين بخط Amiri والنصوص بخط IBM Plex Sans Arabic، وتُحمَّل من Google Fonts في `index.html`.
+
+## الظهور في محركات البحث والمشاركة
+
+- `index.html` يحمل الوصف والرابط الأساسي (canonical) وبيانات المشاركة على الشبكات الاجتماعية (Open Graph) وبيانات منظَّمة (JSON-LD). عند تغيير اسم الموقع غيّره في هذه الوسوم أيضًا.
+- صورة المشاركة: `assets/img/og-card.jpg` (1200×630). الأيقونات: `assets/img/icon.svg` و`icon-180.png` و`icon-192.png` و`icon-512.png`، و`manifest.webmanifest` لتثبيت الموقع على الهاتف.
+- `sitemap.xml` خريطة الموقع، تُقدَّم يدويًا في Google Search Console. حدّث `lastmod` فيها عند التحديثات الكبيرة.
+- `404.html` تعيد الزائر إلى الصفحة الرئيسية إن فتح رابطًا غير موجود.
