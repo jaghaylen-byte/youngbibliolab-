@@ -11,7 +11,7 @@
     noResults: "لا نتائج تطابق هذا البحث. جرّب كلمة أقصر، أو رمز الوثيقة، أو أزل أحد الفلاتر.",
     copied: "نُسخ", copyFail: "تعذّر النسخ تلقائيًا: حدّد النص وانسخه يدويًا"
   };
-  var FILES = ["meta", "resources", "documents", "rights", "reports", "tunisia", "guides", "aliases", "glossary"];
+  var FILES = ["meta", "resources", "documents", "rights", "reports", "tunisia", "guides", "aliases", "glossary", "history"];
   var MENU = [
     { r: "home", label: "الرئيسية", icon: "home" },
     { label: "المعايير والآليات", icon: "scale", items: [
@@ -24,6 +24,7 @@
     { r: "rights", label: "الحقوق والحريات", icon: "rights" },
     { label: "تونس", tn: true, icon: "flag", items: [
       ["tunisia", "ملف تونس", "الملاحظات الختامية، الاستعراض، القرارات، الخط الزمني"],
+      ["tunisia-history", "التاريخ الحقوقي", "أبرز المحطات الحقوقية منذ 1846"],
       ["reports", "التقارير حول تونس", "أبحاث المنظمات منذ 2020"],
       ["laws", "التشريعات الوطنية", "نصوص تونسية مرتبطة بالحقوق"]] },
     { label: "أدوات الباحث", icon: "search", items: [
@@ -671,6 +672,7 @@
       }).join("") + "</div>" +
       (cur ? '<div class="tl-card" aria-live="polite"><b class="num">' + cur[0] + "</b><p>" + esc(cur[1]) + '</p><span class="tl-tags">' + (cur[2] || []).map(function (t) { return '<span class="badge">' + TL_TAGS[t] + "</span>"; }).join("") + "</span></div>" : "") +
       '<details class="tl-all"><summary>عرض كل الأحداث في قائمة</summary><ol class="tl">' + years.map(function (x) { return '<li><span class="yr">' + x[0] + "</span><span>" + esc(x[1]) + "</span></li>"; }).join("") + "</ol></details>";
+    timeline += '<p class="tn-more"><a class="btn tn" href="#tunisia-history">التاريخ الحقوقي كاملًا: ' + D.history.events.length + ' محطة منذ 1846</a></p>';
     html += tnBlock("tn-time", "الخط الزمني", tl.length, timeline);
 
     html += tnBlock("tn-reps", "أحدث التقارير حول تونس", D.reports.length, '<ul class="mini-list boxed">' + reps.slice(0, 4).map(miniItem).join("") + '</ul><p class="tn-more"><a class="btn" href="#reports">كل التقارير والفلاتر</a></p>');
@@ -707,6 +709,110 @@
     var onScroll = function () { if (!tick) { tick = true; requestAnimationFrame(mark); } };
     window.addEventListener("scroll", onScroll, { passive: true });
     mark();
+  }
+  // ---- Tunisia rights history: one vertical spine; fill follows revealed entries, not scroll ----
+  var HIST_SYS = { un: ["أممي ودولي", "var(--h-un)"], au: ["إفريقي", "var(--h-au)"], nat: ["تشريع وطني", "var(--h-nat)"], ctx: ["سياق", "var(--h-ctx)"] };
+  var histIO = null;
+  function vHistory() {
+    var H = D.history, E = H.events;
+    var cnt = function (k) { return E.filter(function (e) { return e.sys === k; }).length; };
+    var first = E[0].year, last = E[E.length - 1].year;
+    var html = crumbs([[UI.home, "home"], ["ملف تونس", "tunisia"], ["التاريخ الحقوقي"]]) +
+      '<header class="h-head"><h1>التاريخ الحقوقي <span>لتونس</span></h1>' +
+      '<p class="lede">المحطات التي صنعت التزامات تونس في حقوق الإنسان: ما صادقت عليه وانضمّت إليه، وما راجعته الآليات الأممية والإفريقية، والقوانين التي غيّرت الحقوق في الداخل، والسياق الذي جرى فيه كل ذلك.</p>' +
+      '<div class="facts"><span><b class="num">' + E.length + '</b> محطة</span><span><b class="num">' + cnt("un") + '</b> أممية ودولية</span><span><b class="num">' + cnt("au") + '</b> إفريقية</span><span><b class="num">' + cnt("nat") + '</b> تشريعات وطنية</span><span>من <b class="num">' + first + '</b> إلى <b class="num">' + last + "</b></span></div></header>" +
+      '<div class="h-ctrl"><div class="h-grp" role="group" aria-label="تصفية حسب المنظومة"><button type="button" class="chip" data-hf="" aria-pressed="true">الكل</button>' +
+      Object.keys(HIST_SYS).map(function (k) { return '<button type="button" class="chip" data-hf="' + k + '" aria-pressed="false"><i class="sw" style="background:' + HIST_SYS[k][1] + '" aria-hidden="true"></i>' + HIST_SYS[k][0] + "</button>"; }).join("") +
+      '</div><div class="h-grp h-eras" role="group" aria-label="الانتقال إلى مرحلة">' +
+      H.eras.map(function (er) { return '<button type="button" class="chip" data-hera="h-' + er.id + '">' + esc(er.span.replace(" – اليوم", "+")) + "</button>"; }).join("") +
+      '</div><span class="h-prog num" aria-live="polite"></span></div>' +
+      '<p class="h-keys">انقر على أي بطاقة ثم انتقل بين المحطات بـ <kbd>↓</kbd> و<kbd>↑</kbd>، و<kbd>Home</kbd> و<kbd>End</kbd> لأول محطة وآخرها.</p>' +
+      '<div class="h-tl"><div class="h-spine" aria-hidden="true"><i></i></div>';
+    H.eras.forEach(function (er) {
+      html += '<section class="h-era" id="h-' + er.id + '"><h2>' + esc(er.title) + ' <small>' + esc(er.span) + "</small></h2><p>" + esc(er.desc) + "</p></section>";
+      E.filter(function (e) { return e.era === er.id; }).forEach(function (e) {
+        var s = HIST_SYS[e.sys];
+        html += '<article class="h-ev' + (e.sys === "ctx" ? " ctx" : "") + (e.big ? " big" : "") + '" data-sys="' + e.sys + '" style="--c:' + s[1] + '">' +
+          '<div class="h-yr"><b class="num">' + e.year + "</b><small>" + esc(e.date) + '</small></div><span class="h-dot" aria-hidden="true"></span>' +
+          '<div class="h-cd" tabindex="0"><span class="h-av" aria-hidden="true">' + esc(e.body) + '</span><h3>' + esc(e.title) + "</h3>" +
+          '<div class="h-tags"><span class="h-tag">' + s[0] + "</span>" + (e.big ? '<span class="h-tag k">محطة كبرى</span>' : "") + "</div>" +
+          '<p class="h-body">' + esc(e.text) + '</p><p class="h-why"><b>لماذا يهم الباحث:</b> ' + esc(e.why) + "</p>" +
+          (e.links.length ? '<div class="h-lib">' + e.links.map(function (l) { return '<a href="' + esc(l.href) + '">' + esc(l.label) + "</a>"; }).join("") + "</div>" : "") +
+          "</div></article>";
+      });
+    });
+    html += "</div>" +
+      '<div class="h-src"><b>المصادر</b><p>تواريخ المصادقات والانضمام من جداول حالة المعاهدات، ورفع التحفظات من إشعار الأمين العام للأمم المتحدة، والملاحظات الختامية والقوانين والقرارات من وثائق المكتبة نفسها. يُرجع إلى النص الرسمي قبل الاقتباس.</p><ul>' +
+      H.sources.map(function (x) { return '<li><a href="' + esc(x.url) + '" target="_blank" rel="noopener">' + esc(x.label) + "</a></li>"; }).join("") +
+      '</ul><p class="h-back"><a class="btn" href="#tunisia">العودة إلى ملف تونس</a></p></div>';
+    return '<div class="hist">' + html + "</div>";
+  }
+  function histAfter() {
+    var root = main.querySelector(".hist"); if (!root) return;
+    var mast = document.querySelector(".mast");
+    if (mast) document.documentElement.style.setProperty("--mast-h", mast.offsetHeight + "px");
+    var nodes = [].slice.call(root.querySelectorAll(".h-ev")), fill = root.querySelector(".h-spine i"), prog = root.querySelector(".h-prog");
+    var vis = function () { return nodes.filter(function (n) { return !n.hidden; }); };
+    var upd = function () {
+      if (!document.body.contains(root)) return;
+      var v = vis(), rev = v.filter(function (n) { return n.classList.contains("in"); });
+      prog.textContent = rev.length + " / " + v.length;
+      if (!rev.length) { fill.style.height = "0"; return; }
+      // layout offsets ignore the reveal transform, so the fill lands on the dot's final position
+      var ev = rev[rev.length - 1], dot = ev.querySelector(".h-dot");
+      fill.style.height = Math.max(0, ev.offsetTop + dot.offsetTop + dot.offsetHeight / 2 - fill.parentNode.offsetTop) + "px";
+    };
+    var reveal = function (n) { n.classList.remove("wait"); n.classList.add("in"); };
+    if (histIO) histIO.disconnect();
+    histIO = null;
+    if (REDUCE || !("IntersectionObserver" in window)) nodes.forEach(reveal);
+    else {
+      nodes.forEach(function (n) { if (n.getBoundingClientRect().top > window.innerHeight * 0.92) n.classList.add("wait"); else reveal(n); });
+      histIO = new IntersectionObserver(function (es) {
+        es.forEach(function (e) { if (e.isIntersecting) { reveal(e.target); histIO.unobserve(e.target); } });
+        var v = vis(), lastIn = -1;
+        v.forEach(function (n, i) { if (n.classList.contains("in")) lastIn = i; });
+        if (lastIn > 0) v.slice(0, lastIn).forEach(reveal);
+        upd();
+      }, { rootMargin: "0px 0px -15% 0px", threshold: 0.2 });
+      nodes.forEach(function (n) { if (!n.classList.contains("in")) histIO.observe(n); });
+    }
+    requestAnimationFrame(upd);
+    var onResize = function () { if (!document.body.contains(root)) { window.removeEventListener("resize", onResize); return; } upd(); };
+    window.addEventListener("resize", onResize);
+    root.addEventListener("click", function (e) {
+      var f = e.target.closest("[data-hf]"), er = e.target.closest("[data-hera]");
+      if (f) {
+        var k = f.getAttribute("data-hf");
+        [].forEach.call(root.querySelectorAll("[data-hf]"), function (c) { c.setAttribute("aria-pressed", String(c === f)); });
+        nodes.forEach(function (n) { n.hidden = !!k && n.getAttribute("data-sys") !== k; });
+        [].forEach.call(root.querySelectorAll(".h-era"), function (s) {
+          var x = s.nextElementSibling, any = false;
+          while (x && !x.classList.contains("h-era")) { if (!x.hidden) any = true; x = x.nextElementSibling; }
+          s.hidden = !any;
+          var b = root.querySelector('[data-hera="' + s.id + '"]'); if (b) b.disabled = !any;
+        });
+        requestAnimationFrame(upd);
+      } else if (er) {
+        var t = document.getElementById(er.getAttribute("data-hera"));
+        if (t) t.scrollIntoView({ behavior: REDUCE ? "auto" : "smooth", block: "start" });
+      }
+    });
+    root.querySelector(".h-tl").addEventListener("keydown", function (e) {
+      var cards = vis().map(function (n) { return n.querySelector(".h-cd"); }), i = cards.indexOf(document.activeElement);
+      if (i < 0) return;
+      var j = null;
+      if (e.key === "ArrowDown" || e.key === "ArrowLeft") j = Math.min(cards.length - 1, i + 1);
+      else if (e.key === "ArrowUp" || e.key === "ArrowRight") j = Math.max(0, i - 1);
+      else if (e.key === "Home") j = 0; else if (e.key === "End") j = cards.length - 1;
+      if (j === null) return;
+      e.preventDefault();
+      var c = cards[j];
+      cards.slice(0, j + 1).forEach(function (x) { reveal(x.parentNode); });
+      c.focus({ preventScroll: true });
+      c.parentNode.scrollIntoView({ behavior: REDUCE ? "auto" : "smooth", block: "center" });
+      requestAnimationFrame(upd);
+    });
   }
   function renderMixed(items, key) {
     var res = items.filter(function (x) { return x.kind === "resource"; }), docs = items.filter(function (x) { return x.kind !== "resource"; });
@@ -1213,6 +1319,7 @@
       else if (r === "rights") html = vRights(D.rights[0].id);
       else if (r.indexOf("right-") === 0) html = vRights(r.slice(6));
       else if (r === "tunisia") html = vTunisia();
+      else if (r === "tunisia-history") html = vHistory();
       else if (r === "reports") html = vReports();
       else if (r.indexOf("doc-") === 0) html = vDoc(r.slice(4));
       else if (r === "search") html = vSearch();
@@ -1238,6 +1345,7 @@
     markNav(r);
     if (r === "home") homeAfter(); else clearInterval(heroTimer);
     if (r === "tunisia") tunisiaAfter(); else st.tnOpen = null;
+    if (r === "tunisia-history") histAfter(); else if (histIO) { histIO.disconnect(); histIO = null; }
     var h1 = main.querySelector("h1");
     document.title = (r === "home" ? D.meta.name : (h1 ? h1.textContent.trim() + " · " : "") + D.meta.name);
     if (keepScroll) window.scrollTo(0, y);
@@ -1399,7 +1507,7 @@
     nav.querySelectorAll(".dd").forEach(function (d) {
       var has = !!d.querySelector('[data-r="' + rr + '"]'); d.querySelector(".nav-top").classList.toggle("cur", has);
     });
-    var tnb = bottom.querySelector('[data-r="tunisia"]'); if (tnb && (rr === "reports" || rr === "laws")) tnb.setAttribute("aria-current", "page");
+    var tnb = bottom.querySelector('[data-r="tunisia"]'); if (tnb && (rr === "reports" || rr === "laws" || rr === "tunisia-history")) tnb.setAttribute("aria-current", "page");
   }
   function updateNavCount() {
     var n = LISTS.fav.length + LISTS.lists.reduce(function (s2, l) { return s2 + l.items.length; }, 0);

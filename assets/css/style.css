@@ -816,3 +816,94 @@ main:has(> .loading) { min-height: calc(100vh - 60px); }
 .brand-text b { font-size: 26px; letter-spacing: 0; }
 .brand-text small { direction: rtl; text-align: right; font-size: 13px; }
 .foot-sub { display: block; color: #b9b3f0; font-size: 14px; margin-top: -2px; }
+
+/* ===== v3.4 Tunisia rights history: one spine; fill = revealed entries ===== */
+.hist { --h-un: var(--bind); --h-au: var(--soft); --h-nat: var(--tn); --h-ctx: var(--muted); --h-col: 150px; --ease: cubic-bezier(.16, 1, .3, 1); }
+.hist .h-head { display: grid; gap: 12px; padding-block: 8px 18px; }
+.hist .h-head h1 { font-family: var(--f-display); font-weight: 700; font-size: clamp(32px, 4.4vw, 50px); line-height: 1.3; margin: 0; text-wrap: balance; }
+.hist .h-head h1 span { color: var(--tn); }
+.hist .lede { color: var(--muted); max-width: 64ch; margin: 0; font-size: 17px; }
+.hist .facts { display: flex; flex-wrap: wrap; gap: 6px 22px; font-size: 14px; color: var(--muted); }
+.hist .facts b { color: var(--ink); font-weight: 600; }
+.hist .h-ctrl { position: sticky; top: calc(var(--mast-h, 60px) + env(safe-area-inset-top, 0px)); z-index: 5; background: var(--bg); border-bottom: 1px solid var(--line); padding-block: 10px; display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; }
+.hist .h-grp { display: flex; gap: 6px; flex-wrap: wrap; min-width: 0; }
+.hist .h-grp .chip { min-height: 36px; }
+.hist .h-grp .chip:disabled { opacity: .4; cursor: default; }
+.hist .chip[aria-pressed="true"] { background: var(--ink); color: var(--surface); border-color: var(--ink); }
+.hist .sw { width: 9px; height: 9px; border-radius: 50%; display: inline-block; }
+.hist .h-eras { margin-inline-start: auto; }
+.hist .h-prog { font-size: 13px; color: var(--muted); min-width: 7ch; }
+.hist .h-keys { font-size: 13px; color: var(--muted); margin: 14px 0 0; }
+.hist kbd { font: inherit; font-size: 12px; border: 1px solid var(--line); border-radius: 5px; padding: 0 6px; background: var(--surface); color: var(--ink); }
+.hist .h-tl { position: relative; padding-block: 26px 60px; }
+.hist .h-spine { position: absolute; top: 26px; bottom: 60px; inset-inline-start: var(--h-col); width: 2px; background: var(--line); border-radius: 2px; }
+.hist .h-spine i { position: absolute; top: 0; inset-inline: 0; height: 0; background: var(--tn); border-radius: 2px; transition: height .7s var(--ease); }
+.hist .h-era { position: relative; display: grid; grid-template-columns: var(--h-col) minmax(0, 1fr); margin: 34px 0 18px; scroll-margin-top: calc(var(--mast-h, 60px) + 80px); }
+.hist .h-era:first-of-type { margin-top: 0; }
+.hist .h-era[hidden], .hist .h-ev[hidden] { display: none !important; }
+.hist .h-era h2 { grid-column: 2; margin: 0; padding-inline-start: 34px; font-family: var(--f-display); font-weight: 700; font-size: 26px; line-height: 1.4; }
+.hist .h-era h2 small { font-family: var(--f-body); font-size: .6em; font-weight: 500; color: var(--muted); }
+.hist .h-era p { grid-column: 2; margin: 2px 0 0; padding-inline-start: 34px; color: var(--muted); font-size: 14.5px; max-width: 62ch; }
+.hist .h-era::before { content: ""; position: absolute; inset-inline-start: calc(var(--h-col) - 6px); top: 12px; width: 14px; height: 14px; border-radius: 4px; background: var(--bg); border: 2px solid var(--ink); transform: rotate(45deg); }
+.hist .h-ev { position: relative; display: grid; grid-template-columns: var(--h-col) minmax(0, 1fr); margin-bottom: 14px; scroll-margin-top: calc(var(--mast-h, 60px) + 100px); transition: opacity .6s var(--ease), transform .6s var(--ease); }
+.hist .h-yr { padding-inline-end: 26px; text-align: end; padding-top: 12px; }
+.hist .h-yr b { display: block; font-family: var(--f-display); font-weight: 700; font-size: 30px; line-height: 1.1; }
+.hist .h-yr small { display: block; font-size: 12.5px; color: var(--muted); line-height: 1.5; margin-top: 4px; }
+.hist .h-dot { position: absolute; inset-inline-start: calc(var(--h-col) - 6px); top: 24px; width: 14px; height: 14px; border-radius: 50%; background: var(--surface); border: 3px solid var(--c); transition: background-color .4s var(--ease); }
+.hist .h-ev.in .h-dot { background: var(--c); }
+.hist .h-cd { margin-inline-start: 34px; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 16px 18px; display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 4px 14px; transition: border-color .2s var(--ease); }
+.hist .h-cd:hover, .hist .h-cd:focus-visible { border-color: var(--c); }
+.hist .h-cd:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.hist .h-av { width: 40px; height: 40px; border-radius: 50%; display: grid; place-items: center; background: var(--c); color: var(--surface); font-size: 10.5px; font-weight: 600; direction: ltr; grid-row: span 3; }
+.hist .h-cd h3 { margin: 0; font-family: var(--f-body); font-size: 17px; font-weight: 600; line-height: 1.55; text-wrap: balance; }
+.hist .h-tags { display: flex; gap: 6px; flex-wrap: wrap; font-size: 12px; }
+.hist .h-tag { border-radius: 999px; padding: 0 9px; line-height: 1.9; background: color-mix(in srgb, var(--c) 13%, transparent); color: var(--c); font-weight: 500; }
+.hist .h-tag.k { background: transparent; border: 1px solid var(--line); color: var(--muted); }
+.hist .h-body { grid-column: 2; margin: 4px 0 0; max-width: 68ch; }
+.hist .h-why { grid-column: 2; margin: 8px 0 0; padding-top: 8px; border-top: 1px dashed var(--line); color: var(--muted); font-size: 14.5px; max-width: 68ch; }
+.hist .h-why b { color: var(--ink); font-weight: 600; }
+.hist .h-lib { grid-column: 2; display: flex; gap: 6px; flex-wrap: wrap; margin-top: 8px; }
+.hist .h-lib a { font-size: 13px; color: var(--link); text-decoration: none; border: 1px solid var(--line); border-radius: 8px; padding: 4px 10px; min-height: 32px; display: inline-flex; align-items: center; }
+.hist .h-lib a:hover { border-color: var(--link); }
+.hist .h-ev.ctx .h-cd { background: transparent; border-style: dashed; }
+.hist .h-ev.ctx .h-av { color: var(--bg); }
+.hist .h-ev.big h3 { font-size: 18.5px; }
+.hist .h-ev.big .h-dot { width: 18px; height: 18px; inset-inline-start: calc(var(--h-col) - 8px); top: 22px; }
+.hist .h-ev.wait { opacity: .28; transform: translateY(14px); }
+.hist .h-src { border-top: 1px solid var(--line); padding-block: 22px 10px; font-size: 14px; color: var(--muted); }
+.hist .h-src b { color: var(--ink); }
+.hist .h-src p { margin: 4px 0 8px; max-width: 72ch; }
+.hist .h-src ul { margin: 0; padding-inline-start: 18px; }
+.hist .h-src a { color: var(--link); }
+.hist .h-back { margin-top: 16px; }
+@media (max-width: 760px) {
+  .hist { --h-col: 0px; }
+  .hist .h-spine { inset-inline-start: 7px; }
+  .hist .h-era, .hist .h-ev { grid-template-columns: minmax(0, 1fr); }
+  .hist .h-era h2, .hist .h-era p { grid-column: 1; padding-inline-start: 30px; }
+  .hist .h-era h2 { font-size: 22px; }
+  .hist .h-era p { font-size: 14px; }
+  .hist .h-era::before, .hist .h-dot { inset-inline-start: 1px; }
+  .hist .h-ev.big .h-dot { inset-inline-start: -1px; top: 6px; }
+  .hist .h-yr { text-align: start; padding: 0 30px 6px 0; display: flex; align-items: baseline; gap: 10px; }
+  .hist .h-yr b { font-size: 24px; }
+  .hist .h-dot { top: 8px; }
+  .hist .h-cd { margin-inline-start: 30px; padding: 14px; grid-template-columns: minmax(0, 1fr); }
+  .hist .h-av { grid-row: auto; width: 34px; height: 34px; font-size: 9.5px; }
+  .hist .h-body, .hist .h-why, .hist .h-lib { grid-column: 1; }
+  .hist .h-eras { margin-inline-start: 0; }
+  .hist .h-ctrl { gap: 8px; }
+  .hist .h-grp { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; max-width: 100%; }
+  .hist .h-grp::-webkit-scrollbar { display: none; }
+  .hist .h-grp .chip { flex: none; }
+  .hist .h-keys, .hist .h-prog { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hist .h-spine, .hist .h-dot, .hist .h-era::before { display: none; }
+  .hist .h-ev.wait { opacity: 1; transform: none; }
+  .hist .h-ev, .hist .h-era { grid-template-columns: minmax(0, 1fr); transition: none; }
+  .hist .h-era h2, .hist .h-era p { grid-column: 1; padding-inline-start: 0; }
+  .hist .h-yr { text-align: start; display: flex; gap: 10px; align-items: baseline; padding: 0 0 4px; }
+  .hist .h-cd { margin-inline-start: 0; }
+}
+@media print { .hist .h-ctrl, .hist .h-keys, .hist .h-spine, .hist .h-dot { display: none !important; } .hist .h-ev.wait { opacity: 1; transform: none; } }
