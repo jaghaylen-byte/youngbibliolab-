@@ -51,7 +51,8 @@
   var REDUCE = !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
   var st = {
     route: "", sq: { q: "", kind: "", type: "", publisher: "", right: "", scope: "", lang: "", section: "", yfrom: "", yto: "", sort: "rel", limit: 40 },
-    rep: { topic: "", publisher: "", lang: "", type: "", q: "" }, lib: { cat: "", ar: false, tn: false, q: "" }, gd: { body: "", q: "", sort: "body" }, gcBody: "", expanded: {}, citeStyle: "chicago", filtersOpen: false
+    rep: { topic: "", publisher: "", lang: "", type: "", q: "" }, lib: { cat: "", ar: false, tn: false, q: "" }, gd: { body: "", q: "", sort: "body" }, gcBody: "", expanded: {}, citeStyle: "chicago", filtersOpen: false,
+    lw: { view: "rights", q: "", type: "", period: "", right: "" }
   };
 
   /* ------------------------------------------------------------------ storage (favorites & lists) */
@@ -507,11 +508,142 @@
           (g.see ? ' <a href="#' + g.see + '">اطّلع في المكتبة ←</a>' : "") + "</dd></div>";
       }).join("") + "</dl>";
   }
+  /* ---- Tunisian legislation library: two entry points (by right, by text), one record per text.
+     Only data already in the library is shown; publication refs, status and provisions appear once verified. */
+  var LAW_GENERIC = /^ابحث عن النص بعدده وسنته/;
+  var STD_SHORT = { "tr-iccpr": "العهد الدولي للحقوق المدنية والسياسية", "tr-icescr": "العهد الدولي للحقوق الاقتصادية والاجتماعية والثقافية", "tr-achpr": "الميثاق الإفريقي" };
+  function lawInfo(d) {
+    var t = d.title, m = t.match(/عدد\s+(\d+)\s+لسنة\s+(\d{4})/), subj = (t.split(/\s+المتعلق\s+/)[1] || t).replace(/^ب(?=\S)/, "");
+    var type = /^القانون الأساسي/.test(t) ? "قانون أساسي" : /^المرسوم/.test(t) ? "مرسوم" : /^الأمر/.test(t) ? "أمر" : /^القانون/.test(t) ? "قانون" : /^الدستور/.test(t) ? "دستور" : /^مجلة/.test(t) ? "مجلة" : "نص";
+    var dt = String(d.date || ""), period = !dt ? "" : dt < "2011-01-14" ? "قبل 2011" : dt < "2014-01-27" ? "2011–2013" : dt < "2021-07-25" ? "2014–2021" : "منذ جويلية 2021";
+    return { subj: subj, type: type, num: m ? m[1] : "", year: m ? m[2] : String(d.year || dt.slice(0, 4)), period: period, ref: t.split(/\s+المتعلق\s+/)[0] };
+  }
+  var LAW_TYPES = ["دستور", "مجلة", "قانون أساسي", "قانون", "مرسوم", "أمر"], LAW_PERIODS = ["قبل 2011", "2011–2013", "2014–2021", "منذ جويلية 2021"];
+  function lawStandards(d) {
+    var bind = {}, soft = {};
+    (d.rights || []).forEach(function (rid) {
+      var r = RIGHT[rid]; if (!r) return;
+      r.legal.forEach(function (l) {
+        var k = l.doc || l.source, box = l.binding ? bind : soft;
+        if (!box[k]) box[k] = { source: l.source, doc: l.doc, regional: l.regional, arts: [] };
+        String(l.articles || "").split(/[،,]\s*/).forEach(function (a) { a = a.trim(); if (a && box[k].arts.indexOf(a) < 0) box[k].arts.push(a); });
+      });
+    });
+    var out = function (o) { return Object.keys(o).map(function (k) { return o[k]; }); };
+    return { bind: out(bind), soft: out(soft) };
+  }
+  function lawCard(d) {
+    var L = lawInfo(d), sb = lawStandards(d).bind.slice(0, 2);
+    return '<article class="lw-card"><div class="lw-kind"><span class="lw-type">' + esc(L.type) + '</span>' + (L.period ? '<span class="lw-period">' + esc(L.period) + "</span>" : "") + "</div>" +
+      '<h3><a href="' + href(d.id) + '">' + esc(L.subj) + "</a></h3>" +
+      '<p class="lw-ref"><b>' + esc(L.type) + " عدد " + esc(L.num) + " لسنة " + esc(L.year) + '</b> · <span class="num">' + esc(fmtDate(d.date)) + "</span></p>" +
+      '<div class="lw-rights">' + (d.rights || []).filter(function (r) { return RIGHT[r]; }).map(function (r) { return '<a href="#right-' + r + '">' + esc(RIGHT[r].title) + "</a>"; }).join("") + "</div>" +
+      (sb.length ? '<p class="lw-std">' + ic("scale", "xs") + sb.map(function (x) { return esc(STD_SHORT[x.doc] || x.source) + (x.arts.length && /^\d/.test(x.arts[0]) ? " م " + esc(x.arts.join("، ")) : ""); }).join(" · ") + "</p>" : "") +
+      '<div class="lw-acts"><a class="btn sm" href="' + href(d.id) + '">فتح السجل</a>' +
+      '<button class="btn sm" data-act="fav" data-id="' + esc(d.id) + '" aria-pressed="' + isFav(d.id) + '">' + ic("star") + " " + (isFav(d.id) ? "في المفضلة" : "حفظ") + "</button>" +
+      '<button class="btn sm" data-act="list" data-id="' + esc(d.id) + '">' + ic("list") + " إلى قائمة</button></div></article>";
+  }
+  function lawMatch(d, f) {
+    var L = lawInfo(d);
+    if (f.type && L.type !== f.type) return false;
+    if (f.period && L.period !== f.period) return false;
+    if (f.right && (d.rights || []).indexOf(f.right) < 0) return false;
+    if (f.q) {
+      var hay = norm(d.title + " " + L.type + " " + L.num + "/" + L.year + " " + L.num + "-" + L.year + " " + (d.rights || []).map(function (r) { return RIGHT[r] ? RIGHT[r].title : ""; }).join(" "));
+      var ok = norm(f.q).split(/\s+/).filter(Boolean).every(function (w) { return hay.indexOf(w) >= 0 || (/^\d+$/.test(w) && new RegExp("(^|\\D)" + w + "(\\D|$)").test(hay)); });
+      if (!ok) return false;
+    }
+    return true;
+  }
   function vLaws() {
-    var laws = IDX.filter(function (it) { return it.type === "legislation"; }).sort(function (a, b) { return String(b.date).localeCompare(String(a.date)); });
-    var dbs = ["iort", "dcaf-leg"].map(function (i) { return BY[i]; }).filter(Boolean);
-    return crumbs([[UI.home, "home"], ["ملف تونس", "tunisia"], ["التشريعات الوطنية"]]) + head("تونس", "التشريعات الوطنية ذات الصلة", "نصوص تونسية يكثر الرجوع إليها في العمل الحقوقي، مرتبطة بالحقوق التي تمسّها. ابحث عن النص بعدده وسنته في قواعد البيانات أدناه، وتحقّق منه في الرائد الرسمي قبل الاقتباس.", "", "tn-head") +
-      '<div class="cards" style="margin-bottom:20px">' + dbs.map(resCard).join("") + "</div>" + rows(laws, { tn: false, showType: false });
+    var f = st.lw, all = IDX.filter(function (it) { return it.type === "legislation"; }).sort(function (a, b) { return String(b.date).localeCompare(String(a.date)); });
+    var laws = all.filter(function (d) { return lawMatch(d, f); });
+    var src = [["iort", "المصدر الرسمي", "ok", "النص المعتمد للاستشهاد. ابحث بنوع النص وعدده وسنته، وانقل مرجع العدد عند الإحالة."], ["dcaf-leg", "مصدر مساعد غير رسمي", "aux", "نصوص أمنية وجزائية وحريات، مفيدة للقراءة والبحث. تحقّق من النص في الرائد الرسمي قبل الاقتباس."]]
+      .map(function (x) { var r = BY[x[0]]; return r ? '<a class="lw-src ' + x[2] + '" href="' + esc(r.url) + '" target="_blank" rel="noopener"><span class="lw-pill">' + x[1] + "</span><b>" + esc(r.title) + "</b><small>" + esc(x[3]) + '</small><span class="host">' + esc(host(r.url)) + "</span></a>" : ""; }).join("");
+    var chip = function (k, v, label, n) { return '<button type="button" class="chip" data-lwf="' + k + '" data-v="' + esc(v) + '" aria-pressed="' + (f[k] === v) + '">' + esc(label) + (n != null ? ' <span class="n">' + n + "</span>" : "") + "</button>"; };
+    var types = LAW_TYPES.filter(function (t) { return all.some(function (d) { return lawInfo(d).type === t; }); });
+    var periods = LAW_PERIODS.filter(function (t) { return all.some(function (d) { return lawInfo(d).period === t; }); });
+    var usedRights = D.rights.filter(function (r) { return all.some(function (d) { return (d.rights || []).indexOf(r.id) >= 0; }); });
+    var bar = '<div class="lw-bar" role="search"><div class="lw-views" role="tablist" aria-label="طريقة العرض">' +
+      '<button type="button" role="tab" class="tab" data-lwview="rights" aria-selected="' + (f.view === "rights") + '">حسب الحق</button>' +
+      '<button type="button" role="tab" class="tab" data-lwview="laws" aria-selected="' + (f.view === "laws") + '">حسب النص</button></div>' +
+      '<input type="search" id="lwq" class="ctl" value="' + esc(f.q) + '" placeholder="ابحث بالموضوع أو العدد أو السنة: جمعيات، 54، 2016" aria-label="بحث في التشريعات">' +
+      '<div class="chips" role="group" aria-label="نوع النص"><span class="lbl">النوع</span>' + chip("type", "", "الكل") + types.map(function (t) { return chip("type", t, t, all.filter(function (d) { return lawInfo(d).type === t; }).length); }).join("") + "</div>" +
+      '<div class="chips" role="group" aria-label="الفترة"><span class="lbl">الفترة</span>' + chip("period", "", "الكل") + periods.map(function (t) { return chip("period", t, t); }).join("") + "</div>" +
+      (f.view === "laws" ? '<label class="lw-sel"><span class="lbl">الحق</span><select id="lwright" class="ctl"><option value="">كل الحقوق</option>' + usedRights.map(function (r) { return '<option value="' + r.id + '"' + (f.right === r.id ? " selected" : "") + ">" + esc(r.title) + "</option>"; }).join("") + "</select></label>" : "") +
+      "</div>";
+    var body = "", count = laws.length;
+    if (f.view === "rights") {
+      var shown = 0;
+      D.meta.right_groups.forEach(function (g) {
+        var rs = D.rights.filter(function (r) { return r.group === g.id; }), cards = "";
+        rs.forEach(function (r) {
+          var ls = laws.filter(function (d) { return (d.rights || []).indexOf(r.id) >= 0; }); if (!ls.length) return;
+          var b = r.legal.filter(function (l) { return l.binding && !l.regional; })[0];
+          cards += '<article class="lw-right"><header><h3><a href="#right-' + r.id + '">' + esc(r.title) + '</a></h3><span class="n num">' + ls.length + "</span></header>" +
+            (b ? '<p class="lw-std">' + ic("scale", "xs") + esc(STD_SHORT[b.doc] || b.source) + (b.articles && /^\d/.test(b.articles) ? " م " + esc(b.articles) : "") + "</p>" : "") +
+            '<ul>' + ls.map(function (d) { var L = lawInfo(d); return '<li><a href="' + href(d.id) + '">' + esc(L.subj) + '</a><small>' + esc(L.type) + " " + esc(L.num) + "/" + esc(L.year) + "</small></li>"; }).join("") + "</ul></article>";
+          shown++;
+        });
+        if (cards) body += '<section class="lw-group"><h2>' + esc(g.name) + '</h2><div class="lw-rgrid">' + cards + "</div></section>";
+      });
+      var gaps = D.rights.filter(function (r) { return !all.some(function (d) { return (d.rights || []).indexOf(r.id) >= 0; }); });
+      if (!shown) body = '<p class="empty">لا نصوص تطابق هذا البحث.</p>';
+      else if (gaps.length && !f.q && !f.type && !f.period) body += '<div class="lw-gaps"><b>حقوق لا يوجد لها نص تونسي في المكتبة بعد</b><div class="chips">' + gaps.map(function (r) { return '<a class="chip" href="#right-' + r.id + '">' + esc(r.title) + "</a>"; }).join("") + "</div></div>";
+    } else {
+      body = laws.length ? '<div class="lw-grid">' + laws.map(lawCard).join("") + "</div>" : '<p class="empty">لا نصوص تطابق هذا البحث.</p>';
+    }
+    return crumbs([[UI.home, "home"], ["ملف تونس", "tunisia"], ["التشريعات الوطنية"]]) +
+      '<div class="lawlib">' + head("تونس", "التشريعات الوطنية ذات الصلة", "نصوص تونسية يكثر الرجوع إليها في العمل الحقوقي، مرتبطة بالحقوق التي تمسّها وبالمعايير الدولية المقابلة لها. افتح سجل أي نص لترى بطاقة تعريفه وكيف تستشهد به.", "", "tn-head") +
+      '<div class="lw-srcs" aria-label="أين تجد النص">' + src + "</div>" + bar +
+      '<p class="lw-count" aria-live="polite"><b class="num">' + count + "</b> من " + all.length + " نصًا" + (f.q || f.type || f.period || (f.view === "laws" && f.right) ? ' · <button type="button" class="linkbtn" data-lwclear="1">مسح التصفية</button>' : "") + "</p>" +
+      body + '<p class="lw-note">بيانات النشر في الرائد الرسمي، والوضع الحالي والتنقيحات، والفصول ذات الصلة تُضاف إلى سجل كل نص بعد التحقق منها من المصدر الرسمي.</p></div>';
+  }
+  function vLaw(d) {
+    var L = lawInfo(d), S = lawStandards(d), rid = d.rights || [];
+    var shares = function (it) { return (it.rights || []).some(function (r) { return rid.indexOf(r) >= 0; }); };
+    var cos = IDX.filter(function (it) { return it.type === "co" && it.tunisia && shares(it); }).sort(function (a, b) { return String(b.date).localeCompare(String(a.date)); });
+    var cases = IDX.filter(function (it) { return ["judgment", "order", "decision", "opinion"].indexOf(it.type) >= 0 && it.tunisia && shares(it); });
+    var visits = IDX.filter(function (it) { return it.type === "sp-report" && it.tunisia && shares(it); });
+    var iort = BY.iort;
+    var row = function (k, v) { return v ? "<div><dt>" + k + "</dt><dd>" + v + "</dd></div>" : ""; };
+    var idcard = '<dl class="lw-id">' + row("النوع", esc(L.type)) + row("العدد والسنة", '<span class="num">' + esc(L.num) + " / " + esc(L.year) + "</span>") +
+      row("تاريخ الإصدار", '<span class="num">' + esc(fmtDate(d.date)) + "</span>") + row("الفترة", esc(L.period)) +
+      row("العنوان بالفرنسية", d.title_fr ? '<span lang="fr" dir="ltr">' + esc(d.title_fr) + "</span>" : "") +
+      row("النشر في الرائد الرسمي", d.jort ? esc(d.jort) : "") + row("الوضع", d.law_status ? esc(d.law_status) : "") +
+      row("آخر تحقق من الرابط", d.checked ? '<span class="num">' + esc(fmtDate(d.checked)) + "</span>" : "") + "</dl>";
+    var pending = [!d.jort && "مرجع النشر في الرائد الرسمي", !d.law_status && "الوضع الحالي والتنقيحات", !(d.provisions || []).length && "الفصول ذات الصلة", !d.title_fr && "العنوان بالفرنسية"].filter(Boolean);
+    var std = function (list, cls, label) {
+      return list.length ? '<div class="lw-stdlist">' + list.map(function (x) {
+        var t = BY[x.doc]; return '<div class="lw-stdrow"><span>' + (t ? '<a href="' + href(t.id) + '">' + esc(x.source) + "</a>" : esc(x.source)) + (x.arts.length ? ' <span class="num muted">' + (/^\d/.test(x.arts[0]) ? (x.arts.length > 1 ? "المواد " : "المادة ") : "") + esc(x.arts.join("، ")) + "</span>" : "") + '</span><span class="badge ' + cls + '">' + label + (x.regional ? " · إقليمي" : "") + "</span></div>";
+      }).join("") + "</div>" : "";
+    };
+    var citeTxt = d.title + (d.jort ? "، " + d.jort : "") + ".";
+    var sec = function (id, title, sub, body) { return body ? '<section class="part" id="' + id + '"><h2>' + esc(title) + (sub ? " <small>" + esc(sub) + "</small>" : "") + "</h2>" + body + "</section>" : ""; };
+    var toc = [["lw-id", "بطاقة التعريف"], ["lw-sum", "ماذا ينظّم"], ["lw-prov", "الفصول ذات الصلة"], ["lw-rights", "الحقوق والمعايير"], ["lw-mech", "الآليات الدولية"], ["lw-app", "التطبيق"], ["lw-cite", "كيف تستشهد به"]];
+    var summary = d.summary && !LAW_GENERIC.test(d.summary) ? "<p>" + esc(d.summary) + "</p>" : "";
+    var prov = (d.provisions || []).length ? '<ul class="plain">' + d.provisions.map(function (p) { return "<li><b>" + esc(p[0]) + "</b> " + esc(p[1]) + "</li>"; }).join("") + "</ul>" : "";
+    var mech = (d.mentions || []).length ? '<ul class="plain">' + d.mentions.map(function (m) { var x = BY[m[0]]; return "<li>" + (x ? '<a href="' + href(x.id) + '">' + esc(x.symbol || x.title) + "</a>" : esc(m[0])) + " · الفقرة " + esc(m[1]) + (m[2] ? ": " + esc(m[2]) : "") + "</li>"; }).join("") + "</ul>" : "";
+    if (cos.length) mech += '<p class="sub">ملاحظات ختامية موجهة إلى تونس في الحقوق نفسها</p><p class="muted lw-small">لا يعني ورود الوثيقة هنا أنها تذكر هذا النص بالاسم.</p>' + rows(cos.slice(0, 6), { tn: false });
+    var app = (cases.length ? '<p class="sub">قرارات وآراء تخص تونس في الحقوق نفسها</p>' + rows(cases, { tn: false }) : "") + (visits.length ? '<p class="sub">تقارير زيارات قطرية</p>' + rows(visits, { tn: false }) : "");
+    var bodyHtml = '<div class="lw-head"><div class="lw-kind"><span class="lw-type">' + esc(L.type) + "</span>" + (L.period ? '<span class="lw-period">' + esc(L.period) + "</span>" : "") + '<span class="badge tn">تونس</span></div>' +
+      "<h1>" + esc(L.subj) + '</h1><p class="lw-full">' + esc(d.title) + "</p></div>" +
+      (pending.length ? '<div class="lw-pending" role="note"><span>قيد الاستكمال بعد التحقق من المصدر الرسمي: ' + esc(pending.join("، ")) + ".</span></div>" : "") +
+      sec("lw-id", "بطاقة التعريف", "", idcard) +
+      '<section class="part"><h2>أين تجد النص</h2><div class="links">' + (d.jort_url ? ext(d.jort_url, ic("external") + " النص في الرائد الرسمي") : iort ? ext(iort.url, ic("external") + " ابحث في الرائد الرسمي") : "") +
+      ext(d.url, ic("external") + " ابحث في قاعدة DCAF") + '</div><p class="muted lw-small">ابحث بنوع النص وعدده وسنته: ' + esc(L.type) + " " + esc(L.num) + " لسنة " + esc(L.year) + ".</p></section>" +
+      sec("lw-sum", "ماذا ينظّم", "", summary) + sec("lw-prov", "الفصول ذات الصلة", "", prov) +
+      sec("lw-rights", "الحقوق والمعايير الدولية", "الملزم منفصل عن غير الملزم",
+        '<div class="related">' + rid.filter(function (r) { return RIGHT[r]; }).map(function (r) { return '<a class="chip" href="#right-' + r + '">' + esc(RIGHT[r].title) + "</a>"; }).join("") + "</div>" +
+        (S.bind.length ? '<p class="sub">معايير ملزمة</p>' + std(S.bind, "f-bind", "ملزم") : "") + (S.soft.length ? '<p class="sub">معايير غير ملزمة</p>' + std(S.soft, "f-soft", "غير ملزم") : "")) +
+      sec("lw-mech", "ماذا تقول الآليات الدولية", "", mech) + sec("lw-app", "التطبيق", "", app) +
+      sec("lw-cite", "كيف تستشهد به", "", '<div class="cite-out" id="lawCite">' + esc(citeTxt) + '</div><div class="toolbar"><button class="btn sm" data-act="copylaw">' + ic("copy") + " نسخ الإحالة</button></div>" + (!d.jort ? '<p class="muted lw-small">أضف عدد الرائد الرسمي وتاريخه وصفحته عند الإحالة.</p>' : ""));
+    return crumbs([[UI.home, "home"], ["ملف تونس", "tunisia"], ["التشريعات الوطنية", "laws"], [L.subj]]) +
+      '<div class="docgrid lawrec"><article class="panel">' + bodyHtml + "</article>" +
+      '<aside class="side"><nav class="box lw-toc" aria-label="أقسام السجل"><h2>في هذا السجل</h2>' + toc.filter(function (t) { return bodyHtml.indexOf('id="' + t[0] + '"') >= 0; }).map(function (t) { return '<button type="button" data-jump="' + t[0] + '">' + esc(t[1]) + "</button>"; }).join("") + "</nav>" +
+      '<div class="box"><div class="toolbar"><button class="btn sm" data-act="fav" data-id="' + esc(d.id) + '" aria-pressed="' + isFav(d.id) + '">' + ic("star") + " " + (isFav(d.id) ? "في المفضلة" : "إلى المفضلة") + "</button>" +
+      '<button class="btn sm" data-act="list" data-id="' + esc(d.id) + '">' + ic("list") + " " + UI.addList + "</button>" + shareBtns() + "</div></div>" +
+      '<a class="btn" href="#laws">كل التشريعات الوطنية</a></aside></div>';
   }
 
   function vSection(sid) {
@@ -587,7 +719,7 @@
         '<div class="tipbox" style="margin-top:10px">لتجميع كل التوصيات في هذا الموضوع: ' + ext("https://uhri.ohchr.org/", "الفهرس العالمي لحقوق الإنسان") + "، اختر البلد ثم الموضوع.</div>") +
       part(6, "التطبيقات الوطنية: تونس", "الوضع في تونس، التشريعات، الزيارات والتقارير",
         '<div class="tnbox">' + esc(r.tunisia) + "</div>" +
-        (leg.length ? '<p class="sub">التشريعات الوطنية</p>' + rows(leg, { tn: false }) : "") +
+        (leg.length ? '<p class="sub">في القانون التونسي (' + leg.length + ')</p><ul class="lw-mini">' + leg.map(function (d) { var L = lawInfo(d); return '<li><a href="' + href(d.id) + '">' + esc(L.subj) + "</a><small>" + esc(L.type) + " عدد " + esc(L.num) + " لسنة " + esc(L.year) + "</small></li>"; }).join("") + '</ul><p class="tn-more"><a href="#laws">كل التشريعات الوطنية</a></p>' : "") +
         (visits.length ? '<p class="sub">تقارير الزيارات القطرية</p>' + rows(visits, { tn: false }) : "") +
         (reps.length ? '<p class="sub">أبحاث وتقارير حول تونس (' + reps.length + ")</p>" + limited("rep-" + r.id, reps, 5, function (l) { return rows(l, { tn: false }); }) : "")) +
       '<section class="part"><h2>نصيحة بحث</h2><div class="tipbox">' + esc(r.tip) + "</div></section>" +
@@ -890,6 +1022,7 @@
   /* ---- document detail */
   function vDoc(id) {
     var d = BY[id]; if (!d) return vNotFound();
+    if (d.type === "legislation") return vLaw(d);
     var cls = BIND[d.type] || "f-res";
     var force = forceName(d.type);
     var forceText = {
@@ -1387,6 +1520,7 @@
     else if (id === "lq") { st.lib.q = e.target.value; rerenderKeep("lq"); }
     else if (id === "gq") { st.gq = e.target.value; rerenderKeep("gq"); }
     else if (id === "gd-q") { st.gd.q = e.target.value; rerenderKeep("gd-q"); }
+    else if (id === "lwq") { clearTimeout(qt); qt = setTimeout(function () { st.lw.q = e.target.value; rerenderKeep("lwq"); }, 200); }
   });
   main.addEventListener("change", function (e) {
     var id = e.target.id, v = e.target.value;
@@ -1397,6 +1531,7 @@
     var rmap = { rtopic: "topic", rpub: "publisher", rlang: "lang", rtype: "type" };
     if (rmap[id]) { st.rep[rmap[id]] = v; rerenderKeep(id); return; }
     if (id === "rsel") go("right-" + v);
+    if (id === "lwright") { st.lw.right = v; rerenderKeep(id); }
   });
   function rerenderKeep(id) {
     var el = document.getElementById(id), pos = el && el.selectionStart;
@@ -1409,6 +1544,15 @@
       if (tlb.dataset.tlyear) st.tnYear = tlb.dataset.tlyear; else { st.tnTl = tlb.dataset.tltag; st.tnYear = ""; }
       var keep = tlb.dataset.tlyear || ""; render(true);
       var nb = document.querySelector(keep ? '[data-tlyear="' + keep + '"]' : '[data-tltag="' + (st.tnTl || "") + '"]'); if (nb) nb.focus({ preventScroll: true });
+      return;
+    }
+    var lwb = e.target.closest("[data-lwf], [data-lwview], [data-lwclear]");
+    if (lwb) {
+      if (lwb.dataset.lwview) st.lw.view = lwb.dataset.lwview;
+      else if (lwb.dataset.lwclear) { st.lw.q = ""; st.lw.type = ""; st.lw.period = ""; st.lw.right = ""; }
+      else st.lw[lwb.dataset.lwf] = lwb.dataset.v;
+      var sel = lwb.dataset.lwview ? '[data-lwview="' + lwb.dataset.lwview + '"]' : lwb.dataset.lwf ? '[data-lwf="' + lwb.dataset.lwf + '"][data-v="' + lwb.dataset.v + '"]' : "#lwq";
+      render(true); var fb = document.querySelector(sel); if (fb) fb.focus({ preventScroll: true });
       return;
     }
     var hb = e.target.closest("[data-hero], [data-jump]");
@@ -1438,6 +1582,7 @@
     else if (act === "togglef") { st.filtersOpen = !st.filtersOpen; render(true); }
     else if (act === "clearf") { st.sq = { q: st.sq.q, kind: "", type: "", publisher: "", right: "", scope: "", lang: "", section: "", yfrom: "", yto: "", sort: "rel", limit: 40 }; render(true); }
     else if (act === "copycite") { var o = document.getElementById("citeOut"); copyText(o.textContent, "نُسخت الإحالة"); }
+    else if (act === "copylaw") { var lo = document.getElementById("lawCite"); if (lo) copyText(lo.textContent, "نُسخت الإحالة"); }
     else if (act === "bib") copyText(toBib(BY[id]), "نُسخت بيانات BibTeX");
     else if (act === "symcopy") copyText(document.getElementById("symOut").textContent, "نُسخ الرابط");
     else if (act === "copyall") copyText(listItems(list).map(function (d, i) { return (i + 1) + ". " + plain(cite(d, st.citeStyle)); }).join("\n"), "نُسخت الإحالات");
