@@ -8,9 +8,13 @@
   var ONCE_PER_SESSION = false;    // false = تظهر عند كل فتح أو تحديث للموقع؛ true = مرة واحدة فقط في كل جلسة تصفح
   var KEY = "yrl:intro-seen";
   // الكلمات المدمجة في الشبكة ومواضعها (نسبة من العرض والارتفاع)؛ على الهاتف تُعرض الخمس الأولى
-  var WORDS = ["Human Rights", "Freedom", "Dignity", "Justice", "Equality", "Liberty", "Democracy"];
-  var SLOTS = [[.15, .17], [.85, .15], [.08, .5], [.92, .52], [.2, .86], [.8, .86], [.5, .06]];
-  var SLOTS_SMALL = [[.22, .08], [.78, .12], [.2, .9], [.8, .87], [.5, .95]];
+  // كل الكلمات تمرّ بالتناوب: عدد محدود ظاهر في كل لحظة، وكل بضع ثوانٍ تُستبدل كلمة بأخرى
+  var WORDS = ["Human Rights", "Dignity", "Freedom", "Justice", "Equality", "Democracy", "Rule of Law", "Expression",
+    "Non-discrimination", "Accountability", "Privacy", "Fair Trial", "Education", "Health",
+    "Women's Rights", "Children's Rights", "Asylum", "Anti-Torture", "Solidarity", "Peace"];
+  var SLOTS = [[.15, .17], [.85, .15], [.09, .5], [.91, .52], [.2, .86], [.8, .86], [.5, .06], [.5, .95]];
+  var SLOTS_SMALL = [[.24, .08], [.76, .13], [.24, .9], [.76, .86], [.5, .96]];
+  var SWAP_EVERY = 2400, FADE = 0.035;
 
   var root = document.documentElement, el = document.getElementById("intro");
   if (!el) return;
@@ -20,7 +24,7 @@
   var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
   var cv = el.querySelector("canvas"), ctx = cv.getContext("2d");
-  var W = 0, H = 0, DPR = 1, pts = [], words = [], links = [], pulses = [], raf = 0, running = true, t0 = 0, lastSpawn = 0;
+  var W = 0, H = 0, DPR = 1, pts = [], words = [], links = [], pulses = [], raf = 0, running = true, t0 = 0, lastSpawn = 0, lastSwap = 0, nextWord = 0, lastSlot = -1;
   var mouse = { x: -9999, y: -9999, tx: -9999, ty: -9999, active: false, k: 0 };
   var par = { x: 0, y: 0, tx: 0, ty: 0 };
   var R = 200, LINK = 150, FONT = 12, CX = 0, CY = 0, EX = 1, EY = 1;
@@ -44,12 +48,13 @@
     }
     // the area behind the text, where the network thins out
     CX = W / 2; CY = H / 2; EX = Math.min(W * 0.42, 520); EY = Math.min(H * 0.3, 270);
-    var list = small ? WORDS.slice(0, 5) : WORDS, slots = small ? SLOTS_SMALL : SLOTS;
+    var slots = small ? SLOTS_SMALL : SLOTS;
     ctx.font = "500 " + FONT + "px 'IBM Plex Sans Arabic', system-ui, sans-serif";
-    words = list.map(function (w, i) {
-      return { text: w, ax: slots[i][0] * W, ay: slots[i][1] * H, ph: Math.random() * 6.28, sp: 0.00016 + Math.random() * 0.0001, amp: small ? 8 : 14,
-        d: 0.8, tw: ctx.measureText(w).width, ox: 0, oy: 0, vx: 0, vy: 0 };
+    words = slots.map(function (sl, i) {
+      return { text: WORDS[i], ax: sl[0] * W, ay: sl[1] * H, ph: Math.random() * 6.28, sp: 0.00016 + Math.random() * 0.0001, amp: small ? 8 : 14,
+        d: 0.8, tw: ctx.measureText(WORDS[i]).width, al: 1, to: 1, ox: 0, oy: 0, vx: 0, vy: 0 };
     });
+    nextWord = slots.length % WORDS.length;
     pulses = [];
     if (reduce) draw(0);
   }
@@ -94,6 +99,18 @@
       q.x = q.ax + Math.cos(ang) * q.amp; q.y = q.ay + Math.sin(ang * 1.3) * q.amp * 0.6;
       if (!reduce) react(q, q.x, q.y, 22);
       q.sx = q.x + q.ox + par.x * q.d * 26; q.sy = q.y + q.oy + par.y * q.d * 26;
+      var half = q.tw / 2 + 17; q.sx = Math.max(half, Math.min(W - half, q.sx));
+      if (!reduce) {
+        q.al += (q.to - q.al) * FADE * 2;
+        if (q.to === 0 && q.al < 0.02) { // swap in the next word once this one has faded out
+          q.text = WORDS[nextWord]; nextWord = (nextWord + 1) % WORDS.length;
+          ctx.font = "500 " + FONT + "px 'IBM Plex Sans Arabic', system-ui, sans-serif"; q.tw = ctx.measureText(q.text).width; q.to = 1;
+        }
+      }
+    }
+    if (!reduce && t - lastSwap > SWAP_EVERY && t > 3000) {
+      var pick = (Math.random() * words.length) | 0; if (pick === lastSlot) pick = (pick + 1) % words.length;
+      if (words[pick].al > 0.95) { words[pick].to = 0; lastSlot = pick; lastSwap = t; }
     }
     // links
     links = []; ctx.lineWidth = 1;
@@ -119,7 +136,7 @@
       cand.sort(function (a, b) { return a[0] - b[0]; });
       var gw = near(q.sx, q.sy);
       for (j = 0; j < Math.min(3, cand.length); j++) {
-        var oo = ((1 - Math.sqrt(cand[j][0]) / (LINK * 1.2)) * 0.42 + gw * 0.3) * cand[j][1].z;
+        var oo = ((1 - Math.sqrt(cand[j][0]) / (LINK * 1.2)) * 0.42 + gw * 0.3) * cand[j][1].z * q.al;
         if (oo <= 0) continue;
         ctx.strokeStyle = "rgba(196,200,248," + oo.toFixed(3) + ")";
         ctx.beginPath(); ctx.moveTo(q.sx, q.sy); ctx.lineTo(cand[j][1].sx, cand[j][1].sy); ctx.stroke();
@@ -164,10 +181,11 @@
     ctx.font = "500 " + FONT + "px 'IBM Plex Sans Arabic', system-ui, sans-serif"; ctx.textBaseline = "middle"; ctx.textAlign = "center";
     for (i = 0; i < words.length; i++) {
       q = words[i]; var gl = near(q.sx, q.sy), br = reduce ? 0.72 : 0.64 + Math.sin(t * 0.0008 + q.ph) * 0.12, a = Math.min(1, br + gl * 0.35);
-      var pw = q.tw + 18, ph = FONT + 11;
-      ctx.fillStyle = "rgba(12,20,84,.78)"; rr(q.sx - pw / 2, q.sy - ph / 2, pw, ph, ph / 2); ctx.fill();
-      ctx.strokeStyle = "rgba(184,190,240," + (0.24 + gl * 0.45).toFixed(3) + ")"; ctx.stroke();
-      ctx.fillStyle = "rgba(230,232,255," + a.toFixed(3) + ")"; ctx.fillText(q.text, q.sx, q.sy + 0.5);
+      var pw = q.tw + 18, ph = FONT + 11, k2 = q.al;
+      if (k2 < 0.01) continue;
+      ctx.fillStyle = "rgba(12,20,84," + (0.78 * k2).toFixed(3) + ")"; rr(q.sx - pw / 2, q.sy - ph / 2, pw, ph, ph / 2); ctx.fill();
+      ctx.strokeStyle = "rgba(184,190,240," + ((0.24 + gl * 0.45) * k2).toFixed(3) + ")"; ctx.stroke();
+      ctx.fillStyle = "rgba(230,232,255," + (a * k2).toFixed(3) + ")"; ctx.fillText(q.text, q.sx, q.sy + 0.5);
     }
   }
   function rr(x, y, w, h, r) { ctx.beginPath(); ctx.moveTo(x + r, y); ctx.lineTo(x + w - r, y); ctx.arc(x + w - r, y + r, r, -1.571, 1.571); ctx.lineTo(x + r, y + h); ctx.arc(x + r, y + r, r, 1.571, 4.712); ctx.closePath(); }
